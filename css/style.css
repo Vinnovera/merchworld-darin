@@ -392,6 +392,31 @@ th {
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
+#footer {
+  background-color: #363636;
+  color: white;
+  height: 18em;
+  outline: solid black 1px;
+  width: 100%; }
+  #footer h5 {
+    text-transform: uppercase; }
+  #footer ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; }
+    #footer ul li {
+      font-size: 0.7em;
+      padding-bottom: 1em; }
+      #footer ul li:hover {
+        color: grey; }
+  #footer #contact, #footer #about {
+    float: left;
+    margin-left: 10em;
+    margin-top: 2em; }
+  #footer img {
+    margin-left: 10em;
+    margin-top: 2em; }
+
 .clearfix {
   clear: both; }
 

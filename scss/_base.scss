@@ -55,3 +55,39 @@
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
+#footer{
+	background-color: #363636;
+	color: white;
+	height: 18em;
+	outline: solid black 1px;
+	width: 100%;
+
+	h5{
+		text-transform: uppercase;
+	}
+
+	ul{
+		list-style-type: none;
+		padding: 0px;
+    	margin: 0px;
+		li{
+			font-size: 0.7em;
+			padding-bottom: 1em;
+
+			&:hover{
+				color: grey;
+			}
+		}	
+	}
+
+	#contact, #about{
+		float: left;
+		margin-left: 10em;
+		margin-top: 2em;
+	}
+
+	img{
+		margin-left: 10em;
+		margin-top: 2em;
+	}
+}
