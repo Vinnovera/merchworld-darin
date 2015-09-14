@@ -432,78 +432,13 @@ th {
   padding: 0;
 }
 
-/* line 1, ../scss/_header.scss */
-.header {
-  clear: both;
-  margin: 0 auto;
-  background: #fff;
-  padding: 10px 20px 8px 20px;
-}
-
-/* line 8, ../scss/_header.scss */
-.logo {
-  float: left;
-  color: #fff;
-  overflow: hidden;
-  font-size: 16px;
-  margin: 16px 0 10px 0;
-  width: 204px;
-  height: 40px;
-}
-
-/* line 18, ../scss/_header.scss */
-.logo a {
-  display: block;
-  border: 0;
-  color: #202020;
-  height: 55px;
-  font-size: 35px;
-  line-height: 1.131;
-  text-decoration: none;
-  font-family: 'BebasNeueRegular',Helvetica,Arial,sans-serif;
-}
-
-/* line 30, ../scss/_header.scss */
-.header a {
-  color: #464646!important;
-}
-
-/* line 36, ../scss/_header.scss */
-.nav-menu-left {
-  float: left;
-}
-/* line 38, ../scss/_header.scss */
-.nav-menu-left ul li {
-  padding-top: 20px;
-  margin-left: 2.127659574%;
-  float: left;
-  display: inline;
-  margin: 0;
-}
-
-
-/* line 48, ../scss/_header.scss */
-.nav-menu-left li {
-  padding: 0 .4em 0;
-}
-
-/* line 54, ../scss/_header.scss */
-.nav-menu-right {
-  float: right;
-}
-
-/* line 1, ../scss/_footer.scss */
-
 /*******************************************************/
 /********************** GENERAL ************************/
 /*******************************************************/
-
+/* line 4, ../scss/_base.scss */
 .clearfix {
   clear: both;
 }
-
-
-/* line 5, ../scss/_footer.scss */
 
 /*******************************************************/
 /************************ MENU *************************/
@@ -511,106 +446,145 @@ th {
 /*******************************************************/
 /************************ SHOP *************************/
 /*******************************************************/
+/* line 15, ../scss/_base.scss */
 #shop {
-  width: 100%; }
-  #shop #items {
-    margin: 0 auto;
-    width: 70%;
-    outline: solid red 1px; }
-    #shop #items ul {
-      list-style-type: none;
-      padding: 0px;
-      margin: 0px; }
-      #shop #items ul .item {
-        float: left;
-        margin: 1.5%;
-        outline: solid blue 1px;
-        width: 22%; }
-        #shop #items ul .item img {
-          width: 100%; }
-        #shop #items ul .item .item-info {
-          padding-left: 1em; }
-          #shop #items ul .item .item-info h2 {
-            font-size: 1em;
-            text-transform: uppercase; }
-          #shop #items ul .item .item-info p {
-            font-size: 0.8em; }
+  width: 100%;
+}
+/* line 18, ../scss/_base.scss */
+#shop #items {
+  margin: 0 auto;
+  width: 70%;
+  outline: solid red 1px;
+}
+/* line 23, ../scss/_base.scss */
+#shop #items ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 28, ../scss/_base.scss */
+#shop #items ul .item {
+  float: left;
+  margin: 1.5%;
+  outline: solid blue 1px;
+  width: 22%;
+}
+/* line 34, ../scss/_base.scss */
+#shop #items ul .item img {
+  width: 100%;
+}
+/* line 38, ../scss/_base.scss */
+#shop #items ul .item .item-info {
+  padding-left: 1em;
+}
+/* line 41, ../scss/_base.scss */
+#shop #items ul .item .item-info h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+/* line 46, ../scss/_base.scss */
+#shop #items ul .item .item-info p {
+  font-size: 0.8em;
+}
 
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
-
+/* line 58, ../scss/_base.scss */
 #footer {
   background-color: #363636;
   color: white;
   height: 18em;
   outline: solid black 1px;
-
   width: 100%;
 }
-/* line 12, ../scss/_footer.scss */
-#footer h3 {
+/* line 65, ../scss/_base.scss */
+#footer h5 {
   text-transform: uppercase;
 }
-/* line 16, ../scss/_footer.scss */
-#footer p {
-  font-size: 0.7em;
+/* line 69, ../scss/_base.scss */
+#footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
-/* line 19, ../scss/_footer.scss */
-#footer p:hover {
+/* line 73, ../scss/_base.scss */
+#footer ul li {
+  font-size: 0.7em;
+  padding-bottom: 1em;
+}
+/* line 77, ../scss/_base.scss */
+#footer ul li:hover {
   color: grey;
 }
-/* line 24, ../scss/_footer.scss */
+/* line 83, ../scss/_base.scss */
 #footer #contact, #footer #about {
   float: left;
   margin-left: 10em;
   margin-top: 2em;
 }
-/* line 30, ../scss/_footer.scss */
+/* line 89, ../scss/_base.scss */
 #footer img {
   margin-left: 10em;
   margin-top: 2em;
 }
 
-  width: 100%; }
-  #footer h5 {
-    text-transform: uppercase; }
-  #footer ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px; }
-    #footer ul li {
-      font-size: 0.7em;
-      padding-bottom: 1em; }
-      #footer ul li:hover {
-        color: grey; }
-  #footer #contact, #footer #about {
-    float: left;
-    margin-left: 10em;
-    margin-top: 2em; }
-  #footer img {
-    margin-left: 10em;
-    margin-top: 2em; }
-
-
 /*******************************************************/
 /*********************** TERMS *************************/
 /*******************************************************/
+/* line 98, ../scss/_base.scss */
 .wrapper {
-  width: 100%; }
-  .wrapper .content {
-    margin: 0 auto;
-    outline: solid red 1px;
-    padding: 10em;
-    width: 50%; }
-    .wrapper .content h1, .wrapper .content h2 {
-      text-transform: uppercase; }
-    .wrapper .content h1 {
-      font-size: 1.8em; }
-    .wrapper .content h2 {
-      font-size: 1em; }
-    .wrapper .content p {
-      font-size: 0.9em; }
+  width: 100%;
+}
+/* line 100, ../scss/_base.scss */
+.wrapper .content {
+  margin: 0 auto;
+  outline: solid red 1px;
+  padding: 10em;
+  width: 50%;
+}
+/* line 106, ../scss/_base.scss */
+.wrapper .content h1, .wrapper .content h2 {
+  text-transform: uppercase;
+}
+/* line 110, ../scss/_base.scss */
+.wrapper .content h1 {
+  font-size: 1.8em;
+}
+/* line 114, ../scss/_base.scss */
+.wrapper .content h2 {
+  font-size: 1em;
+}
+/* line 118, ../scss/_base.scss */
+.wrapper .content p {
+  font-size: 0.9em;
+}
+
+/* line 1, ../scss/_header.scss */
+.menu {
+  width: 100%;
+  height: 240px;
+  background: url("../img/darin/darin-new-top.png") no-repeat;
+  background-position: center top;
+}
+
+/* line 8, ../scss/_header.scss */
+.logo {
+  background: url("../img/darin/logo.png") no-repeat;
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  margin-left: -100px;
+}
+
+/* line 19, ../scss/_header.scss */
+.sticky-menu {
+  height: 50px;
+  background: #b8afa7;
+}
 
 /*mobile
 #footer{
