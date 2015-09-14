@@ -12,6 +12,11 @@
 /************************ SHOP *************************/
 /*******************************************************/
 #shop{
+	background: url('../img/darin/bg-newest.jpg') no-repeat center center ; //fixed
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	width: 100%;
 
 	#items{
@@ -26,17 +31,16 @@
 			.item{
 				float: none;
 				margin: 1.5%;
-				outline: solid black 1px;
 				width: 100%;
 
 				img{
 					width: 100%;
+					margin-bottom: -10px;
 				}
 
 				.item-info{
 					background-color: white;
-					padding-left: 1em;
-					padding-bottom: 1em;
+					padding: 0.5em 1em;
 
 					h2{
 						font-size: 1em;
