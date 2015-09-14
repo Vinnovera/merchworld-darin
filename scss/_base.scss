@@ -11,14 +11,12 @@
 /*******************************************************/
 /************************ SHOP *************************/
 /*******************************************************/
-
 #shop{
 	width: 100%;
 
 	#items{
 		margin: 0 auto;
 		width: 70%;
-		outline: solid red 1px;
 
 		ul{
 			list-style-type: none;
@@ -26,17 +24,19 @@
     		margin: 0px;
 
 			.item{
-				float: left;
+				float: none;
 				margin: 1.5%;
-				outline: solid blue 1px;
-				width: 22%;
+				outline: solid black 1px;
+				width: 100%;
 
 				img{
 					width: 100%;
 				}
 
 				.item-info{
+					background-color: white;
 					padding-left: 1em;
+					padding-bottom: 1em;
 
 					h2{
 						font-size: 1em;
@@ -58,7 +58,6 @@
 #footer{
 	background-color: #363636;
 	color: white;
-	height: 18em;
 	outline: solid black 1px;
 	width: 100%;
 
@@ -81,13 +80,8 @@
 	}
 
 	#contact, #about{
-		float: left;
-		margin-left: 10em;
-		margin-top: 2em;
-	}
-
-	img{
-		margin-left: 10em;
+		float: none;
+		margin-left: 1.5em;
 		margin-top: 2em;
 	}
 }
