@@ -9,17 +9,24 @@
 	outline: solid black 1px;
 	width: 100%;
 
-	h3{
+	h5{
 		text-transform: uppercase;
 	}
 
-	p{
-		font-size: 0.7em;
+	ul{
+		list-style-type: none;
+		padding: 0px;
+    	margin: 0px;
+		li{
+			font-size: 0.7em;
+			padding-bottom: 1em;
 
-		&:hover{
-			color: grey;
-		}
+			&:hover{
+				color: grey;
+			}
+		}	
 	}
+
 
 	#contact, #about{
 		float: left;

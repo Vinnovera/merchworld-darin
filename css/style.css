@@ -361,12 +361,17 @@ th {
   height: 18em;
   outline: solid black 1px;
   width: 100%; }
-  #footer h3 {
+  #footer h5 {
     text-transform: uppercase; }
-  #footer p {
-    font-size: 0.7em; }
-    #footer p:hover {
-      color: grey; }
+  #footer ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; }
+    #footer ul li {
+      font-size: 0.7em;
+      padding-bottom: 1em; }
+      #footer ul li:hover {
+        color: grey; }
   #footer #contact, #footer #about {
     float: left;
     margin-left: 10em;
