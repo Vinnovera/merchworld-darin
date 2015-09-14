@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-</head>
-<body>
-
 	<div id="footer">
 		<div id="contact">
 			<h3>Frågor och kontakt</h3>
