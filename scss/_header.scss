@@ -1,0 +1,56 @@
+.header {
+	clear: both;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px 20px 8px 20px;
+}
+
+.logo {
+	float: left;
+	color: #fff;
+	overflow: hidden;
+	font-size: 16px;
+	margin: 16px 0 10px 0;
+	width: 204px;
+	height: 40px;
+}
+
+.logo a {
+		display: block;
+		border: 0;
+		color: #202020;
+		height: 55px;
+		font-size: 35px;
+		line-height: 1.131;
+		text-decoration: none;
+		font-family: 'BebasNeueRegular',Helvetica,Arial,sans-serif;
+		
+}
+
+.header a {
+    color: #464646!important;
+    
+    
+}
+
+.nav-menu-left {
+	float: left;
+	ul li {
+		padding-top: 20px;
+		margin-left: 2.127659574%;
+		float: left;
+    	display: inline;
+    	margin: 0;
+	}
+
+}
+
+.nav-menu-left li {
+	    padding: 0 .4em 0;
+}
+
+
+
+.nav-menu-right {
+	float: right;
+}
