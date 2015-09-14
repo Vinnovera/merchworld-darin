@@ -20,3 +20,20 @@
 	height: 50px;
 	background: #b8afa7;
 }
+
+.navigation-menu {
+	text-align: center;
+    width: 100%;
+}
+
+.navigation-menu ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 5px;	
+}
+
+.navigation-menu li a {
+	position: relative;
+    display: block;
+	padding: 10px 15px;
+}
