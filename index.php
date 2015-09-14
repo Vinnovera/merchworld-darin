@@ -66,7 +66,8 @@ require 'header.php';
 					<p>CD</p>
 					<p>129:-</p>
 				</div>
-			</li>			
+			</li>
+			<div class="clearfix"></div>			
 		</ul>
 	</div>
 </div>

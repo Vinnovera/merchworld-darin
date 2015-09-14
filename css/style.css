@@ -352,6 +352,46 @@ td,
 th {
   padding: 0; }
 
+/*******************************************************/
+/********************** GENERAL ************************/
+/*******************************************************/
+.clearfix {
+  clear: both; }
+
+/*******************************************************/
+/************************ MENU *************************/
+/*******************************************************/
+/*******************************************************/
+/************************ SHOP *************************/
+/*******************************************************/
+#shop {
+  width: 100%; }
+  #shop #items {
+    margin: 0 auto;
+    width: 70%;
+    outline: solid red 1px; }
+    #shop #items ul {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px; }
+      #shop #items ul .item {
+        float: left;
+        margin: 1.5%;
+        outline: solid blue 1px;
+        width: 22%; }
+        #shop #items ul .item img {
+          width: 100%; }
+        #shop #items ul .item .item-info {
+          padding-left: 1em; }
+          #shop #items ul .item .item-info h2 {
+            font-size: 1em;
+            text-transform: uppercase; }
+          #shop #items ul .item .item-info p {
+            font-size: 0.8em; }
+
+/*******************************************************/
+/*********************** FOOTER ************************/
+/*******************************************************/
 .clearfix {
   clear: both; }
 
