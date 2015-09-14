@@ -385,7 +385,7 @@ th {
 /************************ SHOP *************************/
 /*******************************************************/
 #shop {
-  background: url("../img/darin/bg-newest.jpg") no-repeat center center;
+  background: url("../img/darin/bg-newest.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
