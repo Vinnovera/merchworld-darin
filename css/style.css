@@ -372,33 +372,6 @@ th {
   height: 50px;
   background: #b8afa7; }
 
-/*mobile
-#footer{
-	height: 20em;
-	outline: solid black 1px;
-	width: 100%;
-
-	h3{
-		text-transform: uppercase;
-	}
-
-	p{
-		font-size: 0.7em;
-
-		&:hover{
-			color: grey;
-		}
-	}
-
-	#contact, #about{
-		float: none;
-		margin-left: 2em;
-		margin-top: 3em;
-	}
-}
-
-
-*/
 /*******************************************************/
 /********************** GENERAL ************************/
 /*******************************************************/
