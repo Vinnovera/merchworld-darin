@@ -7,21 +7,21 @@
 </head>
 
 <body>
-	<div class="menu">
-		<div class="logo">
-			
+	<div class="header">
+		<div class="menu">
+			<div class="logo"></div>
 		</div>
-	</div>
-	<div class="sticky-menu">
-		<div class="navigation-menu">
-			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">News</a></li>
-				<li><a href="">Shows</a></li>
-				<li><a href="">Videos</a></li>
-				<li><a href="">Spotify</a></li>
-				<li><a href="">Store</a></li>
-				<li><a href="">Contact</a></li>	
-			</ul>	
+		<div class="sticky-menu">
+			<div class="navigation-menu">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">News</a></li>
+					<li><a href="">Shows</a></li>
+					<li><a href="">Videos</a></li>
+					<li><a href="">Spotify</a></li>
+					<li><a href="">Store</a></li>
+					<li><a href="">Contact</a></li>	
+				</ul>	
+			</div>
 		</div>
 	</div>

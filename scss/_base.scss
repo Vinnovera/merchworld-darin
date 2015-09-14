@@ -4,6 +4,7 @@
 .clearfix{
 	clear: both;
 }
+
 /*******************************************************/
 /************************ MENU *************************/
 /*******************************************************/
@@ -12,11 +13,12 @@
 /************************ SHOP *************************/
 /*******************************************************/
 #shop{
-	background: url('../img/darin/bg-newest.jpg') no-repeat center center fixed ; //fixed
+	background-color: black;
+	/*background: url('../img/darin/bg-newest.jpg') no-repeat center center fixed ; //fixed
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: cover;
+		background-size: cover;*/
 	width: 100%;
 
 	#items{
