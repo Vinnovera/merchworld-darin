@@ -1,16 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
 	<div id="footer">
 		<div id="contact">
-			<h3>Frågor och kontakt</h3>
-			<p>Köpvillkor</p>
-			<p>Vanliga frågor</p>
-			<p>Kontakt</p>
+			<h5>Frågor och kontakt</h5>
+			<ul>
+				<li>Köpvillkor</li>
+				<li>Vanliga frågor</li>
+				<li>Kontakt</li>
+			</ul>
 		</div>
 
 		<div id="about">
-			<h3>Om oss</h3>
-			<p>Om Merchworld</p>
-			<p>Tryck din egen t-shirt</p>
-			<p>Artister och företag</p>
+			<h5>Om oss</h5>
+			<ul>
+				<li>Om Merchworld</li>
+				<li>Tryck din egen t-shirt</li>
+				<li>Artister och företag</li>
+			</ul>
 		</div>
 		<div class="clearfix"></div>
 		<img src="img/pay.png" alt="payment icons">

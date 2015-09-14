@@ -481,6 +481,7 @@ th {
   margin: 0;
 }
 
+<<<<<<< HEAD
 /* line 48, ../scss/_header.scss */
 .nav-menu-left li {
   padding: 0 .4em 0;
@@ -492,16 +493,59 @@ th {
 }
 
 /* line 1, ../scss/_footer.scss */
+=======
+/*******************************************************/
+/********************** GENERAL ************************/
+/*******************************************************/
+>>>>>>> origin/master
 .clearfix {
   clear: both;
 }
 
+<<<<<<< HEAD
 /* line 5, ../scss/_footer.scss */
+=======
+/*******************************************************/
+/************************ MENU *************************/
+/*******************************************************/
+/*******************************************************/
+/************************ SHOP *************************/
+/*******************************************************/
+#shop {
+  width: 100%; }
+  #shop #items {
+    margin: 0 auto;
+    width: 70%;
+    outline: solid red 1px; }
+    #shop #items ul {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px; }
+      #shop #items ul .item {
+        float: left;
+        margin: 1.5%;
+        outline: solid blue 1px;
+        width: 22%; }
+        #shop #items ul .item img {
+          width: 100%; }
+        #shop #items ul .item .item-info {
+          padding-left: 1em; }
+          #shop #items ul .item .item-info h2 {
+            font-size: 1em;
+            text-transform: uppercase; }
+          #shop #items ul .item .item-info p {
+            font-size: 0.8em; }
+
+/*******************************************************/
+/*********************** FOOTER ************************/
+/*******************************************************/
+>>>>>>> origin/master
 #footer {
   background-color: #363636;
   color: white;
   height: 18em;
   outline: solid black 1px;
+<<<<<<< HEAD
   width: 100%;
 }
 /* line 12, ../scss/_footer.scss */
@@ -527,6 +571,46 @@ th {
   margin-left: 10em;
   margin-top: 2em;
 }
+=======
+  width: 100%; }
+  #footer h5 {
+    text-transform: uppercase; }
+  #footer ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; }
+    #footer ul li {
+      font-size: 0.7em;
+      padding-bottom: 1em; }
+      #footer ul li:hover {
+        color: grey; }
+  #footer #contact, #footer #about {
+    float: left;
+    margin-left: 10em;
+    margin-top: 2em; }
+  #footer img {
+    margin-left: 10em;
+    margin-top: 2em; }
+>>>>>>> origin/master
+
+/*******************************************************/
+/*********************** TERMS *************************/
+/*******************************************************/
+.wrapper {
+  width: 100%; }
+  .wrapper .content {
+    margin: 0 auto;
+    outline: solid red 1px;
+    padding: 10em;
+    width: 50%; }
+    .wrapper .content h1, .wrapper .content h2 {
+      text-transform: uppercase; }
+    .wrapper .content h1 {
+      font-size: 1.8em; }
+    .wrapper .content h2 {
+      font-size: 1em; }
+    .wrapper .content p {
+      font-size: 0.9em; }
 
 /*mobile
 #footer{
@@ -552,12 +636,6 @@ th {
 		margin-top: 3em;
 	}
 }
-
-
-
-
-
-
 
 
 */

@@ -1,0 +1,122 @@
+/*******************************************************/
+/********************** GENERAL ************************/
+/*******************************************************/
+.clearfix{
+	clear: both;
+}
+/*******************************************************/
+/************************ MENU *************************/
+/*******************************************************/
+
+/*******************************************************/
+/************************ SHOP *************************/
+/*******************************************************/
+
+#shop{
+	width: 100%;
+
+	#items{
+		margin: 0 auto;
+		width: 70%;
+		outline: solid red 1px;
+
+		ul{
+			list-style-type: none;
+			padding: 0px;
+    		margin: 0px;
+
+			.item{
+				float: left;
+				margin: 1.5%;
+				outline: solid blue 1px;
+				width: 22%;
+
+				img{
+					width: 100%;
+				}
+
+				.item-info{
+					padding-left: 1em;
+
+					h2{
+						font-size: 1em;
+						text-transform: uppercase;
+					}
+
+					p{
+						font-size: 0.8em;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*******************************************************/
+/*********************** FOOTER ************************/
+/*******************************************************/
+#footer{
+	background-color: #363636;
+	color: white;
+	height: 18em;
+	outline: solid black 1px;
+	width: 100%;
+
+	h5{
+		text-transform: uppercase;
+	}
+
+	ul{
+		list-style-type: none;
+		padding: 0px;
+    	margin: 0px;
+		li{
+			font-size: 0.7em;
+			padding-bottom: 1em;
+
+			&:hover{
+				color: grey;
+			}
+		}	
+	}
+
+	#contact, #about{
+		float: left;
+		margin-left: 10em;
+		margin-top: 2em;
+	}
+
+	img{
+		margin-left: 10em;
+		margin-top: 2em;
+	}
+}
+
+/*******************************************************/
+/*********************** TERMS *************************/
+/*******************************************************/
+.wrapper{
+	width: 100%;
+	.content{
+		margin: 0 auto;
+		outline: solid red 1px;
+		padding: 10em;
+		width: 50%;
+
+		h1, h2{
+			text-transform: uppercase;
+		}
+
+		h1{
+			font-size: 1.8em;
+		}
+
+		h2{
+			font-size: 1em;
+		}
+
+		p{
+			font-size: 0.9em;
+		}
+	}
+}

@@ -1,37 +1,4 @@
-.clearfix{
-	clear: both;
-}
 
-#footer{
-	background-color: #363636;
-	color: white;
-	height: 18em;
-	outline: solid black 1px;
-	width: 100%;
-
-	h3{
-		text-transform: uppercase;
-	}
-
-	p{
-		font-size: 0.7em;
-
-		&:hover{
-			color: grey;
-		}
-	}
-
-	#contact, #about{
-		float: left;
-		margin-left: 10em;
-		margin-top: 2em;
-	}
-
-	img{
-		margin-left: 10em;
-		margin-top: 2em;
-	}
-}
 
 /*mobile
 #footer{
@@ -57,12 +24,6 @@
 		margin-top: 3em;
 	}
 }
-
-
-
-
-
-
 
 
 */
