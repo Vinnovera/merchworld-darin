@@ -405,15 +405,13 @@ th {
   color: white;
   text-transform: uppercase; }
 
-/* line 61, ../scss/_header.scss */
 .sticky {
   position: fixed;
   width: 100%;
   left: 0;
   top: 0;
   z-index: 100;
-  border-top: 0;
-}
+  border-top: 0; }
 
 /*******************************************************/
 /********************** GENERAL ************************/
@@ -457,6 +455,19 @@ th {
             text-transform: uppercase; }
           #shop #items ul .item .item-info p {
             font-size: 0.8em; }
+
+/******************** SHOP 'POPUP' *********************/
+.item-show {
+  background-color: white;
+  display: none;
+  height: 25em;
+  margin: 0 auto;
+  width: 90%; }
+  .item-show img {
+    height: auto;
+    width: 50%; }
+  .item-show img, .item-show .item-info {
+    float: left; }
 
 /*******************************************************/
 /*********************** FOOTER ************************/

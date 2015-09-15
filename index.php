@@ -5,7 +5,7 @@ require 'header.php';
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <div id="shop">
 	<div id="items">
-		<ul>
+		<ul class="items-list">
 			<li class="item">
 				<img src="img/darin/dd1.jpg">
 				<div class="item-info">
@@ -70,6 +70,11 @@ require 'header.php';
 			</li>
 			<div class="clearfix"></div>			
 		</ul>
+
+		<div class="item-show">
+
+		</div>
+
 	</div>
 </div>
 
