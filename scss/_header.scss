@@ -1,10 +1,11 @@
 body {
-    background: url('../img/darin/bg-newest.jpg') no-repeat center center; //fixed
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 80vh;
+    background: url('../img/darin/bg-newest.jpg') no-repeat; //fixed
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 980px;
+    z-index: -1;
+    background-position: center top;
     width: 100%;
 }
 

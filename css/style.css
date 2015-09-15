@@ -353,6 +353,7 @@ th {
   padding: 0; }
 
 body {
+<<<<<<< HEAD
   background: url("../img/darin/bg-newest.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -361,12 +362,29 @@ body {
   height: 80vh;
   width: 100%; }
 
+=======
+  background: url("../img/darin/bg-newest.jpg") no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 980px;
+  z-index: -1;
+  background-position: center top;
+  width: 100%;
+}
+
+/* line 16, ../scss/_header.scss */
+>>>>>>> origin/master
 .menu {
   width: 100%;
   height: 240px;
   background: url("../img/darin/darin-new-top.png") no-repeat;
   background-position: center top; }
 
+<<<<<<< HEAD
+=======
+/* line 23, ../scss/_header.scss */
+>>>>>>> origin/master
 .logo {
   background: url("../img/darin/logo.png") no-repeat;
   width: 200px;
@@ -377,11 +395,19 @@ body {
   top: 20px;
   margin-left: -100px; }
 
+<<<<<<< HEAD
+=======
+/* line 34, ../scss/_header.scss */
+>>>>>>> origin/master
 .sticky-menu {
   margin-top: -16px;
   height: 50px;
   background: #b8afa7; }
 
+<<<<<<< HEAD
+=======
+/* line 40, ../scss/_header.scss */
+>>>>>>> origin/master
 .navigation-menu {
   text-align: center;
   width: 100%;
@@ -392,10 +418,18 @@ body {
   letter-spacing: 1px;
   font-size: 13px; }
 
+<<<<<<< HEAD
+=======
+/* line 51, ../scss/_header.scss */
+>>>>>>> origin/master
 .navigation-menu ul li {
   list-style-type: none;
   display: inline-block; }
 
+<<<<<<< HEAD
+=======
+/* line 56, ../scss/_header.scss */
+>>>>>>> origin/master
 .navigation-menu li a {
   position: relative;
   display: block;
@@ -405,6 +439,10 @@ body {
   color: white;
   text-transform: uppercase; }
 
+<<<<<<< HEAD
+=======
+/* line 66, ../scss/_header.scss */
+>>>>>>> origin/master
 .sticky {
   position: fixed;
   width: 100%;
@@ -414,6 +452,10 @@ body {
   z-index: 100;
   background: #b8afa7; }
 
+<<<<<<< HEAD
+=======
+/* line 76, ../scss/_header.scss */
+>>>>>>> origin/master
 .navigation-menu-sticky {
   line-height: 30px; }
 
@@ -436,6 +478,7 @@ body {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;*/
+<<<<<<< HEAD
   width: 100%;
   margin-top: 100%; }
   #shop #items {
@@ -463,11 +506,57 @@ body {
             font-size: 0.8em; }
 
 /******************** SHOP 'POPUP' *********************/
+=======
+  width: 100%;
+  margin-top: 50%;
+}
+/* line 25, ../scss/_base.scss */
+#shop #items {
+  margin: 0 auto;
+  padding-bottom: 5%;
+  width: 70%;
+}
+/* line 30, ../scss/_base.scss */
+#shop #items ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 35, ../scss/_base.scss */
+#shop #items ul .item {
+  float: none;
+  margin: 1.5%;
+  width: 100%;
+}
+/* line 40, ../scss/_base.scss */
+#shop #items ul .item img {
+  width: 100%;
+  margin-bottom: -10px;
+}
+/* line 45, ../scss/_base.scss */
+#shop #items ul .item .item-info {
+  background-color: white;
+  padding: 0.5em 1em;
+}
+/* line 49, ../scss/_base.scss */
+#shop #items ul .item .item-info h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+/* line 54, ../scss/_base.scss */
+#shop #items ul .item .item-info p {
+  font-size: 0.8em;
+}
+
+/******************** SHOP 'POPUP' *********************/
+/* line 64, ../scss/_base.scss */
+>>>>>>> origin/master
 .item-show {
   background-color: white;
   display: none;
   height: 28em;
   margin: 0 auto;
+<<<<<<< HEAD
   width: 100%; }
   .item-show img {
     height: 100%;
@@ -481,14 +570,43 @@ body {
     width: 1%; }
   .item-show img, .item-show .item-info, .item-show .fa {
     float: left; }
+=======
+  width: 100%;
+}
+/* line 71, ../scss/_base.scss */
+.item-show img {
+  height: 100%;
+  width: 50%;
+}
+/* line 76, ../scss/_base.scss */
+.item-show .item-info {
+  padding-left: 3%;
+  width: 45%;
+}
+/* line 81, ../scss/_base.scss */
+.item-show .fa {
+  margin-right: 1%;
+  margin-top: 1%;
+  width: 1%;
+}
+/* line 87, ../scss/_base.scss */
+.item-show img, .item-show .item-info, .item-show .fa {
+  float: left;
+}
+>>>>>>> origin/master
 
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
+<<<<<<< HEAD
+=======
+/* line 96, ../scss/_base.scss */
+>>>>>>> origin/master
 #footer {
   background-color: #363636;
   color: white;
   outline: solid black 1px;
+<<<<<<< HEAD
   width: 100%; }
   #footer h5 {
     text-transform: uppercase; }
@@ -505,10 +623,40 @@ body {
     float: none;
     margin-left: 1.5em;
     margin-top: 2em; }
+=======
+  width: 100%;
+}
+/* line 102, ../scss/_base.scss */
+#footer h5 {
+  text-transform: uppercase;
+}
+/* line 106, ../scss/_base.scss */
+#footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 110, ../scss/_base.scss */
+#footer ul li {
+  font-size: 0.7em;
+  padding-bottom: 1em;
+}
+/* line 114, ../scss/_base.scss */
+#footer ul li:hover {
+  color: grey;
+}
+/* line 120, ../scss/_base.scss */
+#footer #contact, #footer #about {
+  float: none;
+  margin-left: 1.5em;
+  margin-top: 2em;
+}
+>>>>>>> origin/master
 
 /*******************************************************/
 /*********************** TERMS *************************/
 /*******************************************************/
+<<<<<<< HEAD
 .wrapper {
   width: 100%; }
   .wrapper .content {
@@ -524,6 +672,35 @@ body {
       font-size: 1em; }
     .wrapper .content p {
       font-size: 0.9em; }
+=======
+/* line 130, ../scss/_base.scss */
+.wrapper {
+  width: 100%;
+}
+/* line 132, ../scss/_base.scss */
+.wrapper .content {
+  margin: 0 auto;
+  outline: solid red 1px;
+  padding: 10em;
+  width: 50%;
+}
+/* line 138, ../scss/_base.scss */
+.wrapper .content h1, .wrapper .content h2 {
+  text-transform: uppercase;
+}
+/* line 142, ../scss/_base.scss */
+.wrapper .content h1 {
+  font-size: 1.8em;
+}
+/* line 146, ../scss/_base.scss */
+.wrapper .content h2 {
+  font-size: 1em;
+}
+/* line 150, ../scss/_base.scss */
+.wrapper .content p {
+  font-size: 0.9em;
+}
+>>>>>>> origin/master
 
 @media screen and (max-width: 699px) {
   /*******************************************************/
