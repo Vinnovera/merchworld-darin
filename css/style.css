@@ -473,7 +473,11 @@ th {
     width: 50%; }
   .item-show .item-info {
     padding-left: 3%;
-    width: 40%; }
+    width: 45%; }
+  .item-show .fa {
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 1%; }
   .item-show img, .item-show .item-info, .item-show .fa {
     float: left; }
 
