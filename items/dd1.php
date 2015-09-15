@@ -13,6 +13,7 @@
 	$('.fa').on('click',function() {
 		console.log('hej');
 		$('.item-show').empty();
+		$('.item-show').hide();
 		$('.items-list').show();
 		
 	});	
