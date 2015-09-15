@@ -22,11 +22,6 @@ body{
 /*******************************************************/
 #shop{
 	background-color: black;
-	/*background: url('../img/darin/bg-newest.jpg') no-repeat center center fixed ; //fixed
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;*/
 	width: 100%;
 	margin-top: 50%;
 
@@ -68,7 +63,6 @@ body{
 		}
 	}
 }
-
 /******************** SHOP 'POPUP' *********************/
 .item-show{
 	background-color: white;
@@ -78,8 +72,9 @@ body{
 	width: 100%;
 
 	img{
-		height: 100%;
-		width: 50%;
+		height: auto;
+		padding: 2%;
+		width: 46%;
 	}
 
 	.item-info{
@@ -121,12 +116,6 @@ body{
 			margin-top: 1em;
 			width: 150px;
 
-			&:hover{
-				background-color: white;
-				border: solid black 1px;
-				color: black;
-			}
-
 			p{
 				font-size: 0.7em;
 				line-height: 35px;
@@ -147,10 +136,7 @@ body{
 	img, .item-info, .fa{
 		float: left;
 	}
-
 }
-
-
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
@@ -184,7 +170,6 @@ body{
 		margin-top: 2em;
 	}
 }
-
 /*******************************************************/
 /*********************** TERMS *************************/
 /*******************************************************/

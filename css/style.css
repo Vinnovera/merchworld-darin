@@ -438,11 +438,6 @@ body {
 /*******************************************************/
 #shop {
   background-color: black;
-  /*background: url('../img/darin/bg-newest.jpg') no-repeat center center fixed ; //fixed
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;*/
   width: 100%;
   margin-top: 50%; }
   #shop #items {
@@ -478,8 +473,9 @@ body {
   margin: 0 auto;
   width: 100%; }
   .item-show img {
-    height: 100%;
-    width: 50%; }
+    height: auto;
+    padding: 2%;
+    width: 46%; }
   .item-show .item-info {
     padding: 1% 3%;
     width: 40%; }
@@ -505,10 +501,6 @@ body {
       margin-left: 5em;
       margin-top: 1em;
       width: 150px; }
-      .item-show .item-info .button:hover {
-        background-color: white;
-        border: solid black 1px;
-        color: black; }
       .item-show .item-info .button p {
         font-size: 0.7em;
         line-height: 35px;
