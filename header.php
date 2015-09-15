@@ -22,6 +22,7 @@
 					<li><a href="">Videos</a></li>
 					<li><a href="">Spotify</a></li>
 					<li><a href="">Store</a></li>
+					<li><a href="">Contact</a></li>
 					<li><a href="">Contact</a></li>	
 				</ul>	
 			</div>
