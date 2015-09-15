@@ -20,11 +20,12 @@
 		-o-background-size: cover;
 		background-size: cover;*/
 	width: 100%;
-	margin-top: 50%;
+	margin-top: 100%;
 
 	#items{
 		margin: 0 auto;
 		padding-bottom: 5%;
+		padding-top: 5%;
 		width: 70%;
 
 		ul{
@@ -75,12 +76,12 @@
 
 	.item-info{
 		padding-left: 3%; 
-		width: 45%;
+		width: 43%;
 	}
 
 	.fa{
-		margin-right: 1%;
-		margin-top: 1%;
+		margin-right: 2%;
+		margin-top: 2%;
 		width: 1%;
 	}
 
