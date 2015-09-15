@@ -434,16 +434,17 @@ th {
 
 /* line 1, ../scss/_header.scss */
 body {
-  background: url("../img/darin/bg-newest.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 80vh;
+  background: url("../img/darin/bg-newest.jpg") no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 980px;
+  z-index: -1;
+  background-position: center top;
   width: 100%;
 }
 
-/* line 15, ../scss/_header.scss */
+/* line 16, ../scss/_header.scss */
 .menu {
   width: 100%;
   height: 240px;
@@ -451,7 +452,7 @@ body {
   background-position: center top;
 }
 
-/* line 22, ../scss/_header.scss */
+/* line 23, ../scss/_header.scss */
 .logo {
   background: url("../img/darin/logo.png") no-repeat;
   width: 200px;
@@ -463,14 +464,14 @@ body {
   margin-left: -100px;
 }
 
-/* line 33, ../scss/_header.scss */
+/* line 34, ../scss/_header.scss */
 .sticky-menu {
   margin-top: -16px;
   height: 50px;
   background: #b8afa7;
 }
 
-/* line 39, ../scss/_header.scss */
+/* line 40, ../scss/_header.scss */
 .navigation-menu {
   text-align: center;
   width: 100%;
@@ -482,13 +483,13 @@ body {
   font-size: 13px;
 }
 
-/* line 50, ../scss/_header.scss */
+/* line 51, ../scss/_header.scss */
 .navigation-menu ul li {
   list-style-type: none;
   display: inline-block;
 }
 
-/* line 55, ../scss/_header.scss */
+/* line 56, ../scss/_header.scss */
 .navigation-menu li a {
   position: relative;
   display: block;
@@ -499,7 +500,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 65, ../scss/_header.scss */
+/* line 66, ../scss/_header.scss */
 .sticky {
   position: fixed;
   width: 100%;
@@ -510,7 +511,7 @@ body {
   background: #b8afa7;
 }
 
-/* line 75, ../scss/_header.scss */
+/* line 76, ../scss/_header.scss */
 .navigation-menu-sticky {
   line-height: 30px;
 }
@@ -537,133 +538,107 @@ body {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;*/
-<<<<<<< HEAD
   width: 100%;
   margin-top: 100%;
 }
 /* line 25, ../scss/_base.scss */
 #shop #items {
   margin: 0 auto;
+  padding-bottom: 5%;
   width: 70%;
 }
-/* line 29, ../scss/_base.scss */
+/* line 30, ../scss/_base.scss */
 #shop #items ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-/* line 34, ../scss/_base.scss */
+/* line 35, ../scss/_base.scss */
 #shop #items ul .item {
   float: none;
   margin: 1.5%;
   width: 100%;
 }
-/* line 39, ../scss/_base.scss */
+/* line 40, ../scss/_base.scss */
 #shop #items ul .item img {
   width: 100%;
   margin-bottom: -10px;
 }
-/* line 44, ../scss/_base.scss */
+/* line 45, ../scss/_base.scss */
 #shop #items ul .item .item-info {
   background-color: white;
   padding: 0.5em 1em;
 }
-/* line 48, ../scss/_base.scss */
+/* line 49, ../scss/_base.scss */
 #shop #items ul .item .item-info h2 {
   font-size: 1em;
   text-transform: uppercase;
 }
-/* line 53, ../scss/_base.scss */
+/* line 54, ../scss/_base.scss */
 #shop #items ul .item .item-info p {
   font-size: 0.8em;
 }
-  width: 100%; }
-  #shop #items {
-    margin: 0 auto;
-    padding-bottom: 5%;
-    width: 70%; }
-    #shop #items ul {
-      list-style-type: none;
-      padding: 0px;
-      margin: 0px; }
-      #shop #items ul .item {
-        float: none;
-        margin: 1.5%;
-        width: 100%; }
-        #shop #items ul .item img {
-          width: 100%;
-          margin-bottom: -10px; }
-        #shop #items ul .item .item-info {
-          background-color: white;
-          padding: 0.5em 1em; }
-          #shop #items ul .item .item-info h2 {
-            font-size: 1em;
-            text-transform: uppercase; }
-          #shop #items ul .item .item-info p {
-            font-size: 0.8em; }
 
 /******************** SHOP 'POPUP' *********************/
-/* line 63, ../scss/_base.scss */
+/* line 64, ../scss/_base.scss */
 .item-show {
   background-color: white;
   display: none;
   height: 28em;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
-/* line 70, ../scss/_base.scss */
+/* line 71, ../scss/_base.scss */
 .item-show img {
-  height: auto;
+  height: 100%;
   width: 50%;
 }
-/* line 75, ../scss/_base.scss */
-.item-show img, .item-show .item-info {
+/* line 76, ../scss/_base.scss */
+.item-show .item-info {
+  padding-left: 3%;
+  width: 45%;
+}
+/* line 81, ../scss/_base.scss */
+.item-show .fa {
+  margin-right: 1%;
+  margin-top: 1%;
+  width: 1%;
+}
+/* line 87, ../scss/_base.scss */
+.item-show img, .item-show .item-info, .item-show .fa {
   float: left;
 }
-  width: 100%; }
-  .item-show img {
-    height: 100%;
-    width: 50%; }
-  .item-show .item-info {
-    padding-left: 3%;
-    width: 45%; }
-  .item-show .fa {
-    margin-right: 1%;
-    margin-top: 1%;
-    width: 1%; }
-  .item-show img, .item-show .item-info, .item-show .fa {
-    float: left; }
 
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
-/* line 84, ../scss/_base.scss */
+/* line 96, ../scss/_base.scss */
 #footer {
   background-color: #363636;
   color: white;
   outline: solid black 1px;
   width: 100%;
 }
-/* line 90, ../scss/_base.scss */
+/* line 102, ../scss/_base.scss */
 #footer h5 {
   text-transform: uppercase;
 }
-/* line 94, ../scss/_base.scss */
+/* line 106, ../scss/_base.scss */
 #footer ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-/* line 98, ../scss/_base.scss */
+/* line 110, ../scss/_base.scss */
 #footer ul li {
   font-size: 0.7em;
   padding-bottom: 1em;
 }
-/* line 102, ../scss/_base.scss */
+/* line 114, ../scss/_base.scss */
 #footer ul li:hover {
   color: grey;
 }
-/* line 108, ../scss/_base.scss */
+/* line 120, ../scss/_base.scss */
 #footer #contact, #footer #about {
   float: none;
   margin-left: 1.5em;
@@ -673,30 +648,30 @@ body {
 /*******************************************************/
 /*********************** TERMS *************************/
 /*******************************************************/
-/* line 118, ../scss/_base.scss */
+/* line 130, ../scss/_base.scss */
 .wrapper {
   width: 100%;
 }
-/* line 120, ../scss/_base.scss */
+/* line 132, ../scss/_base.scss */
 .wrapper .content {
   margin: 0 auto;
   outline: solid red 1px;
   padding: 10em;
   width: 50%;
 }
-/* line 126, ../scss/_base.scss */
+/* line 138, ../scss/_base.scss */
 .wrapper .content h1, .wrapper .content h2 {
   text-transform: uppercase;
 }
-/* line 130, ../scss/_base.scss */
+/* line 142, ../scss/_base.scss */
 .wrapper .content h1 {
   font-size: 1.8em;
 }
-/* line 134, ../scss/_base.scss */
+/* line 146, ../scss/_base.scss */
 .wrapper .content h2 {
   font-size: 1em;
 }
-/* line 138, ../scss/_base.scss */
+/* line 150, ../scss/_base.scss */
 .wrapper .content p {
   font-size: 0.9em;
 }
