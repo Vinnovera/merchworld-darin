@@ -23,6 +23,7 @@
 
 	#items{
 		margin: 0 auto;
+		padding-bottom: 5%;
 		width: 70%;
 
 		ul{
@@ -62,16 +63,21 @@
 .item-show{
 	background-color: white;
 	display: none;
-	height: 25em;
+	height: 28em;
 	margin: 0 auto;
-	width: 90%;
+	width: 100%;
 
 	img{
-		height: auto;
+		height: 100%;
 		width: 50%;
 	}
 
-	img, .item-info{
+	.item-info{
+		padding-left: 3%; 
+		width: 40%;
+	}
+
+	img, .item-info, .fa{
 		float: left;
 	}
 }

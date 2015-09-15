@@ -74,7 +74,6 @@ require 'header.php';
 		<div class="item-show">
 
 		</div>
-
 	</div>
 </div>
 
