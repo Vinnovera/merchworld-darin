@@ -400,7 +400,7 @@ body {
 .navigation-menu li a {
   position: relative;
   display: block;
-  padding: 0 43px;
+  padding: 0 28px;
   text-decoration: none;
   font-weight: normal;
   color: white;
@@ -417,6 +417,12 @@ body {
 
 .navigation-menu-sticky {
   line-height: 30px; }
+
+/* line 80, ../scss/_header.scss */
+.right-basket {
+  float: right;
+  padding-right: 50px;
+}
 
 /*******************************************************/
 /********************** GENERAL ************************/
