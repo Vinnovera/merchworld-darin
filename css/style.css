@@ -519,15 +519,14 @@ body {
 /*******************************************************/
 /********************** GENERAL ************************/
 /*******************************************************/
-/* line 4, ../scss/_base.scss */
-.clearfix {
-  clear: both;
-}
-
-/* line 8, ../scss/_base.scss */
-body {
+@font-face {
   font-family: 'Lagom';
   src: url(../fonts/darin/LagomGeometrisk-Regular.ttf);
+}
+
+/* line 9, ../scss/_base.scss */
+.clearfix {
+  clear: both;
 }
 
 /*******************************************************/
@@ -536,7 +535,7 @@ body {
 /*******************************************************/
 /************************ SHOP *************************/
 /*******************************************************/
-/* line 20, ../scss/_base.scss */
+/* line 19, ../scss/_base.scss */
 #shop {
   background-color: black;
   /*background: url('../img/darin/bg-newest.jpg') no-repeat center center fixed ; //fixed
@@ -547,47 +546,47 @@ body {
   width: 100%;
   margin-top: 50%;
 }
-/* line 30, ../scss/_base.scss */
+/* line 29, ../scss/_base.scss */
 #shop #items {
   margin: 0 auto;
   padding-bottom: 5%;
   padding-top: 5%;
   width: 70%;
 }
-/* line 36, ../scss/_base.scss */
+/* line 35, ../scss/_base.scss */
 #shop #items ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-/* line 41, ../scss/_base.scss */
+/* line 40, ../scss/_base.scss */
 #shop #items ul .item {
   float: none;
   margin: 1.5%;
   width: 100%;
 }
-/* line 46, ../scss/_base.scss */
+/* line 45, ../scss/_base.scss */
 #shop #items ul .item img {
   width: 100%;
   margin-bottom: -10px;
 }
-/* line 51, ../scss/_base.scss */
+/* line 50, ../scss/_base.scss */
 #shop #items ul .item .item-info {
   background-color: white;
   padding: 0.5em 1em;
 }
-/* line 55, ../scss/_base.scss */
+/* line 54, ../scss/_base.scss */
 #shop #items ul .item .item-info h2 {
   font-size: 1em;
   text-transform: uppercase;
 }
-/* line 60, ../scss/_base.scss */
+/* line 59, ../scss/_base.scss */
 #shop #items ul .item .item-info p {
   font-size: 0.8em;
 }
 
 /******************** SHOP 'POPUP' *********************/
-/* line 70, ../scss/_base.scss */
+/* line 69, ../scss/_base.scss */
 .item-show {
   background-color: white;
   display: none;
@@ -595,88 +594,82 @@ body {
   margin: 0 auto;
   width: 100%;
 }
-/* line 77, ../scss/_base.scss */
+/* line 76, ../scss/_base.scss */
 .item-show img {
   height: 100%;
   width: 50%;
 }
-/* line 82, ../scss/_base.scss */
+/* line 81, ../scss/_base.scss */
 .item-show .item-info {
   padding: 3%;
   width: 40%;
 }
-/* line 87, ../scss/_base.scss */
+/* line 85, ../scss/_base.scss */
+.item-show .item-info fieldset {
+  border: none;
+  float: left;
+  padding-left: 0;
+}
+/* line 91, ../scss/_base.scss */
+.item-show .item-info fieldset:nth-of-type(2) {
+  margin-left: 2em;
+}
+/* line 95, ../scss/_base.scss */
+.item-show .item-info .price, .item-show .item-info .button {
+  float: left;
+}
+/* line 99, ../scss/_base.scss */
+.item-show .item-info .button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  margin-left: 3em;
+  margin-top: 1em;
+  padding: 10px;
+  width: 150px;
+}
+/* line 110, ../scss/_base.scss */
 .item-show .fa {
   font-size: 1.5em;
   margin-right: 2%;
   margin-top: 2%;
   width: 1%;
 }
-/* line 94, ../scss/_base.scss */
+/* line 117, ../scss/_base.scss */
 .item-show img, .item-show .item-info, .item-show .fa {
   float: left;
 }
-  width: 100%; }
-  .item-show img {
-    height: 100%;
-    width: 50%; }
-  .item-show .item-info {
-    padding: 3%;
-    width: 40%; }
-    .item-show .item-info fieldset {
-      border: none;
-      float: left;
-      padding-left: 0; }
-    .item-show .item-info fieldset:nth-of-type(2) {
-      margin-left: 2em; }
-    .item-show .item-info .price, .item-show .item-info .button {
-      float: left; }
-    .item-show .item-info .button {
-      background-color: black;
-      color: white;
-      height: 30px;
-      margin-left: 3em;
-      margin-top: 1em;
-      padding: 10px;
-      width: 150px; }
-  .item-show .fa {
-    font-size: 1.5em;
-    margin-right: 2%;
-    margin-top: 2%;
-    width: 1%; }
-  .item-show img, .item-show .item-info, .item-show .fa {
-    float: left; }
 
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
-/* line 103, ../scss/_base.scss */
+/* line 127, ../scss/_base.scss */
 #footer {
   background-color: #363636;
   color: white;
   outline: solid black 1px;
   width: 100%;
 }
-/* line 109, ../scss/_base.scss */
+/* line 133, ../scss/_base.scss */
 #footer h5 {
   text-transform: uppercase;
 }
-/* line 113, ../scss/_base.scss */
+/* line 137, ../scss/_base.scss */
 #footer ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-/* line 117, ../scss/_base.scss */
+/* line 141, ../scss/_base.scss */
 #footer ul li {
   font-size: 0.7em;
   padding-bottom: 1em;
 }
-/* line 121, ../scss/_base.scss */
+/* line 145, ../scss/_base.scss */
 #footer ul li:hover {
   color: grey;
 }
-/* line 127, ../scss/_base.scss */
+/* line 151, ../scss/_base.scss */
 #footer #contact, #footer #about {
   float: none;
   margin-left: 1.5em;
@@ -686,30 +679,30 @@ body {
 /*******************************************************/
 /*********************** TERMS *************************/
 /*******************************************************/
-/* line 137, ../scss/_base.scss */
+/* line 161, ../scss/_base.scss */
 .wrapper {
   width: 100%;
 }
-/* line 139, ../scss/_base.scss */
+/* line 163, ../scss/_base.scss */
 .wrapper .content {
   margin: 0 auto;
   outline: solid red 1px;
   padding: 10em;
   width: 50%;
 }
-/* line 145, ../scss/_base.scss */
+/* line 169, ../scss/_base.scss */
 .wrapper .content h1, .wrapper .content h2 {
   text-transform: uppercase;
 }
-/* line 149, ../scss/_base.scss */
+/* line 173, ../scss/_base.scss */
 .wrapper .content h1 {
   font-size: 1.8em;
 }
-/* line 153, ../scss/_base.scss */
+/* line 177, ../scss/_base.scss */
 .wrapper .content h2 {
   font-size: 1em;
 }
-/* line 157, ../scss/_base.scss */
+/* line 181, ../scss/_base.scss */
 .wrapper .content p {
   font-size: 0.9em;
 }
