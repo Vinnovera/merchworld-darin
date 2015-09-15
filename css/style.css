@@ -539,7 +539,7 @@ body {
   	-o-background-size: cover;
   	background-size: cover;*/
   width: 100%;
-  margin-top: 100%;
+  margin-top: 50%;
 }
 /* line 25, ../scss/_base.scss */
 #shop #items {
