@@ -408,10 +408,14 @@ th {
 .sticky {
   position: fixed;
   width: 100%;
+  height: 50px;
   left: 0;
   top: 0;
   z-index: 100;
-  border-top: 0; }
+  background: #b8afa7; }
+
+.navigation-menu-sticky {
+  line-height: 30px; }
 
 /*******************************************************/
 /********************** GENERAL ************************/
