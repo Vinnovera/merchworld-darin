@@ -17,7 +17,7 @@ $(document).ready(function() {
 	};
 
 	//När man klickar på en vara ('li') gömmer man shoppen och visar en div med information om varan som man har klickat på
-	$('.items-list li').click(function() {
+	$('.items-list li').on('click',function() {
 		$('.items-list').hide();
 		$('.item-show').show();
 		loadContent();
@@ -33,10 +33,11 @@ $(document).ready(function() {
 	}
 
 	//När man klickar på x töms 'item-show' och shoppen visas igen
-	$('item-show .fa').click(function() {
+	$('item-show').on('click',function() {
 		console.log('hej');
 		$('.item-show').empty();
 		$('.items-list').show();
+		
 	});	
  
 	stickyNav();

@@ -1,3 +1,4 @@
+
 <img src="img/darin/dd1.jpg">
 <div class="item-info">
 	<h2>DD1</h2>
@@ -6,4 +7,13 @@
 	<p>Modellerna är 181 resp. 168 cm långa och är fotade i Medium resp. Small.</p>
 	<p>249:-</p>
 </div>
-<i class="fa fa-times"></i>
+<i class="fa fa-times"></i>	
+<script type="text/javascript">
+	//När man klickar på x töms 'item-show' och shoppen visas igen
+	$('.fa').on('click',function() {
+		console.log('hej');
+		$('.item-show').empty();
+		$('.items-list').show();
+		
+	});	
+</script>
