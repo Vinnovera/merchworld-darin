@@ -379,7 +379,7 @@ body {
   margin-left: -100px; }
 
 .sticky-menu {
-  margin-top: -16px;
+  margin-top: -13px;
   height: 50px;
   background: #b8afa7; }
 
@@ -400,7 +400,7 @@ body {
 .navigation-menu li a {
   position: relative;
   display: block;
-  padding: 0 40px;
+  padding: 0 43px;
   text-decoration: none;
   font-weight: normal;
   color: white;
@@ -439,7 +439,46 @@ body {
 #shop {
   background-color: black;
   width: 100%;
-  margin-top: 50%; }
+  margin-top: 31.8%;
+}
+/* line 29, ../scss/_base.scss */
+#shop #items {
+  margin: 0 auto;
+  padding-bottom: 5%;
+  padding-top: 2.5%;
+  width: 70%;
+}
+/* line 35, ../scss/_base.scss */
+#shop #items ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 40, ../scss/_base.scss */
+#shop #items ul .item {
+  float: none;
+  margin: 1.5%;
+  width: 100%;
+}
+/* line 45, ../scss/_base.scss */
+#shop #items ul .item img {
+  width: 100%;
+  margin-bottom: -10px;
+}
+/* line 50, ../scss/_base.scss */
+#shop #items ul .item .item-info {
+  background-color: white;
+  padding: 0.5em 1em;
+}
+/* line 54, ../scss/_base.scss */
+#shop #items ul .item .item-info h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+/* line 59, ../scss/_base.scss */
+#shop #items ul .item .item-info p {
+  font-size: 0.8em;
+}
   #shop #items {
     margin: 0 auto;
     padding-bottom: 5%;
@@ -464,7 +503,6 @@ body {
             text-transform: uppercase; }
           #shop #items ul .item .item-info p {
             font-size: 0.8em; }
-
 /******************** SHOP 'POPUP' *********************/
 .item-show {
   background-color: white;
