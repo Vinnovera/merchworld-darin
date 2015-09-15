@@ -2,7 +2,9 @@
 require 'header.php';
 
 ?>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<div id="background">
+	
+</div>
 <div id="shop">
 	<div id="items">
 		<ul class="items-list">

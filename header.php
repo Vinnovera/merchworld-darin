@@ -4,11 +4,12 @@
 	<meta charset="utf-8">
 	<title>Darin - Merchworld</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <body>
-	<div class="header">
+	<div id="header">
 		<div class="menu">
 			<div class="logo"></div>
 		</div>
