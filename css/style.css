@@ -537,6 +537,7 @@ body {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;*/
+<<<<<<< HEAD
   width: 100%;
   margin-top: 100%;
 }
@@ -576,13 +577,37 @@ body {
 #shop #items ul .item .item-info p {
   font-size: 0.8em;
 }
+  width: 100%; }
+  #shop #items {
+    margin: 0 auto;
+    padding-bottom: 5%;
+    width: 70%; }
+    #shop #items ul {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px; }
+      #shop #items ul .item {
+        float: none;
+        margin: 1.5%;
+        width: 100%; }
+        #shop #items ul .item img {
+          width: 100%;
+          margin-bottom: -10px; }
+        #shop #items ul .item .item-info {
+          background-color: white;
+          padding: 0.5em 1em; }
+          #shop #items ul .item .item-info h2 {
+            font-size: 1em;
+            text-transform: uppercase; }
+          #shop #items ul .item .item-info p {
+            font-size: 0.8em; }
 
 /******************** SHOP 'POPUP' *********************/
 /* line 63, ../scss/_base.scss */
 .item-show {
   background-color: white;
   display: none;
-  height: 25em;
+  height: 28em;
   margin: 0 auto;
   width: 90%;
 }
@@ -595,6 +620,15 @@ body {
 .item-show img, .item-show .item-info {
   float: left;
 }
+  width: 100%; }
+  .item-show img {
+    height: 100%;
+    width: 50%; }
+  .item-show .item-info {
+    padding-left: 3%;
+    width: 40%; }
+  .item-show img, .item-show .item-info, .item-show .fa {
+    float: left; }
 
 /*******************************************************/
 /*********************** FOOTER ************************/
