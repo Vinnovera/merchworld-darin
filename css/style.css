@@ -512,26 +512,28 @@ body {
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
-#footer {
+footer {
   background-color: #363636;
   color: white;
   outline: solid black 1px;
   width: 100%; }
-  #footer h5 {
+  footer h5 {
     text-transform: uppercase; }
-  #footer ul {
+  footer ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px; }
-    #footer ul li {
+    footer ul li {
       font-size: 0.7em;
       padding-bottom: 1em; }
-      #footer ul li:hover {
+      footer ul li:hover {
         color: grey; }
-  #footer #contact, #footer #about {
+  footer .contact, footer .about {
     float: none;
     margin-left: 1.5em;
     margin-top: 2em; }
+  footer .about:after {
+    clear: both; }
 
 /*******************************************************/
 /******************* LINKS IN FOOTER *******************/
@@ -855,14 +857,14 @@ body {
   /*******************************************************/
   /*********************** FOOTER ************************/
   /*******************************************************/
-  #footer {
+  footer {
     height: 18em;
     outline: solid black 1px;
     width: 100%; }
-    #footer #contact, #footer #about {
+    footer .contact, footer .about {
       float: left;
       margin-left: 10em; }
-    #footer img {
+    footer img {
       margin-left: 10em;
       margin-top: 2em; } }
 

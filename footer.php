@@ -1,5 +1,5 @@
-	<div id="footer">
-		<div id="contact">
+	<footer>
+		<div class="contact">
 			<h5>Frågor och kontakt</h5>
 			<ul>
 				<li>Köpvillkor</li>
@@ -8,7 +8,7 @@
 			</ul>
 		</div>
 
-		<div id="about">
+		<div class="about">
 			<h5>Om oss</h5>
 			<ul>
 				<li>Om Merchworld</li>
@@ -16,10 +16,9 @@
 				<li>Artister och företag</li>
 			</ul>
 		</div>
-		<div class="clearfix"></div>
+		<!--<div class="clearfix"></div>-->
 		<img src="img/pay.png" alt="payment icons">
-	</div>
-
+	</footer>
 
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="js/lightbox.js"></script>

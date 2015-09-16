@@ -124,7 +124,7 @@ body{
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
-#footer{
+footer{
 	background-color: #363636;
 	color: white;
 	outline: solid black 1px;
@@ -148,10 +148,14 @@ body{
 		}	
 	}
 
-	#contact, #about{
+	.contact, .about{
 		float: none;
 		margin-left: 1.5em;
 		margin-top: 2em;
+	}
+
+	.about:after{
+		clear:both;
 	}
 }
 /*******************************************************/

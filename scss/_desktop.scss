@@ -93,12 +93,12 @@
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
-#footer{	
+footer{	
 	height: 18em;
 	outline: solid black 1px;
 	width: 100%;
 
-	#contact, #about{
+	.contact, .about{
 		float: left;
 		margin-left: 10em;
 	}
