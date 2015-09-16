@@ -512,11 +512,16 @@ body {
 }
 
 /* line 76, ../scss/_header.scss */
+.sticky-mobile-menu {
+  display: none;
+}
+
+/* line 80, ../scss/_header.scss */
 .navigation-menu-sticky {
   line-height: 30px;
 }
 
-/* line 80, ../scss/_header.scss */
+/* line 84, ../scss/_header.scss */
 .right-basket {
   float: right;
   padding-right: 50px;
