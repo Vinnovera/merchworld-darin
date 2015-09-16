@@ -27,10 +27,22 @@
 					<li class="right-basket"><a href="">Varukorg</a></li>
 				</ul>	
 			</div>
+			
 			<div class="mobile-menu">
 				<div class="hamburger-menu">
-				
 				</div>
 			</div>
+		</div>
+		<div class="sticky-mobile-menu">
+			<ul>
+				<li><a href="http://www.darinofficial.com/#home">Home</a></li>
+				<li><a href="http://www.darinofficial.com/#latest">News</a></li>
+				<li><a href="http://www.darinofficial.com/#shows">Shows</a></li>
+				<li><a href="http://www.darinofficial.com/#videos">Videos</a></li>
+				<li><a href="http://www.darinofficial.com/#spotify">Spotify</a></li>
+				<li><a href="">Store</a></li>
+				<li><a href="http://www.darinofficial.com/#contact">Contact</a></li>
+				<li><a href="">Varukorg</a></li>
+			</ul>
 		</div>
 	</div>
