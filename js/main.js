@@ -45,4 +45,9 @@ $(document).ready(function() {
 	$(window).scroll(function() {
 	    stickyNav();
 	});
+
+	//Slide toggle mobile menu
+	$('.mobile-menu').click(function() {
+		$('.sticky-mobile-menu').slideToggle("fast");
+	});
 });
