@@ -155,10 +155,9 @@ body{
 	}
 }
 /*******************************************************/
-/*********************** TERMS *************************/
+/******************* LINKS IN FOOTER *******************/
 /*******************************************************/
 .wrapper{
-	background-color: black;
 	margin-top: 25%;
 	width: 100%;
 	.content{
@@ -168,7 +167,7 @@ body{
 		padding: 3em 8em;
 		width: 50%;
 
-		h1, h2{
+		h1, h2, h3{
 			text-transform: uppercase;
 		}
 
@@ -177,6 +176,11 @@ body{
 		}
 
 		h2{
+			padding-top: 2em;
+			font-size: 1.3em;
+		}
+
+		h3{
 			font-size: 1em;
 		}
 

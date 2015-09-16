@@ -1,33 +1,28 @@
-/* normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 9, ../scss/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove default margin.
  */
-/* line 19, ../scss/_normalize.scss */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /* HTML5 display definitions
    ========================================================================== */
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 41, ../scss/_normalize.scss */
 article,
 aside,
 details,
@@ -40,14 +35,12 @@ main,
 nav,
 section,
 summary {
-  display: block;
-}
+  display: block; }
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 53, ../scss/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -55,181 +48,142 @@ video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 63, ../scss/_normalize.scss */
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-/* line 74, ../scss/_normalize.scss */
 [hidden],
 template {
-  display: none;
-}
+  display: none; }
 
 /* Links
    ========================================================================== */
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 85, ../scss/_normalize.scss */
 a {
-  background: transparent;
-}
+  background: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, ../scss/_normalize.scss */
 a:active,
 a:hover {
-  outline: 0;
-}
+  outline: 0; }
 
 /* Text-level semantics
    ========================================================================== */
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 105, ../scss/_normalize.scss */
 abbr[title] {
-  border-bottom: 1px dotted;
-}
+  border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 114, ../scss/_normalize.scss */
 b,
 strong {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 122, ../scss/_normalize.scss */
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 131, ../scss/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 140, ../scss/_normalize.scss */
 mark {
   background: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 149, ../scss/_normalize.scss */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 158, ../scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
-/* line 165, ../scss/_normalize.scss */
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
-/* line 169, ../scss/_normalize.scss */
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 /* Embedded content
    ========================================================================== */
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 180, ../scss/_normalize.scss */
 img {
-  border: 0;
-}
+  border: 0; }
 
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 188, ../scss/_normalize.scss */
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* Grouping content
    ========================================================================== */
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 199, ../scss/_normalize.scss */
 figure {
-  margin: 1em 40px;
-}
+  margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 207, ../scss/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Contain overflow in all browsers.
  */
-/* line 217, ../scss/_normalize.scss */
 pre {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 228, ../scss/_normalize.scss */
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
-}
+  font-size: 1em; }
 
 /* Forms
    ========================================================================== */
@@ -243,7 +197,6 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 252, ../scss/_normalize.scss */
 button,
 input,
 optgroup,
@@ -254,16 +207,13 @@ textarea {
   font: inherit;
   /* 2 */
   margin: 0;
-  /* 3 */
-}
+  /* 3 */ }
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10.
  */
-/* line 262, ../scss/_normalize.scss */
 button {
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -271,11 +221,9 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8+, and Opera
  * Correct `select` style inheritance in Firefox.
  */
-/* line 274, ../scss/_normalize.scss */
 button,
 select {
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -284,7 +232,6 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 289, ../scss/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -292,36 +239,29 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */
-}
+  /* 3 */ }
 
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 299, ../scss/_normalize.scss */
 button[disabled],
 html input[disabled] {
-  cursor: default;
-}
+  cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 308, ../scss/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 318, ../scss/_normalize.scss */
 input {
-  line-height: normal;
-}
+  line-height: normal; }
 
 /**
  * It's recommended that you don't attempt to style these elements.
@@ -330,109 +270,88 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 331, ../scss/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 343, ../scss/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 353, ../scss/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box;
-}
+  box-sizing: content-box; }
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 367, ../scss/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 375, ../scss/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+  padding: 0.35em 0.625em 0.75em; }
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 386, ../scss/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove default vertical scrollbar in IE 8/9.
  */
-/* line 395, ../scss/_normalize.scss */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 404, ../scss/_normalize.scss */
 optgroup {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* Tables
    ========================================================================== */
 /**
  * Remove most spacing between table cells.
  */
-/* line 415, ../scss/_normalize.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* line 421, ../scss/_normalize.scss */
 td,
 th {
-  padding: 0;
-}
+  padding: 0; }
 
-/* line 1, ../scss/_header.scss */
 body {
   background: url("../img/darin/bg-newest.jpg") no-repeat;
   position: absolute;
@@ -441,18 +360,14 @@ body {
   height: 980px;
   z-index: -1;
   background-position: center top;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 16, ../scss/_header.scss */
 .menu {
   width: 100%;
   height: 240px;
   background: url("../img/darin/darin-new-top.png") no-repeat;
-  background-position: center top;
-}
+  background-position: center top; }
 
-/* line 23, ../scss/_header.scss */
 .logo {
   background: url("../img/darin/logo.png") no-repeat;
   width: 200px;
@@ -461,17 +376,13 @@ body {
   position: absolute;
   left: 50%;
   top: 20px;
-  margin-left: -100px;
-}
+  margin-left: -100px; }
 
-/* line 34, ../scss/_header.scss */
 .sticky-menu {
   margin-top: -13px;
   height: 50px;
-  background: #b8afa7;
-}
+  background: #b8afa7; }
 
-/* line 40, ../scss/_header.scss */
 .navigation-menu {
   text-align: center;
   width: 100%;
@@ -480,16 +391,12 @@ body {
   font-family: 'Lagom', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 13px;
-}
+  font-size: 13px; }
 
-/* line 51, ../scss/_header.scss */
 .navigation-menu ul li {
   list-style-type: none;
-  display: inline-block;
-}
+  display: inline-block; }
 
-/* line 56, ../scss/_header.scss */
 .navigation-menu li a {
   position: relative;
   display: block;
@@ -497,10 +404,8 @@ body {
   text-decoration: none;
   font-weight: normal;
   color: white;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
-/* line 66, ../scss/_header.scss */
 .sticky {
   position: fixed;
   width: 100%;
@@ -508,42 +413,29 @@ body {
   left: 0;
   top: 0;
   z-index: 100;
-  background: #b8afa7;
-}
+  background: #b8afa7; }
 
-/* line 76, ../scss/_header.scss */
 .sticky-mobile-menu {
-  display: none;
-}
+  display: none; }
 
-/* line 80, ../scss/_header.scss */
 .navigation-menu-sticky {
-  line-height: 30px;
-}
+  line-height: 30px; }
 
-/* line 84, ../scss/_header.scss */
 .right-basket {
   float: right;
-  padding-right: 50px;
-}
+  padding-right: 50px; }
 
 /*******************************************************/
 /********************** GENERAL ************************/
 /*******************************************************/
 @font-face {
   font-family: 'Lagom';
-  src: url(../fonts/darin/LagomGeometrisk-Regular.ttf);
-}
-
-/* line 9, ../scss/_base.scss */
+  src: url(../fonts/darin/LagomGeometrisk-Regular.ttf); }
 body {
-  font-family: 'Lagom';
-}
+  font-family: 'Lagom'; }
 
-/* line 13, ../scss/_base.scss */
 .clearfix {
-  clear: both;
-}
+  clear: both; }
 
 /*******************************************************/
 /************************ MENU *************************/
@@ -551,233 +443,160 @@ body {
 /*******************************************************/
 /************************ SHOP *************************/
 /*******************************************************/
-/* line 23, ../scss/_base.scss */
 #shop {
   background-color: black;
   width: 100%;
-  margin-top: 31.8%;
-}
-/* line 28, ../scss/_base.scss */
-#shop #items {
-  margin: 0 auto;
-  padding-bottom: 5%;
-  padding-top: 2.5%;
-  width: 70%;
-}
-/* line 34, ../scss/_base.scss */
-#shop #items ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-/* line 39, ../scss/_base.scss */
-#shop #items ul .item {
-  float: none;
-  margin: 1.5%;
-  width: 100%;
-}
-/* line 44, ../scss/_base.scss */
-#shop #items ul .item img {
-  width: 100%;
-  margin-bottom: -10px;
-}
-/* line 49, ../scss/_base.scss */
-#shop #items ul .item .item-info {
-  background-color: white;
-  padding: 0.5em 1em;
-}
-/* line 53, ../scss/_base.scss */
-#shop #items ul .item .item-info h2 {
-  font-size: 1em;
-  text-transform: uppercase;
-}
-/* line 58, ../scss/_base.scss */
-#shop #items ul .item .item-info p {
-  font-size: 0.8em;
-}
+  margin-top: 31.8%; }
+  #shop #items {
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+    width: 70%; }
+    #shop #items ul {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px; }
+      #shop #items ul .item {
+        float: none;
+        margin: 1.5%;
+        width: 100%; }
+        #shop #items ul .item img {
+          width: 100%;
+          margin-bottom: -10px; }
+        #shop #items ul .item .item-info {
+          background-color: white;
+          padding: 0.5em 1em; }
+          #shop #items ul .item .item-info h2 {
+            font-size: 1em;
+            text-transform: uppercase; }
+          #shop #items ul .item .item-info p {
+            font-size: 0.8em; }
 
 /******************** SHOP 'POPUP' *********************/
-/* line 67, ../scss/_base.scss */
 .item-show {
   background-color: white;
   display: none;
   margin: 0 auto;
-  width: 100%;
-}
-/* line 73, ../scss/_base.scss */
-.item-show img {
-  height: auto;
-  padding: 2%;
-}
-/* line 78, ../scss/_base.scss */
-.item-show .item-info {
-  padding: 1% 3%;
-}
-/* line 81, ../scss/_base.scss */
-.item-show .item-info p {
-  font-weight: normal;
-}
-/* line 85, ../scss/_base.scss */
-.item-show .item-info fieldset {
-  border: none;
-  padding-left: 0;
-}
-/* line 90, ../scss/_base.scss */
-.item-show .item-info h3 {
-  font-size: 1.1em;
-}
-/* line 94, ../scss/_base.scss */
-.item-show .item-info .price {
-  font-size: 2em;
-  font-weight: bold;
-  margin-top: 0.8em;
-}
-/* line 100, ../scss/_base.scss */
-.item-show .item-info .button {
-  background-color: black;
-  color: white;
-  margin-top: 1em;
-  width: 150px;
-}
-/* line 106, ../scss/_base.scss */
-.item-show .item-info .button p {
-  font-size: 0.7em;
-  line-height: 35px;
-  text-align: center;
-  text-transform: uppercase;
-}
-/* line 116, ../scss/_base.scss */
-.item-show .fa {
-  font-size: 1.5em;
-  margin-right: 2%;
-  margin-top: 2%;
-  width: 1%;
-}
+  width: 100%; }
+  .item-show img {
+    height: auto;
+    padding: 2%; }
+  .item-show .item-info {
+    padding: 1% 3%; }
+    .item-show .item-info p {
+      font-weight: normal; }
+    .item-show .item-info fieldset {
+      border: none;
+      padding-left: 0; }
+    .item-show .item-info h3 {
+      font-size: 1.1em; }
+    .item-show .item-info .price {
+      font-size: 2em;
+      font-weight: bold;
+      margin-top: 0.8em; }
+    .item-show .item-info .button {
+      background-color: black;
+      color: white;
+      margin-top: 1em;
+      width: 150px; }
+      .item-show .item-info .button p {
+        font-size: 0.7em;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase; }
+  .item-show .fa {
+    font-size: 1.5em;
+    margin-right: 2%;
+    margin-top: 2%;
+    width: 1%; }
 
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
-/* line 127, ../scss/_base.scss */
 #footer {
   background-color: #363636;
   color: white;
   outline: solid black 1px;
-  width: 100%;
-}
-/* line 133, ../scss/_base.scss */
-#footer h5 {
-  text-transform: uppercase;
-}
-/* line 137, ../scss/_base.scss */
-#footer ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-/* line 141, ../scss/_base.scss */
-#footer ul li {
-  font-size: 0.7em;
-  padding-bottom: 1em;
-}
-/* line 145, ../scss/_base.scss */
-#footer ul li:hover {
-  color: grey;
-}
-/* line 151, ../scss/_base.scss */
-#footer #contact, #footer #about {
-  float: none;
-  margin-left: 1.5em;
-  margin-top: 2em;
-}
+  width: 100%; }
+  #footer h5 {
+    text-transform: uppercase; }
+  #footer ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; }
+    #footer ul li {
+      font-size: 0.7em;
+      padding-bottom: 1em; }
+      #footer ul li:hover {
+        color: grey; }
+  #footer #contact, #footer #about {
+    float: none;
+    margin-left: 1.5em;
+    margin-top: 2em; }
 
 /*******************************************************/
-/*********************** TERMS *************************/
+/******************* LINKS IN FOOTER *******************/
 /*******************************************************/
-/* line 160, ../scss/_base.scss */
 .wrapper {
-  background-color: black;
   margin-top: 25%;
-  width: 100%;
-}
-/* line 164, ../scss/_base.scss */
-.wrapper .content {
-  background-color: white;
-  margin: 0 auto;
-  outline: solid red 1px;
-  padding: 3em 8em;
-  width: 50%;
-}
-/* line 171, ../scss/_base.scss */
-.wrapper .content h1, .wrapper .content h2 {
-  text-transform: uppercase;
-}
-/* line 175, ../scss/_base.scss */
-.wrapper .content h1 {
-  font-size: 1.8em;
-}
-/* line 179, ../scss/_base.scss */
-.wrapper .content h2 {
-  font-size: 1em;
-}
-/* line 183, ../scss/_base.scss */
-.wrapper .content p {
-  font-size: 0.9em;
-}
+  width: 100%; }
+  .wrapper .content {
+    background-color: white;
+    margin: 0 auto;
+    outline: solid red 1px;
+    padding: 3em 8em;
+    width: 50%; }
+    .wrapper .content h1, .wrapper .content h2, .wrapper .content h3 {
+      text-transform: uppercase; }
+    .wrapper .content h1 {
+      font-size: 1.8em; }
+    .wrapper .content h2 {
+      padding-top: 2em;
+      font-size: 1.3em; }
+    .wrapper .content h3 {
+      font-size: 1em; }
+    .wrapper .content p {
+      font-size: 0.9em; }
 
 @media screen and (max-width: 699px) {
   /*******************************************************/
   /************************ MENU *************************/
   /*******************************************************/
-  /* line 5, ../scss/_mobile.scss */
   .navigation-menu {
-    display: none;
-  }
+    display: none; }
 
-  /* line 9, ../scss/_mobile.scss */
   .sticky-menu {
-    margin-top: -240px;
-  }
+    margin-top: -240px; }
 
-  /* line 13, ../scss/_mobile.scss */
   .sticky-mobile-menu {
     display: none;
     position: absolute;
     border-top: 1px solid white;
     width: 100%;
-    background: #b8afa7;
-  }
+    background: #b8afa7; }
 
-  /* line 21, ../scss/_mobile.scss */
   .sticky-mobile-menu ul {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 0px;
-  }
+    padding-left: 0px; }
 
-  /* line 27, ../scss/_mobile.scss */
   .sticky-mobile-menu ul li {
     list-style-type: none;
     padding: 10px 15px 10px 15px;
     text-align: center;
-    display: block;
-  }
+    display: block; }
 
-  /* line 34, ../scss/_mobile.scss */
   .sticky-mobile-menu li a {
     color: white;
     letter-spacing: 1px;
     font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 20px;
-  }
+    line-height: 20px; }
 
-  /* line 43, ../scss/_mobile.scss */
   .logo {
-    margin-top: 50px;
-  }
+    margin-top: 50px; }
 
-  /* line 47, ../scss/_mobile.scss */
   .mobile-menu {
     float: right;
     margin-right: 12px;
@@ -785,16 +604,12 @@ body {
     border: 1px solid white;
     border-radius: 5px;
     width: 40px;
-    height: 30px;
-  }
+    height: 30px; }
 
-  /* line 57, ../scss/_mobile.scss */
   .mobile-menu:hover {
     background-color: #D3D3D3;
-    cursor: pointer;
-  }
+    cursor: pointer; }
 
-  /* line 63, ../scss/_mobile.scss */
   .hamburger-menu {
     top: 19px;
     right: 23px;
@@ -802,242 +617,164 @@ body {
     height: 2px;
     background-color: #fff;
     border-radius: 4px;
-    position: absolute;
-  }
+    position: absolute; }
 
-  /* line 75, ../scss/_mobile.scss */
   .hamburger-menu:after, .hamburger-menu:before {
     content: '';
     width: 100%;
     height: 2px;
     background-color: #fff;
     position: absolute;
-    border-radius: 5px;
-  }
+    border-radius: 5px; }
 
-  /* line 85, ../scss/_mobile.scss */
   .hamburger-menu:after {
-    top: 6px;
-  }
+    top: 6px; }
 
-  /* line 90, ../scss/_mobile.scss */
   .hamburger-menu:before {
-    top: 12px;
-  }
+    top: 12px; }
 
-  /* line 94, ../scss/_mobile.scss */
   .slide {
     display: none;
     margin-top: 31px;
     padding-top: 55px;
     width: 100%;
     height: 25px;
-    background-color: black;
-  }
+    background-color: black; }
 
   /*******************************************************/
   /************************ SHOP *************************/
   /*******************************************************/
-  /* line 105, ../scss/_mobile.scss */
   #shop {
-    margin-top: 148%;
-  }
-  /* line 109, ../scss/_mobile.scss */
-  #shop #items ul .item {
-    margin-bottom: 2em;
-  }
+    margin-top: 148%; }
+    #shop #items ul .item {
+      margin-bottom: 2em; }
 
   /******************** SHOP 'POPUP' *********************/
-  /* line 117, ../scss/_mobile.scss */
   .item-show {
-    margin: 0 auto;
-  }
-  /* line 120, ../scss/_mobile.scss */
-  .item-show img {
-    width: 96%;
-  }
-  /* line 124, ../scss/_mobile.scss */
-  .item-show .item-info {
-    padding: 1% 3%;
-    width: 98%;
-  }
-  /* line 128, ../scss/_mobile.scss */
-  .item-show .item-info .price {
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 0.8em;
-  }
-  /* line 134, ../scss/_mobile.scss */
-  .item-show .item-info .button {
-    margin-top: 1em;
-  }
-  /* line 139, ../scss/_mobile.scss */
-  .item-show .fa {
-    margin-left: 2%;
-    padding-bottom: 3%;
-  }
+    margin: 0 auto; }
+    .item-show img {
+      width: 96%; }
+    .item-show .item-info {
+      padding: 1% 3%;
+      width: 98%; }
+      .item-show .item-info .price {
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 0.8em; }
+      .item-show .item-info .button {
+        margin-top: 1em; }
+    .item-show .fa {
+      margin-left: 2%;
+      padding-bottom: 3%; }
 
   /*******************************************************/
   /*********************** FOOTER ************************/
   /*******************************************************/
-  /* line 148, ../scss/_mobile.scss */
   #footer {
     height: 20em;
-    padding-top: 1.5em;
-  }
-  /* line 151, ../scss/_mobile.scss */
-  #footer img {
-    display: none;
-  }
-}
+    padding-top: 1.5em; }
+    #footer img {
+      display: none; } }
 @media screen and (min-width: 700px) and (max-width: 1199px) {
   /*******************************************************/
   /************************ MENU *************************/
   /*******************************************************/
-  /* line 5, ../scss/_tablet.scss */
   .navigation-menu {
-    display: none;
-  }
+    display: none; }
 
   /*******************************************************/
   /************************ SHOP *************************/
   /*******************************************************/
-  /* line 14, ../scss/_tablet.scss */
   #shop #items {
-    width: 80%;
-  }
-  /* line 17, ../scss/_tablet.scss */
-  #shop #items ul .item {
-    float: left;
-    margin: 1%;
-    width: 31%;
-  }
+    width: 80%; }
+    #shop #items ul .item {
+      float: left;
+      margin: 1%;
+      width: 31%; }
 
   /*******************************************************/
   /*********************** FOOTER ************************/
   /*******************************************************/
-  /* line 29, ../scss/_tablet.scss */
   #footer {
-    height: 18em;
-  }
-  /* line 32, ../scss/_tablet.scss */
-  #footer #contact, #footer #about {
-    float: left;
-    margin-left: 3em;
-  }
-  /* line 37, ../scss/_tablet.scss */
-  #footer img {
-    margin-left: 3em;
-    margin-top: 2em;
-  }
-}
+    height: 18em; }
+    #footer #contact, #footer #about {
+      float: left;
+      margin-left: 3em; }
+    #footer img {
+      margin-left: 3em;
+      margin-top: 2em; } }
 @media screen and (min-width: 1200px) {
   /*******************************************************/
   /************************ SHOP *************************/
   /*******************************************************/
-  /* line 5, ../scss/_desktop.scss */
   #shop #items {
-    width: 70%;
-  }
-  /* line 8, ../scss/_desktop.scss */
-  #shop #items ul .item {
-    float: left;
-    margin: 1.5%;
-    width: 22%;
-  }
+    width: 70%; }
+    #shop #items ul .item {
+      float: left;
+      margin: 1.5%;
+      width: 22%; }
 
   /******************** SHOP 'POPUP' *********************/
-  /* line 18, ../scss/_desktop.scss */
   .item-show {
     background-color: white;
     display: none;
-    height: 28em;
+    height: 450px;
     margin: 0 auto;
-    width: 100%;
-  }
-  /* line 25, ../scss/_desktop.scss */
-  .item-show img {
-    height: auto;
-    padding: 2%;
-    width: 46%;
-  }
-  /* line 31, ../scss/_desktop.scss */
-  .item-show .item-info {
-    padding: 1% 3%;
-    width: 40%;
-  }
-  /* line 35, ../scss/_desktop.scss */
-  .item-show .item-info p {
-    font-weight: normal;
-  }
-  /* line 39, ../scss/_desktop.scss */
-  .item-show .item-info fieldset {
-    border: none;
-    float: left;
-    padding-left: 0;
-  }
-  /* line 45, ../scss/_desktop.scss */
-  .item-show .item-info fieldset:nth-of-type(2) {
-    margin-left: 2em;
-  }
-  /* line 49, ../scss/_desktop.scss */
-  .item-show .item-info h3 {
-    font-size: 1.1em;
-  }
-  /* line 53, ../scss/_desktop.scss */
-  .item-show .item-info .price, .item-show .item-info .button {
-    float: left;
-  }
-  /* line 57, ../scss/_desktop.scss */
-  .item-show .item-info .price {
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 0.8em;
-  }
-  /* line 63, ../scss/_desktop.scss */
-  .item-show .item-info .button {
-    background-color: black;
-    color: white;
-    margin-left: 5em;
-    margin-top: 1em;
-    width: 150px;
-  }
-  /* line 70, ../scss/_desktop.scss */
-  .item-show .item-info .button p {
-    font-size: 0.7em;
-    line-height: 35px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  /* line 80, ../scss/_desktop.scss */
-  .item-show .fa {
-    font-size: 1.5em;
-    margin-right: 2%;
-    margin-top: 2%;
-    width: 1%;
-  }
-  /* line 87, ../scss/_desktop.scss */
-  .item-show img, .item-show .item-info, .item-show .fa {
-    float: left;
-  }
+    width: 100%; }
+    .item-show img {
+      height: auto;
+      padding: 2%;
+      width: 46%; }
+    .item-show .item-info {
+      padding: 1% 3%;
+      width: 40%; }
+      .item-show .item-info p {
+        font-weight: normal; }
+      .item-show .item-info fieldset {
+        border: none;
+        float: left;
+        padding-left: 0; }
+      .item-show .item-info fieldset:nth-of-type(2) {
+        margin-left: 2em; }
+      .item-show .item-info h3 {
+        font-size: 1.1em; }
+      .item-show .item-info .price, .item-show .item-info .button {
+        float: left; }
+      .item-show .item-info .price {
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 0.8em; }
+      .item-show .item-info .button {
+        background-color: black;
+        color: white;
+        margin-left: 5em;
+        margin-top: 1em;
+        width: 150px; }
+        .item-show .item-info .button p {
+          font-size: 0.7em;
+          line-height: 35px;
+          text-align: center;
+          text-transform: uppercase; }
+    .item-show .fa {
+      font-size: 1.5em;
+      margin-right: 2%;
+      margin-top: 2%;
+      width: 1%; }
+    .item-show img, .item-show .item-info, .item-show .fa {
+      float: left; }
 
   /*******************************************************/
   /*********************** FOOTER ************************/
   /*******************************************************/
-  /* line 95, ../scss/_desktop.scss */
   #footer {
     height: 18em;
     outline: solid black 1px;
-    width: 100%;
-  }
-  /* line 100, ../scss/_desktop.scss */
-  #footer #contact, #footer #about {
-    float: left;
-    margin-left: 10em;
-  }
-  /* line 105, ../scss/_desktop.scss */
-  #footer img {
-    margin-left: 10em;
-    margin-top: 2em;
-  }
-}
+    width: 100%; }
+    #footer #contact, #footer #about {
+      float: left;
+      margin-left: 10em; }
+    #footer img {
+      margin-left: 10em;
+      margin-top: 2em; } }
+
+/*# sourceMappingURL=style.css.map */
