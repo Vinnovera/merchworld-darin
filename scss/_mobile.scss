@@ -18,6 +18,28 @@
 	background: #b8afa7;
 }
 
+.sticky-mobile-menu ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+.sticky-mobile-menu ul li {
+	list-style-type: none;
+	padding: 10px 15px 10px 15px;
+	text-align: center;
+	display: block;	
+}
+
+.sticky-mobile-menu li a {
+	color: white;
+	letter-spacing: 1px;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+    line-height: 20px;
+}
+
 .logo {
 	margin-top: 50px;
 }
