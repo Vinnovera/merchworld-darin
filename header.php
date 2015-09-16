@@ -24,7 +24,7 @@
 					<li><a href="http://www.darinofficial.com/#spotify">Spotify</a></li>
 					<li><a href="">Store</a></li>
 					<li><a href="http://www.darinofficial.com/#contact">Contact</a></li>
-					<li class="right-basket"><a href="">Varukorg</a></li>
+					<li><a href="">Varukorg</a></li>
 				</ul>	
 			</div>
 			<div class="mobile-menu">
