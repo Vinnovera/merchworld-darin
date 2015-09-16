@@ -1,5 +1,6 @@
-
-<img src="img/darin/dd1.jpg">
+<a href="img/darin/dd1.jpg" data-lightbox="dd1">
+	<img src="img/darin/dd1.jpg">
+</a>
 <div class="item-info">
 	<h2>DD1</h2>
 	<p>T-shirt</p>

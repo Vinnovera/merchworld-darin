@@ -158,11 +158,14 @@ body{
 /*********************** TERMS *************************/
 /*******************************************************/
 .wrapper{
+	background-color: black;
+	margin-top: 25%;
 	width: 100%;
 	.content{
+		background-color: white;
 		margin: 0 auto;
 		outline: solid red 1px;
-		padding: 10em;
+		padding: 3em 8em;
 		width: 50%;
 
 		h1, h2{
