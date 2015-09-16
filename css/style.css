@@ -562,9 +562,6 @@ body {
 
   .sticky-menu {
     margin-top: -240px; }
-
-<<<<<<< HEAD
-=======
   /* line 13, ../scss/_mobile.scss */
   .sticky-mobile-menu {
     display: none;
@@ -575,14 +572,9 @@ body {
   }
 
   /* line 21, ../scss/_mobile.scss */
->>>>>>> origin/master
   .logo {
     margin-top: 50px; }
-
-<<<<<<< HEAD
-=======
   /* line 25, ../scss/_mobile.scss */
->>>>>>> origin/master
   .mobile-menu {
     float: right;
     margin-right: 12px;
@@ -591,9 +583,6 @@ body {
     border-radius: 5px;
     width: 40px;
     height: 30px; }
-
-<<<<<<< HEAD
-=======
   /* line 35, ../scss/_mobile.scss */
   .mobile-menu:hover {
     background-color: #D3D3D3;
@@ -601,24 +590,17 @@ body {
   }
 
   /* line 41, ../scss/_mobile.scss */
->>>>>>> origin/master
   .hamburger-menu {
     top: 19px;
     right: 23px;
     width: 20px;
     height: 2px;
     background-color: #fff;
-<<<<<<< HEAD
     border-radius: 2px;
     position: absolute; }
 
-=======
-    border-radius: 4px;
-    position: absolute;
-  }
 
   /* line 53, ../scss/_mobile.scss */
->>>>>>> origin/master
   .hamburger-menu:after, .hamburger-menu:before {
     content: '';
     width: 100%;
@@ -626,18 +608,10 @@ body {
     background-color: #fff;
     position: absolute;
     border-radius: 5px; }
-
-<<<<<<< HEAD
-=======
   /* line 63, ../scss/_mobile.scss */
->>>>>>> origin/master
   .hamburger-menu:after {
     top: 6px; }
-
-<<<<<<< HEAD
-=======
   /* line 68, ../scss/_mobile.scss */
->>>>>>> origin/master
   .hamburger-menu:before {
     top: 12px; }
 
@@ -654,7 +628,6 @@ body {
   /*******************************************************/
   /************************ SHOP *************************/
   /*******************************************************/
-<<<<<<< HEAD
   #shop {
     margin-top: 148%; }
     #shop #items ul .item {
@@ -677,7 +650,6 @@ body {
     .item-show .fa {
       margin-left: 2%;
       padding-bottom: 3%; }
-=======
   /* line 83, ../scss/_mobile.scss */
   #shop {
     margin-top: 148%;
@@ -716,18 +688,15 @@ body {
     margin-left: 2%;
     padding-bottom: 3%;
   }
->>>>>>> origin/master
 
   /*******************************************************/
   /*********************** FOOTER ************************/
   /*******************************************************/
-<<<<<<< HEAD
   #footer {
     height: 20em;
     padding-top: 1.5em; }
     #footer img {
       display: none; } }
-=======
   /* line 126, ../scss/_mobile.scss */
   #footer {
     height: 20em;
@@ -738,7 +707,6 @@ body {
     display: none;
   }
 }
->>>>>>> origin/master
 @media screen and (min-width: 700px) and (max-width: 1199px) {
   /*******************************************************/
   /************************ MENU *************************/
