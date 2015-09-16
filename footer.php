@@ -20,7 +20,9 @@
 		<img src="img/pay.png" alt="payment icons">
 	</div>
 
+
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/lightbox.js"></script>
 	<script src="js/main.js"></script>	
 </body>
 </html>
