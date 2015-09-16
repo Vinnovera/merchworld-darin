@@ -1,10 +1,7 @@
 <?php
 require 'header.php';
-
 ?>
-<div id="background">
-	
-</div>
+<div id="background"></div>
 <div id="shop">
 	<div id="items">
 		<ul class="items-list">
