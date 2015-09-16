@@ -433,9 +433,6 @@ body {
 body {
   font-family: 'Lagom'; }
 
-.clearfix {
-  clear: both; }
-
 /*******************************************************/
 /************************ MENU *************************/
 /*******************************************************/
@@ -454,7 +451,8 @@ body {
     #shop #items ul {
       list-style-type: none;
       padding: 0px;
-      margin: 0px; }
+      margin: 0px;
+      overflow: hidden; }
       #shop #items ul .item {
         float: none;
         margin: 1.5%;
@@ -532,8 +530,6 @@ footer {
     float: none;
     margin-left: 1.5em;
     margin-top: 2em; }
-  footer .about:after {
-    clear: both; }
 
 /*******************************************************/
 /******************* LINKS IN FOOTER *******************/
@@ -866,6 +862,8 @@ footer {
       margin-left: 10em; }
     footer img {
       margin-left: 10em;
-      margin-top: 2em; } }
+      margin-top: 2em;
+      display: block;
+      clear: both; } }
 
 /*# sourceMappingURL=style.css.map */

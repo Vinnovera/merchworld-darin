@@ -66,12 +66,11 @@ require 'header.php';
 					<p>CD</p>
 					<p>129:-</p>
 				</div>
-			</li>
-			<div class="clearfix"></div>			
+			</li>			
 		</ul>
 
 		<div class="item-show">
-
+			<!-- Ajax content goes here -->
 		</div>
 	</div>
 </div>
