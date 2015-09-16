@@ -27,7 +27,6 @@
 					<li class="right-basket"><a href="">Varukorg</a></li>
 				</ul>	
 			</div>
-			
 			<div class="mobile-menu">
 				<div class="hamburger-menu">
 				</div>
