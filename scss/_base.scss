@@ -187,5 +187,26 @@ body{
 		p{
 			font-size: 0.9em;
 		}
+
+		fieldset{
+			border: none;
+
+			input[type=text], textarea {
+			    display: block;
+			}
+
+			input, textarea, select{
+				color: black;
+				margin-bottom: 5%;
+				margin-top: 1%;
+				padding: 1%;
+				width: 40%;
+			}
+
+			textarea{
+    			height: 100px;
+    		}
+ 
+		}
 	}
 }
