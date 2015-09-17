@@ -50,6 +50,7 @@ $(document).ready(function() {
 
 	//Slide toggle mobile menu
 	$('.mobile-menu').click(function() {
-		$('.sticky-mobile-menu').slideToggle("fast");
+		console.log('sture bergwall');
+		$('.mobile-menu-dropdown').slideToggle("fast");
 	});
 });

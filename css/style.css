@@ -420,39 +420,20 @@ footer img {
   height: 100px;
 }
 @media screen and (max-width: 640px) {
-  .navigation-menu {
-    display: none;
-  }
-  .sticky-mobile-menu {
-    display: none;
+  header img {
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
     position: absolute;
-    border-top: 1px solid #fff;
-    width: 100%;
+    left: 50%;
+    top: 70px;
+    margin-left: -100px;
+  }
+  .menu {
+    height: 50px;
     background: #b8afa7;
   }
-  .sticky-mobile-menu ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-  }
-  .sticky-mobile-menu ul li {
-    list-style-type: none;
-    padding: 10px 15px 10px 15px;
-    text-align: center;
-    display: block;
-  }
-  .sticky-mobile-menu li a {
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 20px;
-  }
-  .logo {
-    margin-top: 50px;
-  }
-  .mobile-menu {
+  .menu .mobile-menu {
     float: right;
     margin-right: 12px;
     margin-top: 10px;
@@ -461,9 +442,36 @@ footer img {
     width: 40px;
     height: 30px;
   }
-  .mobile-menu:hover {
+  .menu .mobile-menu:hover {
     background-color: #d3d3d3;
     cursor: pointer;
+  }
+  .mobile-menu-dropdown {
+    display: none;
+    position: absolute;
+    border-top: 1px solid #fff;
+    width: 100%;
+    background: #b8afa7;
+    z-index: 1;
+  }
+  .mobile-menu-dropdown ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+  .mobile-menu-dropdown ul li {
+    list-style-type: none;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    display: block;
+  }
+  .mobile-menu-dropdown ul li a {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 20px;
   }
   .hamburger-menu {
     top: 19px;
@@ -489,13 +497,8 @@ footer img {
   .hamburger-menu:before {
     top: 12px;
   }
-  .slide {
+  .navigation-menu {
     display: none;
-    margin-top: 31px;
-    padding-top: 55px;
-    width: 100%;
-    height: 25px;
-    background-color: #000;
   }
   #shop {
     margin-top: 130%;
@@ -720,10 +723,6 @@ footer img {
     clear: both;
     display: block;
     margin-left: 10em;
-    padding-top: 1em;
-  }
-}
-rgin-left: 10em;
     padding-top: 1em;
   }
 }

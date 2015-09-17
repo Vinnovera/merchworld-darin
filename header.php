@@ -10,12 +10,9 @@
 </head>
 
 <body>
-	<div id="header">
+	<header>
 		<div class="menu">
-			<div class="logo"></div>
-		</div>
-	
-			<div class="navigation-menu">
+<!-- 			<nav class="desktop-menu">
 				<ul>
 					<li><a href="http://www.darinofficial.com/#home">Home</a></li>
 					<li><a href="http://www.darinofficial.com/#latest">News</a></li>
@@ -26,13 +23,13 @@
 					<li><a href="http://www.darinofficial.com/#contact">Contact</a></li>
 					<li><a href="">Varukorg</a></li>
 				</ul>	
-			</div>
-			<div class="mobile-menu">
+			</nav> -->
+			<nav class="mobile-menu">
 				<div class="hamburger-menu">
 				</div>
-			</div>
-	
-		<div class="sticky-mobile-menu">
+			</nav>
+		</div>
+		<nav class="mobile-menu-dropdown">
 			<ul>
 				<li><a href="http://www.darinofficial.com/#home">Home</a></li>
 				<li><a href="http://www.darinofficial.com/#latest">News</a></li>
@@ -43,5 +40,6 @@
 				<li><a href="http://www.darinofficial.com/#contact">Contact</a></li>
 				<li><a href="">Varukorg</a></li>
 			</ul>
-		</div>
-	</div>
+		</nav>
+		<img src="img/darin/logo.png">
+	</header>
