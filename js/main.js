@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	var stickyNavTop = $('.sticky-menu').offset().top;
+/*	var stickyNavTop = $('.sticky-menu').offset().top;
  
 	var stickyNav = function(){
 		var scrollTop = $(window).scrollTop();
@@ -14,7 +14,7 @@ $(document).ready(function() {
 	    	$('.navigation-menu').removeClass('navigation-menu-sticky');
 	    	$('.sticky').addClass('sticky-menu'); 
 		}
-	};
+	};*/
 
 	//När man klickar på en vara ('li') gömmer man shoppen och visar en div med information om varan som man har klickat på
 	$('.items-list li').on('click',function() {
