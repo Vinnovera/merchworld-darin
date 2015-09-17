@@ -12,7 +12,7 @@
 <body>
 	<header>
 		<div class="menu">
-<!-- 			<nav class="desktop-menu">
+			<nav class="main-menu">
 				<ul>
 					<li><a href="http://www.darinofficial.com/#home">Home</a></li>
 					<li><a href="http://www.darinofficial.com/#latest">News</a></li>
@@ -23,7 +23,7 @@
 					<li><a href="http://www.darinofficial.com/#contact">Contact</a></li>
 					<li><a href="">Varukorg</a></li>
 				</ul>	
-			</nav> -->
+			</nav>
 			<nav class="mobile-menu">
 				<div class="hamburger-menu">
 				</div>
