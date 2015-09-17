@@ -40,7 +40,6 @@ $(document).ready(function() {
 
 	//När man klickar på x töms 'item-show' och shoppen visas igen
 	$('item-show').on('click',function() {
-		console.log('hej');
 		$('.item-show').empty();
 		$('.items-list').show();
 		
