@@ -5,7 +5,7 @@ require 'header.php';
 <div id="shop">
 	<div id="items">
 		<ul class="items-list">
-			<li class="item">
+			<a href="single-item.php"><li class="item">
 				<img src="img/darin/dd1.jpg">
 				<div class="item-info">
 					<h2>DD1</h2>
@@ -13,6 +13,7 @@ require 'header.php';
 					<p>249:-</p>
 				</div>
 			</li>
+			</a>
 
 			<li class="item">
 				<img src="img/darin/dd2.jpg">
@@ -67,11 +68,7 @@ require 'header.php';
 					<p>129:-</p>
 				</div>
 			</li>			
-		</ul>
-
-		<div class="item-show">
-			<!-- Ajax content goes here -->
-		</div>
+		</ul> 
 	</div>
 </div>
 
