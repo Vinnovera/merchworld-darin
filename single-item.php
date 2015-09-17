@@ -4,7 +4,7 @@ require 'header.php';
 
 hej
 
-<div id="shop">
+<div class="shop">
 	<div class="item-show">
 		<a href="img/darin/dd1.jpg" data-lightbox="dd1">
 			<img src="img/darin/dd1.jpg">

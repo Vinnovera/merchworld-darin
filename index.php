@@ -2,8 +2,8 @@
 require 'header.php';
 ?>
 <div id="background"></div>
-<div id="shop">
-	<div id="items">
+<div class="shop">
+	<div class="items">
 		<ul class="items-list">
 			<a href="single-item.php"><li class="item">
 				<img src="img/darin/dd1.jpg">

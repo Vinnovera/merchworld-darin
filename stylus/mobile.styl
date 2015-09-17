@@ -97,46 +97,49 @@ header {
 /*******************************************************/
 /************************ SHOP *************************/
 /*******************************************************/
-#shop{
+.shop{
 	margin-top: 130%;
-	#items{
+	
+	//style, index.php (shopen)
+	.items{
 		width: 90%;
 		ul{
 			.item{
-				margin-bottom: 2em;
+				margin-bottom: 5%;
 			}
 		}
 	}
-}
-/******************** SHOP 'POPUP' *********************/
-.item-show{
-	margin: 0 auto;
+	
+	//style, single-item.php (sida där en produkt visas)
+	.item-show{
+		width: 90%;
 
-	img{
-		width: 96%;
-	}
-
-	.item-info{
-		padding: 1% 5%; 
-		width: 80%;
-
-		.price{
-			font-size: 2em;
-			font-weight: bold;
-			margin-top: 0.8em;
+		img{
+			width: 96%;
 		}
 
-		.button{
-			margin-top: 1em;
+		.item-info{
+			padding: 1% 5%; 
+			width: 80%;
+
+			.price{
+				margin-top: 0.8em;
+			}
+
+			.button{
+				margin-top: 1em;
+			}
 		}
-	}
 
-	.fa{
-		margin-left: 5%;
-		padding-bottom: 5%;
-	}
+		.fa{
+			margin-left: 5%;
+			padding-bottom: 5%;
+		}
 
+	}
 }
+
+
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
