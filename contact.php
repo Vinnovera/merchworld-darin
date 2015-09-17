@@ -27,7 +27,7 @@ require 'header.php';
 		<h2>Kontaktformulär</h2>
 		<form>
 			<fieldset>
-				<select name="Smak">
+				<select name="subject">
 					<option value="1" >Allmänna frågor</option>
 				  	<option value="2">Frågor om beställningar</option>
 				 	<option value="3">Returer & reklamering</option>
