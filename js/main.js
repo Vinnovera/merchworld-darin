@@ -14,7 +14,13 @@ $(document).ready(function() {
 	    	$('.navigation-menu').removeClass('navigation-menu-sticky');
 	    	$('.sticky').addClass('sticky-menu'); 
 		}
-	};*/
+	};
+
+	stickyNav();
+ 
+	$(window).scroll(function() {
+	    stickyNav();
+	});*/
 
 	//När man klickar på en vara ('li') gömmer man shoppen och visar en div med information om varan som man har klickat på
 	$('.items-list li').on('click',function() {
@@ -40,11 +46,7 @@ $(document).ready(function() {
 		
 	});	
  
-	stickyNav();
- 
-	$(window).scroll(function() {
-	    stickyNav();
-	});
+
 
 	//Slide toggle mobile menu
 	$('.mobile-menu').click(function() {
