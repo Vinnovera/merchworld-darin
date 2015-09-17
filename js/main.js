@@ -48,8 +48,7 @@ $(document).ready(function() {
 
 
 	//Slide toggle mobile menu
-	$('.mobile-menu').click(function() {
-		console.log('sture bergwall');
-		$('.mobile-menu-dropdown').slideToggle("fast");
+	$('button').click(function() {
+		$('.main-menu').slideToggle("fast");
 	});
 });

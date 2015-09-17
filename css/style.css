@@ -178,35 +178,13 @@ td,
 th {
   padding: 0;
 }
-body {
-  background: url("../img/darin/bg-newest.jpg") no-repeat;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 980px;
-  z-index: -1;
-  background-position: center top;
-  width: 100%;
-}
 .menu {
   width: 100%;
   height: 240px;
   background: url("../img/darin/darin-new-top.png") no-repeat;
   background-position: center top;
 }
-.logo {
-  background: url("../img/darin/logo.png") no-repeat;
-  width: 200px;
-  height: 200px;
-  background-size: 200px;
-  position: absolute;
-  left: 50%;
-  top: 20px;
-  margin-left: -100px;
-}
-.sticky-menu {
-  margin-top: -13px;
-  height: 50px;
+.main-menu {
   background: #b8afa7;
 }
 .navigation-menu {
@@ -250,12 +228,26 @@ body {
 .navigation-menu-sticky {
   line-height: 30px;
 }
+.mobile-menu {
+  display: none;
+}
+.mobile-menu-dropdown {
+  display: none;
+}
 @font-face {
   font-family: 'Lagom';
   src: url("../fonts/darin/LagomGeometrisk-Regular.ttf");
 }
 body {
   font-family: 'Lagom';
+  background: url("../img/darin/bg-newest.jpg") no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 980px;
+  z-index: -1;
+  background-position: center top;
+  width: 100%;
 }
 #shop {
   background-color: #000;
@@ -429,75 +421,76 @@ footer img {
     margin-left: -100px;
   }
   .menu {
+    position: absolute;
     height: 50px;
     background: #b8afa7;
   }
-  .menu .mobile-menu {
+  .menu button {
+    width: 44px;
+    height: 34px;
     float: right;
-    margin-right: 12px;
-    margin-top: 10px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    width: 40px;
-    height: 30px;
+    position: relative;
+    -webkit-appearance: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background: transparent;
+    text-indent: -9999px;
   }
-  .menu .mobile-menu:hover {
-    background-color: #d3d3d3;
-    cursor: pointer;
-  }
-  .mobile-menu-dropdown {
-    display: none;
+  .menu button:after {
+    width: 22px;
+    content: '';
     position: absolute;
+    left: 10px;
+    bottom: 9px;
+    right: 11px;
+    border-bottom: 2px solid #fff;
+  }
+  .menu button:before {
+    content: '';
+    width: 22px;
+    height: 4px;
+    position: absolute;
+    left: 10px;
+    right: 11px;
+    top: 11px;
+    margin-top: -2px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+  .menu button:hover {
+    background-color: #ddd;
+  }
+  .main-menu {
+    margin-top: 50px;
+    display: none;
+    position: relative;
     border-top: 1px solid #fff;
     width: 100%;
     background: #b8afa7;
     z-index: 1;
   }
-  .mobile-menu-dropdown ul {
+  .main-menu ul {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
   }
-  .mobile-menu-dropdown ul li {
+  .main-menu ul li {
     list-style-type: none;
     padding: 10px 15px 10px 15px;
     text-align: center;
     display: block;
   }
-  .mobile-menu-dropdown ul li a {
+  .main-menu ul li a {
     color: #fff;
     letter-spacing: 1px;
     font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 20px;
-  }
-  .hamburger-menu {
-    top: 19px;
-    right: 23px;
-    width: 20px;
-    height: 2px;
-    background-color: #fff;
-    border-radius: 4px;
-    position: absolute;
-  }
-  .hamburger-menu:after,
-  .hamburger-menu:before {
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    border-radius: 5px;
-  }
-  .hamburger-menu:after {
-    top: 6px;
-  }
-  .hamburger-menu:before {
-    top: 12px;
-  }
-  .main-menu {
-    display: none;
   }
   #shop {
     margin-top: 130%;
