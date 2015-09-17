@@ -365,7 +365,11 @@ footer .contact,
 footer .about {
   float: none;
   margin-left: 1.5em;
-  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+footer img {
+  display: none;
 }
 .wrapper {
   margin-top: 25%;
@@ -415,7 +419,7 @@ footer .about {
 .wrapper .content fieldset textarea {
   height: 100px;
 }
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
   .navigation-menu {
     display: none;
   }
@@ -526,13 +530,9 @@ footer .about {
   }
   #footer {
     height: 20em;
-    padding-top: 1.5em;
-  }
-  #footer img {
-    display: none;
   }
 }
-@media screen and (min-width: 640px) and (max-width: 767px) {
+@media screen and (min-width: 640px) and (max-width: 768px) {
   .navigation-menu {
     display: none;
   }
@@ -723,6 +723,6 @@ footer .about {
     clear: both;
     display: block;
     margin-left: 10em;
-    margin-top: 2em;
+    padding-top: 1em;
   }
 }
