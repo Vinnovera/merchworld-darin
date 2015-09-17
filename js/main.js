@@ -29,15 +29,6 @@ $(document).ready(function() {
 		loadContent();
 	});
 
-	//Laddar in innehållet med hjälp av ajax
-	function loadContent(){
-		$.ajax({
-			url: "items/dd1.php"
-		}).done(function(data){
-			$(".item-show").html(data);
-		});
-	}
-
 	//När man klickar på x töms 'item-show' och shoppen visas igen
 	$('item-show').on('click',function() {
 		$('.item-show').empty();
