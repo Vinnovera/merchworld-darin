@@ -14,7 +14,7 @@
 		<div class="menu">
 			<div class="logo"></div>
 		</div>
-		<div class="sticky-menu">
+	
 			<div class="navigation-menu">
 				<ul>
 					<li><a href="http://www.darinofficial.com/#home">Home</a></li>
@@ -31,7 +31,7 @@
 				<div class="hamburger-menu">
 				</div>
 			</div>
-		</div>
+	
 		<div class="sticky-mobile-menu">
 			<ul>
 				<li><a href="http://www.darinofficial.com/#home">Home</a></li>

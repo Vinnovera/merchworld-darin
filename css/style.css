@@ -423,9 +423,6 @@ footer img {
   .navigation-menu {
     display: none;
   }
-  .sticky-menu {
-    margin-top: -240px;
-  }
   .sticky-mobile-menu {
     display: none;
     position: absolute;
@@ -723,6 +720,10 @@ footer img {
     clear: both;
     display: block;
     margin-left: 10em;
+    padding-top: 1em;
+  }
+}
+rgin-left: 10em;
     padding-top: 1em;
   }
 }
