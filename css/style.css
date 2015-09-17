@@ -1,28 +1,12 @@
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
+/* normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
-
-/**
- * Remove default margin.
- */
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
 body {
-  margin: 0; }
-
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined in IE 8/9.
- */
+  margin: 0;
+}
 article,
 aside,
 details,
@@ -35,323 +19,165 @@ main,
 nav,
 section,
 summary {
-  display: block; }
-
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
+  display: block;
+}
 audio,
 canvas,
 progress,
 video {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */ }
-
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
 audio:not([controls]) {
   display: none;
-  height: 0; }
-
-/**
- * Address `[hidden]` styling not present in IE 8/9.
- * Hide the `template` element in IE, Safari, and Firefox < 22.
- */
+  height: 0;
+}
 [hidden],
 template {
-  display: none; }
-
-/* Links
-   ========================================================================== */
-/**
- * Remove the gray background color from active links in IE 10.
- */
+  display: none;
+}
 a {
-  background: transparent; }
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
+  background: transparent;
+}
 a:active,
 a:hover {
-  outline: 0; }
-
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
- */
+  outline: 0;
+}
 abbr[title] {
-  border-bottom: 1px dotted; }
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
+  border-bottom: 1px dotted;
+}
 b,
 strong {
-  font-weight: bold; }
-
-/**
- * Address styling not present in Safari 5 and Chrome.
- */
+  font-weight: bold;
+}
 dfn {
-  font-style: italic; }
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari 5, and Chrome.
- */
+  font-style: italic;
+}
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
-
-/**
- * Address styling not present in IE 8/9.
- */
+  margin: 0.67em 0;
+}
 mark {
   background: #ff0;
-  color: #000; }
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
+  color: #000;
+}
 small {
-  font-size: 80%; }
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
+  font-size: 80%;
+}
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
-
+  vertical-align: baseline;
+}
 sup {
-  top: -0.5em; }
-
+  top: -0.5em;
+}
 sub {
-  bottom: -0.25em; }
-
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove border when inside `a` element in IE 8/9.
- */
+  bottom: -0.25em;
+}
 img {
-  border: 0; }
-
-/**
- * Correct overflow displayed oddly in IE 9.
- */
+  border: 0;
+}
 svg:not(:root) {
-  overflow: hidden; }
-
-/* Grouping content
-   ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari 5.
- */
+  overflow: hidden;
+}
 figure {
-  margin: 1em 40px; }
-
-/**
- * Address differences between Firefox and other browsers.
- */
+  margin: 1em 40px;
+}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
-
-/**
- * Contain overflow in all browsers.
- */
+  height: 0;
+}
 pre {
-  overflow: auto; }
-
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
+  overflow: auto;
+}
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
-
-/* Forms
-   ========================================================================== */
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
- */
+  font-size: 1em;
+}
 button,
 input,
 optgroup,
 select,
 textarea {
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */ }
-
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10.
- */
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
 button {
-  overflow: visible; }
-
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8+, and Opera
- * Correct `select` style inheritance in Firefox.
- */
+  overflow: visible;
+}
 button,
 select {
-  text-transform: none; }
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
+  text-transform: none;
+}
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */ }
-
-/**
- * Re-set default cursor for disabled elements.
- */
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
 button[disabled],
 html input[disabled] {
-  cursor: default; }
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
+  cursor: default;
+}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
+  padding: 0;
+}
 input {
-  line-height: normal; }
-
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
+  line-height: normal;
+}
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
+  height: auto;
+}
 input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
+  -webkit-appearance: textfield; /* 1 */
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  /* 2 */
-  box-sizing: content-box; }
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-/**
- * Define consistent border, margin, and padding.
- */
+  -webkit-appearance: none;
+}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
+  padding: 0.35em 0.625em 0.75em;
+}
 legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/**
- * Remove default vertical scrollbar in IE 8/9.
- */
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
 textarea {
-  overflow: auto; }
-
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
+  overflow: auto;
+}
 optgroup {
-  font-weight: bold; }
-
-/* Tables
-   ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
+  font-weight: bold;
+}
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
-
+  border-spacing: 0;
+}
 td,
 th {
-  padding: 0; }
-
+  padding: 0;
+}
 body {
   background: url("../img/darin/bg-newest.jpg") no-repeat;
   position: absolute;
@@ -360,14 +186,14 @@ body {
   height: 980px;
   z-index: -1;
   background-position: center top;
-  width: 100%; }
-
+  width: 100%;
+}
 .menu {
   width: 100%;
   height: 240px;
   background: url("../img/darin/darin-new-top.png") no-repeat;
-  background-position: center top; }
-
+  background-position: center top;
+}
 .logo {
   background: url("../img/darin/logo.png") no-repeat;
   width: 200px;
@@ -376,13 +202,13 @@ body {
   position: absolute;
   left: 50%;
   top: 20px;
-  margin-left: -100px; }
-
+  margin-left: -100px;
+}
 .sticky-menu {
   margin-top: -13px;
   height: 50px;
-  background: #b8afa7; }
-
+  background: #b8afa7;
+}
 .navigation-menu {
   text-align: center;
   width: 100%;
@@ -391,24 +217,24 @@ body {
   font-family: 'Lagom', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 13px; }
-
+  font-size: 13px;
+}
 .navigation-menu ul {
-  padding: 0px; }
-
+  padding: 0px;
+}
 .navigation-menu ul li {
   list-style-type: none;
-  display: inline-block; }
-
+  display: inline-block;
+}
 .navigation-menu li a {
   position: relative;
   display: block;
   padding: 0 18px;
   text-decoration: none;
   font-weight: normal;
-  color: white;
-  text-transform: uppercase; }
-
+  color: #fff;
+  text-transform: uppercase;
+}
 .sticky {
   position: fixed;
   width: 100%;
@@ -416,454 +242,487 @@ body {
   left: 0;
   top: 0;
   z-index: 100;
-  background: #b8afa7; }
-
+  background: #b8afa7;
+}
 .sticky-mobile-menu {
-  display: none; }
-
+  display: none;
+}
 .navigation-menu-sticky {
-  line-height: 30px; }
-
-/*******************************************************/
-/********************** GENERAL ************************/
-/*******************************************************/
+  line-height: 30px;
+}
 @font-face {
   font-family: 'Lagom';
-  src: url(../fonts/darin/LagomGeometrisk-Regular.ttf); }
+  src: url("../fonts/darin/LagomGeometrisk-Regular.ttf");
+}
 body {
-  font-family: 'Lagom'; }
-
-/*******************************************************/
-/************************ MENU *************************/
-/*******************************************************/
-/*******************************************************/
-/************************ SHOP *************************/
-/*******************************************************/
+  font-family: 'Lagom';
+}
 #shop {
-  background-color: black;
+  background-color: #000;
   width: 100%;
-  margin-top: 31.8%; }
-  #shop #items {
-    margin: 0 auto;
-    padding-bottom: 5%;
-    padding-top: 2.5%;
-    width: 70%; }
-    #shop #items ul {
-      list-style-type: none;
-      padding: 0px;
-      margin: 0px;
-      overflow: hidden; }
-      #shop #items ul .item {
-        float: none;
-        margin: 1.5%;
-        width: 100%; }
-        #shop #items ul .item img {
-          width: 100%;
-          margin-bottom: -10px; }
-        #shop #items ul .item .item-info {
-          background-color: white;
-          padding: 0.5em 1em; }
-          #shop #items ul .item .item-info h2 {
-            font-size: 1em;
-            text-transform: uppercase; }
-          #shop #items ul .item .item-info p {
-            font-size: 0.8em; }
-
-/******************** SHOP 'POPUP' *********************/
+  margin-top: 31.8%;
+}
+#shop #items {
+  margin: 0 auto;
+  padding-bottom: 5%;
+  padding-top: 2.5%;
+  width: 70%;
+}
+#shop #items ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#shop #items ul .item {
+  float: none;
+  margin: 1.5%;
+  width: 100%;
+}
+#shop #items ul .item img {
+  width: 100%;
+  margin-bottom: -10px;
+}
+#shop #items ul .item .item-info {
+  background-color: #fff;
+  padding: 0.5em 1em;
+}
+#shop #items ul .item .item-info h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+#shop #items ul .item .item-info p {
+  font-size: 0.8em;
+}
 .item-show {
-  background-color: white;
+  background-color: #fff;
   display: none;
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+}
+.item-show img {
+  height: auto;
+  padding: 2%;
+}
+.item-show .item-info {
+  padding: 1% 3%;
+}
+.item-show .item-info p {
+  font-weight: normal;
+}
+.item-show .item-info fieldset {
+  border: none;
+  padding-left: 0;
+}
+.item-show .item-info h3 {
+  font-size: 1.1em;
+}
+.item-show .item-info .price {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.8em;
+}
+.item-show .item-info .button {
+  background-color: #000;
+  color: #fff;
+  margin-top: 1em;
+  width: 150px;
+}
+.item-show .item-info .button p {
+  font-size: 0.7em;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.item-show .fa {
+  font-size: 1.5em;
+  margin-right: 2%;
+  margin-top: 2%;
+  width: 1%;
+}
+footer {
+  background-color: #363636;
+  color: #fff;
+  outline: solid #000 1px;
+  width: 100%;
+}
+footer h5 {
+  text-transform: uppercase;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+footer ul li {
+  font-size: 0.7em;
+  padding-bottom: 1em;
+}
+footer ul li:hover {
+  color: #808080;
+}
+footer .contact,
+footer .about {
+  float: none;
+  margin-left: 1.5em;
+  margin-top: 2em;
+}
+.wrapper {
+  margin-top: 25%;
+  width: 100%;
+}
+.wrapper .content {
+  background-color: #fff;
+  margin: 0 auto;
+  outline: solid #f00 1px;
+  padding: 3em 8em;
+  width: 50%;
+}
+.wrapper .content h1,
+.wrapper .content h2,
+.wrapper .content h3 {
+  text-transform: uppercase;
+}
+.wrapper .content h1 {
+  font-size: 1.8em;
+}
+.wrapper .content h2 {
+  padding-top: 2em;
+  font-size: 1.3em;
+}
+.wrapper .content h3 {
+  font-size: 1em;
+}
+.wrapper .content p {
+  font-size: 0.9em;
+}
+.wrapper .content fieldset {
+  border: none;
+}
+.wrapper .content fieldset input[type=text],
+.wrapper .content fieldset textarea {
+  display: block;
+}
+.wrapper .content fieldset input,
+.wrapper .content fieldset textarea,
+.wrapper .content fieldset select {
+  color: #000;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  padding: 1%;
+  width: 40%;
+}
+.wrapper .content fieldset textarea {
+  height: 100px;
+}
+@media screen and (max-width: 639px) {
+  .navigation-menu {
+    display: none;
+  }
+  .sticky-menu {
+    margin-top: -240px;
+  }
+  .sticky-mobile-menu {
+    display: none;
+    position: absolute;
+    border-top: 1px solid #fff;
+    width: 100%;
+    background: #b8afa7;
+  }
+  .sticky-mobile-menu ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+  .sticky-mobile-menu ul li {
+    list-style-type: none;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    display: block;
+  }
+  .sticky-mobile-menu li a {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 20px;
+  }
+  .logo {
+    margin-top: 50px;
+  }
+  .mobile-menu {
+    float: right;
+    margin-right: 12px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+  }
+  .mobile-menu:hover {
+    background-color: #d3d3d3;
+    cursor: pointer;
+  }
+  .hamburger-menu {
+    top: 19px;
+    right: 23px;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+  }
+  .hamburger-menu:after,
+  .hamburger-menu:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 5px;
+  }
+  .hamburger-menu:after {
+    top: 6px;
+  }
+  .hamburger-menu:before {
+    top: 12px;
+  }
+  .slide {
+    display: none;
+    margin-top: 31px;
+    padding-top: 55px;
+    width: 100%;
+    height: 25px;
+    background-color: #000;
+  }
+  #shop {
+    margin-top: 130%;
+  }
+  #shop #items ul .item {
+    margin-bottom: 2em;
+  }
+  .item-show {
+    margin: 0 auto;
+  }
+  .item-show img {
+    width: 96%;
+  }
+  .item-show .item-info {
+    padding: 1% 3%;
+    width: 98%;
+  }
+  .item-show .item-info .price {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.8em;
+  }
+  .item-show .item-info .button {
+    margin-top: 1em;
+  }
+  .item-show .fa {
+    margin-left: 2%;
+    padding-bottom: 3%;
+  }
+  #footer {
+    height: 20em;
+    padding-top: 1.5em;
+  }
+  #footer img {
+    display: none;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .navigation-menu {
+    display: none;
+  }
+  .sticky-menu {
+    margin-top: -240px;
+  }
+  .sticky-mobile-menu {
+    display: none;
+    position: absolute;
+    border-top: 1px solid #fff;
+    width: 100%;
+    background: #b8afa7;
+  }
+  .sticky-mobile-menu ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+  .sticky-mobile-menu ul li {
+    list-style-type: none;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    display: block;
+  }
+  .sticky-mobile-menu li a {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 20px;
+  }
+  .logo {
+    margin-top: 50px;
+  }
+  .mobile-menu {
+    float: right;
+    margin-right: 12px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+  }
+  .mobile-menu:hover {
+    background-color: #d3d3d3;
+    cursor: pointer;
+  }
+  .hamburger-menu {
+    top: 19px;
+    right: 23px;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+  }
+  .hamburger-menu:after,
+  .hamburger-menu:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 5px;
+  }
+  .hamburger-menu:after {
+    top: 6px;
+  }
+  .hamburger-menu:before {
+    top: 12px;
+  }
+  .slide {
+    display: none;
+    margin-top: 31px;
+    padding-top: 55px;
+    width: 100%;
+    height: 25px;
+    background-color: #000;
+  }
+  #shop {
+    margin-top: 80%;
+  }
+  #shop #items {
+    width: 80%;
+  }
+  #shop #items ul .item {
+    float: left;
+    margin: 1%;
+    width: 31%;
+  }
+  #footer {
+    height: 18em;
+  }
+  #footer #contact,
+  #footer #about {
+    float: left;
+    margin-left: 3em;
+  }
+  #footer img {
+    margin-left: 3em;
+    margin-top: 2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  #shop #items {
+    width: 70%;
+  }
+  #shop #items ul .item {
+    float: left;
+    margin: 1.5%;
+    width: 22%;
+  }
+  .item-show {
+    background-color: #fff;
+    display: none;
+    height: 450px;
+    margin: 0 auto;
+    width: 100%;
+  }
   .item-show img {
     height: auto;
-    padding: 2%; }
+    padding: 2%;
+    width: 46%;
+  }
   .item-show .item-info {
-    padding: 1% 3%; }
-    .item-show .item-info p {
-      font-weight: normal; }
-    .item-show .item-info fieldset {
-      border: none;
-      padding-left: 0; }
-    .item-show .item-info h3 {
-      font-size: 1.1em; }
-    .item-show .item-info .price {
-      font-size: 2em;
-      font-weight: bold;
-      margin-top: 0.8em; }
-    .item-show .item-info .button {
-      background-color: black;
-      color: white;
-      margin-top: 1em;
-      width: 150px; }
-      .item-show .item-info .button p {
-        font-size: 0.7em;
-        line-height: 35px;
-        text-align: center;
-        text-transform: uppercase; }
+    padding: 1% 3%;
+    width: 40%;
+  }
+  .item-show .item-info p {
+    font-weight: normal;
+  }
+  .item-show .item-info fieldset {
+    border: none;
+    float: left;
+    padding-left: 0;
+  }
+  .item-show .item-info fieldset:nth-of-type(2) {
+    margin-left: 2em;
+  }
+  .item-show .item-info h3 {
+    font-size: 1.1em;
+  }
+  .item-show .item-info .price,
+  .item-show .item-info .button {
+    float: left;
+  }
+  .item-show .item-info .price {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.8em;
+  }
+  .item-show .item-info .button {
+    background-color: #000;
+    color: #fff;
+    margin-left: 5em;
+    margin-top: 1em;
+    width: 150px;
+  }
+  .item-show .item-info .button p {
+    font-size: 0.7em;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+  }
   .item-show .fa {
     font-size: 1.5em;
     margin-right: 2%;
     margin-top: 2%;
-    width: 1%; }
-
-/*******************************************************/
-/*********************** FOOTER ************************/
-/*******************************************************/
-footer {
-  background-color: #363636;
-  color: white;
-  outline: solid black 1px;
-  width: 100%; }
-  footer h5 {
-    text-transform: uppercase; }
-  footer ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px; }
-    footer ul li {
-      font-size: 0.7em;
-      padding-bottom: 1em; }
-      footer ul li:hover {
-        color: grey; }
-  footer .contact, footer .about {
-    float: none;
-    margin-left: 1.5em;
-    margin-top: 2em; }
-
-/*******************************************************/
-/******************* LINKS IN FOOTER *******************/
-/*******************************************************/
-.wrapper {
-  margin-top: 25%;
-  width: 100%; }
-  .wrapper .content {
-    background-color: white;
-    margin: 0 auto;
-    outline: solid red 1px;
-    padding: 3em 8em;
-    width: 50%; }
-    .wrapper .content h1, .wrapper .content h2, .wrapper .content h3 {
-      text-transform: uppercase; }
-    .wrapper .content h1 {
-      font-size: 1.8em; }
-    .wrapper .content h2 {
-      padding-top: 2em;
-      font-size: 1.3em; }
-    .wrapper .content h3 {
-      font-size: 1em; }
-    .wrapper .content p {
-      font-size: 0.9em; }
-    .wrapper .content fieldset {
-      border: none; }
-      .wrapper .content fieldset input[type=text], .wrapper .content fieldset textarea {
-        display: block; }
-      .wrapper .content fieldset input, .wrapper .content fieldset textarea, .wrapper .content fieldset select {
-        color: black;
-        margin-bottom: 5%;
-        margin-top: 1%;
-        padding: 1%;
-        width: 40%; }
-      .wrapper .content fieldset textarea {
-        height: 100px; }
-
-@media screen and (max-width: 639px) {
-  /*******************************************************/
-  /************************ MENU *************************/
-  /*******************************************************/
-  .navigation-menu {
-    display: none; }
-
-  .sticky-menu {
-    margin-top: -240px; }
-
-  .sticky-mobile-menu {
-    display: none;
-    position: absolute;
-    border-top: 1px solid white;
-    width: 100%;
-    background: #b8afa7; }
-
-  .sticky-mobile-menu ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px; }
-
-  .sticky-mobile-menu ul li {
-    list-style-type: none;
-    padding: 10px 15px 10px 15px;
-    text-align: center;
-    display: block; }
-
-  .sticky-mobile-menu li a {
-    color: white;
-    letter-spacing: 1px;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 20px; }
-
-  .logo {
-    margin-top: 50px; }
-
-  .mobile-menu {
-    float: right;
-    margin-right: 12px;
-    margin-top: 10px;
-    border: 1px solid white;
-    border-radius: 5px;
-    width: 40px;
-    height: 30px; }
-
-  .mobile-menu:hover {
-    background-color: #D3D3D3;
-    cursor: pointer; }
-
-  .hamburger-menu {
-    top: 19px;
-    right: 23px;
-    width: 20px;
-    height: 2px;
-    background-color: #fff;
-    border-radius: 4px;
-    position: absolute; }
-
-  .hamburger-menu:after, .hamburger-menu:before {
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    border-radius: 5px; }
-
-  .hamburger-menu:after {
-    top: 6px; }
-
-  .hamburger-menu:before {
-    top: 12px; }
-
-  .slide {
-    display: none;
-    margin-top: 31px;
-    padding-top: 55px;
-    width: 100%;
-    height: 25px;
-    background-color: black; }
-
-  /*******************************************************/
-  /************************ SHOP *************************/
-  /*******************************************************/
-  #shop {
-    margin-top: 130%; }
-    #shop #items ul .item {
-      margin-bottom: 2em; }
-
-  /******************** SHOP 'POPUP' *********************/
-  .item-show {
-    margin: 0 auto; }
-    .item-show img {
-      width: 96%; }
-    .item-show .item-info {
-      padding: 1% 3%;
-      width: 98%; }
-      .item-show .item-info .price {
-        font-size: 2em;
-        font-weight: bold;
-        margin-top: 0.8em; }
-      .item-show .item-info .button {
-        margin-top: 1em; }
-    .item-show .fa {
-      margin-left: 2%;
-      padding-bottom: 3%; }
-
-  /*******************************************************/
-  /*********************** FOOTER ************************/
-  /*******************************************************/
-  #footer {
-    height: 20em;
-    padding-top: 1.5em; }
-    #footer img {
-      display: none; } }
-@media screen and (min-width: 640px) and (max-width: 767px) {
-  /*******************************************************/
-  /************************ MENU *************************/
-  /*******************************************************/
-  .navigation-menu {
-    display: none; }
-
-  .sticky-menu {
-    margin-top: -240px; }
-
-  .sticky-mobile-menu {
-    display: none;
-    position: absolute;
-    border-top: 1px solid white;
-    width: 100%;
-    background: #b8afa7; }
-
-  .sticky-mobile-menu ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px; }
-
-  .sticky-mobile-menu ul li {
-    list-style-type: none;
-    padding: 10px 15px 10px 15px;
-    text-align: center;
-    display: block; }
-
-  .sticky-mobile-menu li a {
-    color: white;
-    letter-spacing: 1px;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 20px; }
-
-  .logo {
-    margin-top: 50px; }
-
-  .mobile-menu {
-    float: right;
-    margin-right: 12px;
-    margin-top: 10px;
-    border: 1px solid white;
-    border-radius: 5px;
-    width: 40px;
-    height: 30px; }
-
-  .mobile-menu:hover {
-    background-color: #D3D3D3;
-    cursor: pointer; }
-
-  .hamburger-menu {
-    top: 19px;
-    right: 23px;
-    width: 20px;
-    height: 2px;
-    background-color: #fff;
-    border-radius: 4px;
-    position: absolute; }
-
-  .hamburger-menu:after, .hamburger-menu:before {
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    border-radius: 5px; }
-
-  .hamburger-menu:after {
-    top: 6px; }
-
-  .hamburger-menu:before {
-    top: 12px; }
-
-  .slide {
-    display: none;
-    margin-top: 31px;
-    padding-top: 55px;
-    width: 100%;
-    height: 25px;
-    background-color: black; }
-
-  /*******************************************************/
-  /************************ SHOP *************************/
-  /*******************************************************/
-  #shop {
-    margin-top: 80%; }
-    #shop #items {
-      width: 80%; }
-      #shop #items ul .item {
-        float: left;
-        margin: 1%;
-        width: 31%; }
-
-  /*******************************************************/
-  /*********************** FOOTER ************************/
-  /*******************************************************/
-  #footer {
-    height: 18em; }
-    #footer #contact, #footer #about {
-      float: left;
-      margin-left: 3em; }
-    #footer img {
-      margin-left: 3em;
-      margin-top: 2em; } }
-@media screen and (min-width: 768px) {
-  /*******************************************************/
-  /************************ SHOP *************************/
-  /*******************************************************/
-  #shop #items {
-    width: 70%; }
-    #shop #items ul .item {
-      float: left;
-      margin: 1.5%;
-      width: 22%; }
-
-  /******************** SHOP 'POPUP' *********************/
-  .item-show {
-    background-color: white;
-    display: none;
-    height: 450px;
-    margin: 0 auto;
-    width: 100%; }
-    .item-show img {
-      height: auto;
-      padding: 2%;
-      width: 46%; }
-    .item-show .item-info {
-      padding: 1% 3%;
-      width: 40%; }
-      .item-show .item-info p {
-        font-weight: normal; }
-      .item-show .item-info fieldset {
-        border: none;
-        float: left;
-        padding-left: 0; }
-      .item-show .item-info fieldset:nth-of-type(2) {
-        margin-left: 2em; }
-      .item-show .item-info h3 {
-        font-size: 1.1em; }
-      .item-show .item-info .price, .item-show .item-info .button {
-        float: left; }
-      .item-show .item-info .price {
-        font-size: 2em;
-        font-weight: bold;
-        margin-top: 0.8em; }
-      .item-show .item-info .button {
-        background-color: black;
-        color: white;
-        margin-left: 5em;
-        margin-top: 1em;
-        width: 150px; }
-        .item-show .item-info .button p {
-          font-size: 0.7em;
-          line-height: 35px;
-          text-align: center;
-          text-transform: uppercase; }
-    .item-show .fa {
-      font-size: 1.5em;
-      margin-right: 2%;
-      margin-top: 2%;
-      width: 1%; }
-    .item-show img, .item-show .item-info, .item-show .fa {
-      float: left; }
-
-  /*******************************************************/
-  /*********************** FOOTER ************************/
-  /*******************************************************/
+    width: 1%;
+  }
+  .item-show img,
+  .item-show .item-info,
+  .item-show .fa {
+    float: left;
+  }
   footer {
     height: 18em;
-    outline: solid black 1px;
-    width: 100%; }
-    footer .contact, footer .about {
-      float: left;
-      margin-left: 10em; }
-    footer img {
-      margin-left: 10em;
-      margin-top: 2em;
-      display: block;
-      clear: both; } }
-
-/*# sourceMappingURL=style.css.map */
+    outline: solid #000 1px;
+    width: 100%;
+  }
+  footer .contact,
+  footer .about {
+    float: left;
+    margin-left: 10em;
+  }
+  footer img {
+    clear: both;
+    display: block;
+    margin-left: 10em;
+    margin-top: 2em;
+  }
+}
