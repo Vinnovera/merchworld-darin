@@ -40,16 +40,21 @@ hej
 				  	<option value="charcoal">charcoal</option>
 				</select>
 			</fieldset>
-			<div class="clearfix"></div>
 
 			<p class="price">249:-</p>
-			<div class="button">
+			<button type="button">
 				<p>Lägg i varukorgen</p>
+			</button>
+			
+			<div class="back">
+				<a href="index.php">
+					<i class="fa fa-long-arrow-left"></i>
+					<p>Tillbaka till shoppen</p>
+				</a>
 			</div>
-			<div class="clearfix"></div>
+			
 
 		</div>
-		<i class="fa fa-times"></i>	
 	</div>
 </div>
 

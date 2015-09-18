@@ -17,6 +17,10 @@ body{
     background-position: center top;
     width: 100%;
 }
+
+a{
+	text-decoration: none;
+}
 /*******************************************************/
 /************************ MENU *************************/
 /*******************************************************/
@@ -97,8 +101,9 @@ body{
 				font-weight: bold;
 			}
 
-			.button{
+			button{
 				background-color: black;
+				border: none;
 				color: white;
 				width: 150px;
 
@@ -107,7 +112,6 @@ body{
 					line-height: 35px;
 					text-align: center;
 					text-transform: uppercase;
-					padding: 4%;
 				}
 				
 				&:hover{
@@ -115,10 +119,26 @@ body{
 					color: black;
 				}	
 			}
-		}
-
-		.fa{
-			font-size: 1.5em;
+			
+			.back{
+				
+				a{
+					color: black;
+					
+					&:visited{
+						color: black;
+					}
+					
+					.fa{
+						margin-right: 0.4em;
+						vertical-align: middle;
+					}
+					
+					.fa, p{
+						line-height: 1em;
+					}
+				}
+			}
 		}
 	}
 }
