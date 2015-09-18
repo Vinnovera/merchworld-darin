@@ -251,6 +251,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #f00;
 }
 .shop {
   background-color: #000;
