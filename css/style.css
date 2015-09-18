@@ -193,6 +193,9 @@ body {
   background-position: center top;
   width: 100%;
 }
+a {
+  text-decoration: none;
+}
 .shop {
   background-color: #000;
   padding-top: 5%;
@@ -210,12 +213,17 @@ body {
   margin: 0px;
   overflow: hidden;
 }
+.shop .items ul a {
+  color: #000;
+}
+.shop .items ul a:hover {
+  color: #000;
+}
 .shop .items ul .item {
   float: none;
 }
 .shop .items ul .item img {
   width: 100%;
-  margin-bottom: -10px;
 }
 .shop .items ul .item .item-info {
   background-color: #fff;
@@ -239,35 +247,66 @@ body {
 .shop .item-show .item-info p {
   font-weight: normal;
 }
-.shop .item-show .item-info fieldset {
+.shop .item-show .item-info .options fieldset {
   border: none;
+  margin-left: 0;
   padding-left: 0;
 }
-.shop .item-show .item-info h3 {
+.shop .item-show .item-info .options h3 {
   font-size: 1.1em;
 }
-.shop .item-show .item-info .price {
+.shop .item-show .item-info .options p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.shop .item-show .item-info .options .price {
   font-size: 2em;
   font-weight: bold;
 }
-.shop .item-show .item-info .button {
+.shop .item-show .item-info .options button {
   background-color: #000;
+  border: none;
   color: #fff;
   width: 150px;
 }
-.shop .item-show .item-info .button p {
+.shop .item-show .item-info .options button p {
   font-size: 0.7em;
   line-height: 35px;
+  padding: 0.5em;
   text-align: center;
   text-transform: uppercase;
-  padding: 4%;
 }
-.shop .item-show .item-info .button:hover {
+.shop .item-show .item-info .options button:hover {
   background-color: #01abed;
   color: #000;
 }
-.shop .item-show .fa {
-  font-size: 1.5em;
+.shop .item-show .item-info .back {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.shop .item-show .item-info .back a {
+  color: #000;
+}
+.shop .item-show .item-info .back a:visited {
+  color: #000;
+}
+.shop .item-show .item-info .back a:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.shop .item-show .item-info .back a .fa,
+.shop .item-show .item-info .back a p {
+  float: right;
+  line-height: 1em;
+  vertical-align: middle;
+}
+.shop .item-show .item-info .back a .fa {
+  margin-right: 0.4em;
+}
+.shop .item-show .item-info .back a p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 footer {
   background-color: #363636;
@@ -448,17 +487,13 @@ footer img {
   }
   .shop .item-show .item-info {
     padding: 1% 5%;
-    width: 80%;
+    width: 90%;
   }
   .shop .item-show .item-info .price {
     margin-top: 0.8em;
   }
-  .shop .item-show .item-info .button {
+  .shop .item-show .item-info button {
     margin-top: 1em;
-  }
-  .shop .item-show .fa {
-    margin-left: 5%;
-    padding-bottom: 5%;
   }
   #footer {
     height: 20em;
@@ -554,34 +589,30 @@ footer img {
     width: 31%;
   }
   .shop .item-show {
-    width: 90%;
+    width: 80%;
   }
   .shop .item-show img {
     width: 96%;
   }
   .shop .item-show .item-info {
     padding: 1% 5%;
-    width: 80%;
+    width: 90%;
   }
   .shop .item-show .item-info .price {
     margin-top: 0.8em;
   }
-  .shop .item-show .item-info .button {
+  .shop .item-show .item-info button {
     margin-top: 1em;
   }
-  .shop .item-show .fa {
-    margin-left: 5%;
-    padding-bottom: 5%;
-  }
-  #footer {
+  footer {
     height: 18em;
   }
-  #footer #contact,
-  #footer #about {
+  footer .contact,
+  footer .about {
     float: left;
     margin-left: 3em;
   }
-  #footer img {
+  footer img {
     margin-left: 3em;
     margin-top: 2em;
   }
@@ -591,8 +622,11 @@ footer img {
     background: url("../img/darin/darin-new-top.png") no-repeat;
     background-position: center top;
     height: 980px;
+/*******************************************************/
+/************************ SHOP *************************/
+/*******************************************************/
   }
-  header img {
+  header .shop img {
     width: 200px;
     height: 200px;
     background-size: 200px;
@@ -601,26 +635,26 @@ footer img {
     top: 20px;
     margin-left: -100px;
   }
-  .menu {
+  header .menu {
     position: absolute;
     width: 100%;
     top: 240px;
     height: 50px;
     background: #b8afa7;
   }
-  .menu button {
+  header .menu button {
     display: none;
   }
-  .main-menu ul {
+  header .main-menu ul {
     text-align: center;
     margin: 0 auto;
     list-style-type: none;
     height: 50px;
   }
-  .main-menu ul li {
+  header .main-menu ul li {
     display: inline-block;
   }
-  .main-menu ul li a {
+  header .main-menu ul li a {
     margin-left: 25px;
     margin-right: 25px;
     padding: 15px;
@@ -633,54 +667,81 @@ footer img {
     text-transform: uppercase;
     float: left;
   }
-  .shop {
+  header .shop {
     margin-top: -8.9%;
     padding-top: 1%;
   }
-  .shop .items {
+  header .shop .items {
     width: 70%;
   }
-  .shop .items ul .item {
+  header .shop .items .item {
     float: left;
     margin: 1.5%;
     width: 22%;
   }
-  .shop .item-show {
+  header .item-show {
     margin-bottom: 5%;
     overflow: hidden;
     width: 80%;
   }
-  .shop .item-show img {
+  header .item-show img {
     width: 46%;
   }
-  .shop .item-show .item-info {
+  header .item-show .item-info {
     padding: 1% 3%;
     width: 40%;
   }
-  .shop .item-show .fa {
+  header .item-show .fa {
     margin-right: 2%;
     margin-top: 2%;
     width: 1%;
   }
-  .shop .item-show img,
-  .shop .item-show .item-info,
-  .shop .item-show .fa {
+  header .item-show img {
+    width: 40%;
+  }
+  header .item-show .item-info {
+    padding: 1% 3%;
+    width: 50%;
+  }
+  header .item-show .item-info .options {
+    width: 100%;
+  }
+  header .item-show .item-info .options fieldset,
+  header .item-show .item-info .options .price,
+  header .item-show .item-info .options button {
+    float: left;
+  }
+  header .item-show .item-info .options fieldset:nth-of-type(2) {
+    margin-left: 1em;
+  }
+  header .item-show .item-info .options button {
+    margin-left: 2em;
+  }
+  header .item-show .item-info .options:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  header .item-show .item-info .options:nth-of-type(2) {
+    margin-top: 1em;
+  }
+  header .item-show img,
+  header .item-show .item-info {
     float: left;
   }
   footer {
     height: 18em;
-    outline: solid #000 1px;
     width: 100%;
   }
   footer .contact,
   footer .about {
     float: left;
-    margin-left: 10em;
+    margin-left: 5em;
   }
   footer img {
     clear: both;
     display: block;
-    margin-left: 10em;
+    margin-left: 5em;
     padding-top: 1em;
   }
 }
