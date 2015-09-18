@@ -353,7 +353,7 @@ a {
 }
 .shop .item-show .item-info .back a .fa,
 .shop .item-show .item-info .back a p {
-  float: left;
+  float: right;
   line-height: 1em;
   vertical-align: middle;
 }
@@ -542,7 +542,7 @@ footer img {
   }
   .shop .item-show .item-info {
     padding: 1% 5%;
-    width: 80%;
+    width: 90%;
   }
   .shop .item-show .item-info .price {
     margin-top: 0.8em;
@@ -651,7 +651,7 @@ footer img {
   }
   .shop .item-show .item-info {
     padding: 1% 5%;
-    width: 80%;
+    width: 90%;
   }
   .shop .item-show .item-info .price {
     margin-top: 0.8em;
@@ -659,15 +659,15 @@ footer img {
   .shop .item-show .item-info button {
     margin-top: 1em;
   }
-  #footer {
+  footer {
     height: 18em;
   }
-  #footer #contact,
-  #footer #about {
+  footer .contact,
+  footer .about {
     float: left;
     margin-left: 3em;
   }
-  #footer img {
+  footer img {
     margin-left: 3em;
     margin-top: 2em;
   }
@@ -721,18 +721,17 @@ footer img {
   }
   footer {
     height: 18em;
-    outline: solid #000 1px;
     width: 100%;
   }
   footer .contact,
   footer .about {
     float: left;
-    margin-left: 10em;
+    margin-left: 5em;
   }
   footer img {
     clear: both;
     display: block;
-    margin-left: 10em;
+    margin-left: 5em;
     padding-top: 1em;
   }
 }

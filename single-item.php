@@ -53,8 +53,9 @@ hej
 			
 			<div class="back">
 				<a href="index.php">
-					<i class="fa fa-long-arrow-left"></i>
 					<p>Tillbaka till shoppen</p>
+					<i class="fa fa-long-arrow-left"></i>
+					
 				</a>
 			</div>
 			
