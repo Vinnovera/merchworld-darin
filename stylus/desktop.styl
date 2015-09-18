@@ -1,14 +1,72 @@
 /*******************************************************/
+/************************ MENU *************************/
+/*******************************************************/
+header {
+	background: url('../img/darin/darin-new-top.png') no-repeat;
+	background-position: center top;
+	height: 980px;
+	
+	img {
+		width: 200px;
+    	height: 200px;
+    	background-size: 200px;
+    	position: absolute;
+    	left: 50%;
+    	top: 20px;
+    	margin-left: -100px;
+	}
+}
+
+.menu {
+	position: absolute;
+	width: 100%
+	top: 240px;
+	height: 50px;
+	background: #b8afa7;
+	
+	button {
+		display: none;
+	}
+}
+
+.main-menu {
+
+	ul {
+		text-align: center;
+		margin: 0 auto;
+		list-style-type: none;
+		height: 50px;
+		
+		li {
+			display: inline-block;
+			a {
+				margin-left: 25px;
+				margin-right: 25px;
+				padding: 15px;
+				line-height: 20px;
+				text-decoration: none;
+				color: #fff;
+				font-size: 13px;
+				letter-spacing: 1px;
+				font-weight: bold;
+				text-transform: uppercase;
+				float: left;
+			}
+		}
+	}
+}
+
+/*******************************************************/
 /************************ SHOP *************************/
 /*******************************************************/
-.shop {
-	
+.shop{
+	margin-top: -8.9%;
 	//style, index.php (shopen)
-	.items {
+	.items{
+		padding-top: 0%;
 		width: 70%;
-		
-		ul { 
-			.item {
+		ul{
+			.item{
 				float: left;
 				margin: 1.5%;
 				width: 22%;
@@ -17,67 +75,52 @@
 	}
 	
 	//style, single-item.php (sida där en produkt visas)
-	.item-show {
+	.item-show{
 		margin-bottom: 5%;
 		overflow: hidden;
 		width: 80%;
 
-		img { 
+		img{
+			width: 46%;
+		}
+
+		.item-info{
+			padding: 1% 3%; 
 			width: 40%;
 		}
 
-		.item-info {
-			padding: 1% 3%; 
-			width: 50%;
-			
-			.options {
-				width: 100%;
-				
-				fieldset, .price, button {
-					float: left;
-				}
-				
-				fieldset:nth-of-type(2) {
-					margin-left: 1em;
-				}
-				
-				button {
-					margin-left: 2em;
-				}
-								
-				&:after {
-					clear: both;
-					content: "";
-					display: block;
-				}
-			}
-			
-			.options:nth-of-type(2) {
-				margin-top: 1em;
-			}
+		.fa{
+			margin-right: 2%;
+			margin-top: 2%;
+			width: 1%;
 		}
-		
-		img, .item-info {
+
+		img, .item-info, .fa{
 			float: left;
 		}
 	}
 }
+
+/******************** SHOP SINGLE ITEM *********************/
+
+
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
-footer {	
+footer{	
 	height: 18em;
+	outline: solid black 1px;
 	width: 100%;
 
-	.contact, .about {
+	.contact, .about{
 		float: left;
-		margin-left: 5em;
+		margin-left: 10em;
 	}
 
-	img {
+	img{
 		clear: both;
 		display: block;
-		margin-left: 5em;
+		margin-left: 10em;
 		padding-top: 1em;
 	}
 }
