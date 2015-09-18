@@ -8,7 +8,6 @@ $(document).ready(function() {
 
 	// on scroll
 	$(window).scroll(function() {
-		console.log('hello');
 
     	// get scroll position from top of the page
     	var scrollPos = $(this).scrollTop();
