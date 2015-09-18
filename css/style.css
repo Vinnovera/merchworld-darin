@@ -195,6 +195,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #00f;
 }
 .shop {
   background-color: #000;
@@ -618,115 +619,50 @@ footer img {
   }
 }
 @media screen and (min-width: 768px) {
-  header {
-    background: url("../img/darin/darin-new-top.png") no-repeat;
-    background-position: center top;
-    height: 980px;
-/*******************************************************/
-/************************ SHOP *************************/
-/*******************************************************/
-  }
-  header .shop img {
-    width: 200px;
-    height: 200px;
-    background-size: 200px;
-    position: absolute;
-    left: 50%;
-    top: 20px;
-    margin-left: -100px;
-  }
-  header .menu {
-    position: absolute;
-    width: 100%;
-    top: 240px;
-    height: 50px;
-    background: #b8afa7;
-  }
-  header .menu button {
-    display: none;
-  }
-  header .main-menu ul {
-    text-align: center;
-    margin: 0 auto;
-    list-style-type: none;
-    height: 50px;
-  }
-  header .main-menu ul li {
-    display: inline-block;
-  }
-  header .main-menu ul li a {
-    margin-left: 25px;
-    margin-right: 25px;
-    padding: 15px;
-    line-height: 20px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    text-transform: uppercase;
-    float: left;
-  }
-  header .shop {
-    margin-top: -8.9%;
-    padding-top: 1%;
-  }
-  header .shop .items {
+  .shop .items {
     width: 70%;
   }
-  header .shop .items .item {
+  .shop .items ul .item {
     float: left;
     margin: 1.5%;
     width: 22%;
   }
-  header .item-show {
+  .shop .item-show {
     margin-bottom: 5%;
     overflow: hidden;
     width: 80%;
   }
-  header .item-show img {
-    width: 46%;
-  }
-  header .item-show .item-info {
-    padding: 1% 3%;
+  .shop .item-show img {
     width: 40%;
   }
-  header .item-show .fa {
-    margin-right: 2%;
-    margin-top: 2%;
-    width: 1%;
-  }
-  header .item-show img {
-    width: 40%;
-  }
-  header .item-show .item-info {
+  .shop .item-show .item-info {
     padding: 1% 3%;
     width: 50%;
   }
-  header .item-show .item-info .options {
+  .shop .item-show .item-info .options {
     width: 100%;
   }
-  header .item-show .item-info .options fieldset,
-  header .item-show .item-info .options .price,
-  header .item-show .item-info .options button {
+  .shop .item-show .item-info .options fieldset,
+  .shop .item-show .item-info .options .price,
+  .shop .item-show .item-info .options button {
     float: left;
   }
-  header .item-show .item-info .options fieldset:nth-of-type(2) {
+  .shop .item-show .item-info .options fieldset:nth-of-type(2) {
     margin-left: 1em;
   }
-  header .item-show .item-info .options button {
+  .shop .item-show .item-info .options button {
     margin-left: 2em;
   }
-  header .item-show .item-info .options:after {
+  .shop .item-show .item-info .options:after {
     clear: both;
     content: "";
     display: block;
   }
-  header .item-show .item-info .options:nth-of-type(2) {
+  .shop .item-show .item-info .options:nth-of-type(2) {
     margin-top: 1em;
   }
-  header .item-show img,
-  header .item-show .item-info {
+  .shop .item-show img,
+  .shop .item-show .item-info {
     float: left;
   }
   footer {
