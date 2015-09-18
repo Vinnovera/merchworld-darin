@@ -178,62 +178,6 @@ td,
 th {
   padding: 0;
 }
-.menu {
-  width: 100%;
-  height: 240px;
-  background: url("../img/darin/darin-new-top.png") no-repeat;
-  background-position: center top;
-}
-.main-menu {
-  background: #b8afa7;
-}
-.navigation-menu {
-  text-align: center;
-  width: 100%;
-  line-height: 50px;
-  text-align: center;
-  font-family: 'Lagom', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 13px;
-}
-.navigation-menu ul {
-  padding: 0px;
-}
-.navigation-menu ul li {
-  list-style-type: none;
-  display: inline-block;
-}
-.navigation-menu li a {
-  position: relative;
-  display: block;
-  padding: 0 18px;
-  text-decoration: none;
-  font-weight: normal;
-  color: #fff;
-  text-transform: uppercase;
-}
-.sticky {
-  position: fixed;
-  width: 100%;
-  height: 50px;
-  left: 0;
-  top: 0;
-  z-index: 100;
-  background: #b8afa7;
-}
-.sticky-mobile-menu {
-  display: none;
-}
-.navigation-menu-sticky {
-  line-height: 30px;
-}
-.mobile-menu {
-  display: none;
-}
-.mobile-menu-dropdown {
-  display: none;
-}
 @font-face {
   font-family: 'Lagom';
   src: url("../fonts/darin/LagomGeometrisk-Regular.ttf");
@@ -455,6 +399,7 @@ footer img {
     margin-left: -100px;
   }
   .menu {
+    width: 100%;
     position: absolute;
     height: 50px;
     background: #b8afa7;
