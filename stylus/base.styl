@@ -6,7 +6,7 @@
     src: url(../fonts/darin/LagomGeometrisk-Regular.ttf);
 }
 
-body{
+body {
 	font-family: 'Lagom';
 	background: url('../img/darin/bg-newest.jpg') no-repeat; //fixed
     position: absolute;
@@ -18,7 +18,7 @@ body{
     width: 100%;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 /*******************************************************/
@@ -28,42 +28,49 @@ a{
 /*******************************************************/
 /************************ SHOP *************************/
 /*******************************************************/
-.shop{
+.shop {
 	background-color: black;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	width: 100%;
 
 	//style, index.php (shopen)
-	.items{
+	.items {
 		margin: 0 auto;
 		padding-bottom: 5%;
 		padding-top: 2.5%;
 
-		ul{
+		ul {
 			list-style-type: none;
 			padding: 0px;
     		margin: 0px;
     		overflow: hidden;
+    		
+    		a {
+    			color: black;
+    			
+    			&:hover {
+    				color: black;
+    			}
+    		}
 
-			.item{
+			.item {
 				float: none;
-
+				
 				img{
 					width: 100%;
-					margin-bottom: -10px;
 				}
 
-				.item-info{
+				.item-info {
 					background-color: white;
 					padding: 0.5em 1em;
 
-					h2{
+					h2 {
 						font-size: 1em;
 						text-transform: uppercase;
 					}
 
-					p{
+					p {
 						font-size: 0.8em;
 					}
 				}
@@ -72,70 +79,94 @@ a{
 	}
 	
 	//style, single-item.php (sida där en produkt visas)
-	.item-show{
+	.item-show {
 		background-color: white;
 		margin: 0 auto;
 
-		img{
+		img {
 			height: auto;
 			padding: 2%;
 		}
 
-		.item-info{
+		.item-info {
 
-			p{
+			p {
 				font-weight: normal;
 			}
 
-			fieldset{
-				border: none;
-				padding-left: 0;
-			}
+			.options{
+				fieldset {
+					border: none;
+					margin-left: 0;
+					padding-left: 0;
+				}
 
-			h3{
-				font-size: 1.1em;
-			}
-
-			.price{
-				font-size: 2em;
-				font-weight: bold;
-			}
-
-			button{
-				background-color: black;
-				border: none;
-				color: white;
-				width: 150px;
-
-				p{
-					font-size: 0.7em;
-					line-height: 35px;
-					text-align: center;
-					text-transform: uppercase;
+				h3 {
+					font-size: 1.1em;
 				}
 				
-				&:hover{
-					background-color: #01ABED;
-					color: black;
-				}	
+				p{
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+
+				.price {
+					font-size: 2em;
+					font-weight: bold;
+				}
+
+				button {
+					background-color: black;
+					border: none;
+					color: white;
+					width: 150px;
+
+					p {
+						font-size: 0.7em;
+						line-height: 35px;
+						padding: 0.5em;;
+						text-align: center;
+						text-transform: uppercase;
+					}
+					
+					&:hover {
+						background-color: #01ABED;
+						color: black;
+					}	
+				}
 			}
 			
-			.back{
+			//bakåtlänk till shoppen
+			.back {
+				margin-top: 1.5em;
+				margin-bottom: 1em;
 				
-				a{
+				a {
 					color: black;
 					
-					&:visited{
+					&:visited {
 						color: black;
 					}
 					
-					.fa{
-						margin-right: 0.4em;
+					&:after {
+						clear: both;
+						content: "";
+						display: block;
+					}
+					
+					.fa, p {
+						float: left;
+						line-height: 1em;
 						vertical-align: middle;
 					}
 					
-					.fa, p{
-						line-height: 1em;
+					.fa {
+						margin-right: 0.4em;
+					}
+					
+					p {
+						margin-top: 0;
+						margin-bottom: 0;
 					}
 				}
 			}
