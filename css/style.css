@@ -664,6 +664,13 @@ footer img {
     text-transform: uppercase;
     float: left;
   }
+  .fixed {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
   .shop {
     margin-top: -8.9%;
     padding-top: 3.5%;

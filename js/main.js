@@ -1,26 +1,26 @@
 $(document).ready(function() {
 	
-/*	var stickyNavTop = $('.sticky-menu').offset().top;
- 
-	var stickyNav = function(){
-		var scrollTop = $(window).scrollTop();
-	      
-		if (scrollTop > stickyNavTop) { 
-	    	$('.sticky-menu').addClass('sticky');
-	    	$('.navigation-menu').addClass('navigation-menu-sticky');
-	    	$('.sticky').removeClass('sticky-menu');
-		} else {
-	    	$('.sticky-menu').removeClass('sticky');
-	    	$('.navigation-menu').removeClass('navigation-menu-sticky');
-	    	$('.sticky').addClass('sticky-menu'); 
-		}
-	};
+	// cache the element
+	var $navBar = $('.menu');
 
-	stickyNav();
- 
+	// find original navigation bar position
+	var navPos = $navBar.offset().top;
+
+	// on scroll
 	$(window).scroll(function() {
-	    stickyNav();
-	});*/
+		console.log('hello');
+
+    	// get scroll position from top of the page
+    	var scrollPos = $(this).scrollTop();
+
+		// check if scroll position is >= the nav position
+		if (scrollPos >= navPos) {
+		    $navBar.addClass('fixed');
+		} else {
+		    $navBar.removeClass('fixed');
+		}
+
+	});
 
 	//När man klickar på en vara ('li') gömmer man shoppen och visar en div med information om varan som man har klickat på
 	$('.items-list li').on('click',function() {
