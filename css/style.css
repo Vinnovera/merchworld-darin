@@ -370,13 +370,12 @@ footer img {
 }
 .wrapper {
   background-color: #000;
-  margin-top: 25%;
+  padding-bottom: 5%;
   width: 100%;
 }
 .wrapper .content {
   background-color: #fff;
   margin: 0 auto;
-  outline: solid #f00 1px;
 }
 .wrapper .content h1,
 .wrapper .content h2,
@@ -534,8 +533,7 @@ footer img {
     height: 20em;
   }
   .wrapper {
-    margin-top: 100%;
-    width: 100%;
+    padding-top: 300px;
   }
   .wrapper .content {
     padding: 2% 5%;
@@ -648,11 +646,11 @@ footer img {
     margin-top: 2em;
   }
   .wrapper {
-    margin-top: 25%;
+    padding-top: 300px;
   }
   .wrapper .content {
-    padding: 2% 5%;
-    width: 80%;
+    padding: 2% 10%;
+    width: 60%;
   }
   .wrapper .content fieldset input,
   .wrapper .content fieldset textarea,
@@ -716,7 +714,7 @@ footer img {
     width: 44%;
   }
   .shop .item-show .item-image img {
-    width: 100%;
+    max-width: 100%;
   }
   .shop .item-show .item-image,
   .shop .item-show .item-info {
@@ -774,11 +772,10 @@ footer img {
     padding-top: 1em;
   }
   .wrapper {
-    margin-top: 15%;
     width: 100%;
   }
   .wrapper .content {
-    padding: 1em;
+    padding: 2em 15%;
     width: 45%;
   }
   .wrapper .content fieldset input,
