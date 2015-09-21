@@ -189,6 +189,33 @@ body a {
   text-decoration: none;
   color: #00f;
 }
+header {
+  background-color: #000;
+}
+header img {
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+}
+header .menu {
+  width: 100%;
+  position: absolute;
+  height: 50px;
+  background: #b8afa7;
+}
+header .menu .main-menu ul {
+  list-style-type: none;
+}
+header .menu .main-menu ul li a {
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
 .shop {
   background-color: #000;
   padding-top: 5%;
@@ -233,6 +260,7 @@ body a {
   background-color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 auto;
+  position: relative;
 }
 .shop .item-show .item-image img {
   height: auto;
@@ -418,21 +446,9 @@ footer img {
 }
 @media screen and (max-width: 640px) {
   header img {
-    width: 200px;
-    height: 200px;
-    background-size: 200px;
-    position: absolute;
-    left: 50%;
     top: 70px;
-    margin-left: -100px;
   }
-  .menu {
-    width: 100%;
-    position: absolute;
-    height: 50px;
-    background: #b8afa7;
-  }
-  .menu button {
+  header .menu button {
     width: 44px;
     height: 34px;
     float: right;
@@ -447,7 +463,7 @@ footer img {
     background: transparent;
     text-indent: -9999px;
   }
-  .menu button:after {
+  header .menu button:after {
     width: 22px;
     content: '';
     position: absolute;
@@ -456,7 +472,7 @@ footer img {
     right: 11px;
     border-bottom: 2px solid #fff;
   }
-  .menu button:before {
+  header .menu button:before {
     content: '';
     width: 22px;
     height: 4px;
@@ -468,36 +484,26 @@ footer img {
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
   }
-  .menu button:hover {
+  header .menu button:hover {
     background-color: #ddd;
   }
-  .main-menu {
+  header .menu .main-menu {
+    background: #b8afa7;
     margin-top: 50px;
     display: none;
     position: relative;
     border-top: 1px solid #fff;
-    width: 100%;
-    background: #b8afa7;
     z-index: 1;
   }
-  .main-menu ul {
+  header .menu .main-menu ul {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
   }
-  .main-menu ul li {
-    list-style-type: none;
+  header .menu .main-menu ul li {
     padding: 10px 15px 10px 15px;
     text-align: center;
     display: block;
-  }
-  .main-menu ul li a {
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 20px;
   }
   .shop {
     padding-top: 300px;
@@ -543,21 +549,9 @@ footer img {
 }
 @media screen and (min-width: 640px) and (max-width: 768px) {
   header img {
-    width: 200px;
-    height: 200px;
-    background-size: 200px;
-    position: absolute;
-    left: 50%;
     top: 70px;
-    margin-left: -100px;
   }
-  .menu {
-    width: 100%;
-    position: absolute;
-    height: 50px;
-    background: #b8afa7;
-  }
-  .menu button {
+  header .menu button {
     width: 44px;
     height: 34px;
     float: right;
@@ -572,7 +566,7 @@ footer img {
     background: transparent;
     text-indent: -9999px;
   }
-  .menu button:after {
+  header .menu button:after {
     width: 22px;
     content: '';
     position: absolute;
@@ -581,7 +575,7 @@ footer img {
     right: 11px;
     border-bottom: 2px solid #fff;
   }
-  .menu button:before {
+  header .menu button:before {
     content: '';
     width: 22px;
     height: 4px;
@@ -593,36 +587,26 @@ footer img {
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
   }
-  .menu button:hover {
+  header .menu button:hover {
     background-color: #ddd;
   }
-  .main-menu {
+  header .menu .main-menu {
+    background: #b8afa7;
     margin-top: 50px;
     display: none;
     position: relative;
     border-top: 1px solid #fff;
-    width: 100%;
-    background: #b8afa7;
     z-index: 1;
   }
-  .main-menu ul {
+  header .menu .main-menu ul {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
   }
-  .main-menu ul li {
-    list-style-type: none;
+  header .menu .main-menu ul li {
     padding: 10px 15px 10px 15px;
     text-align: center;
     display: block;
-  }
-  .main-menu ul li a {
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 13px;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 20px;
   }
   .shop {
     padding-top: 300px;
@@ -678,47 +662,30 @@ footer img {
 }
 @media screen and (min-width: 768px) {
   header {
-    background-color: #000;
     height: 350px;
   }
   header img {
-    width: 200px;
-    height: 200px;
-    background-size: 200px;
-    position: absolute;
-    left: 50%;
     top: 20px;
-    margin-left: -100px;
   }
-  .menu {
-    position: absolute;
-    width: 100%;
+  header .menu {
     top: 240px;
-    height: 50px;
-    background: #b8afa7;
   }
-  .menu button {
+  header .menu button {
     display: none;
   }
-  .main-menu ul {
+  header .menu .main-menu ul {
     text-align: center;
     margin: 0 auto;
-    list-style-type: none;
     height: 50px;
   }
-  .main-menu ul li {
+  header .menu .main-menu ul li {
     display: inline-block;
   }
-  .main-menu ul li a {
+  header .menu .main-menu ul li a {
     margin-left: 25px;
     margin-right: 25px;
     padding: 15px;
-    line-height: 20px;
-    color: #fff;
-    font-size: 13px;
-    letter-spacing: 1px;
     font-weight: bold;
-    text-transform: uppercase;
     float: left;
   }
   .fixed {
