@@ -11,10 +11,10 @@ require 'header.php';
 		<p>Telefontid: 9:00-11:30 , 12:30-15:30</p>
 
 		<h2>Företagsadress</h2>
-		<p>Vi finns i Vänersborg, Sverige.</p>
-		<p>Merchworld AB</p>
-		<p>Tenggrenstorpsvägen 15 A</p>
-		<p>462 56 Vänersborg</p>
+		<p>Vi finns i Vänersborg, Sverige. </p>
+		<p>Merchworld AB<br/>
+		Tenggrenstorpsvägen 15 A<br />
+		462 56 Vänersborg</p>
 		<p>Org nr 556679-8699</p>
 
 		<h2>Kontaktpersoner</h2>
@@ -46,6 +46,10 @@ require 'header.php';
 
 				<label for="textarea">Beskrivning: </label>
 				<textarea id="textarea" name="text"></textarea>
+
+				<button type="button">
+					<p>Skicka</p>
+				</button>
 			</fieldset>
 		</form>
 	</div>

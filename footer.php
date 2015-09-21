@@ -2,18 +2,18 @@
 		<div class="contact">
 			<h5>Frågor och kontakt</h5>
 			<ul>
-				<li>Köpvillkor</li>
-				<li>Vanliga frågor</li>
-				<li>Kontakt</li>
+				<li><a href="villkor.php">Köpvillkor</a></li>
+				<li><a href="fragor.php">Vanliga frågor</a></li>
+				<li><a href="contact.php">Kontakt</a></li>
 			</ul>
 		</div>
 
 		<div class="about">
 			<h5>Om oss</h5>
 			<ul>
-				<li>Om Merchworld</li>
-				<li>Tryck din egen t-shirt</li>
-				<li>Artister och företag</li>
+				<li><a href="about_merchworld.php">Om Merchworld</a></li>
+				<li><a href="http://print.merchworld.se/?shop=rebeccafiona">Tryck din egen t-shirt</a></li>
+				<li><a href="artists.php">Artister och företag</a></li>
 			</ul>
 		</div>
 		<!--<div class="clearfix"></div>-->

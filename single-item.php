@@ -1,14 +1,14 @@
 <?php
 require 'header.php';
 ?>
-
-hej
-
 <div class="shop">
 	<div class="item-show">
-		<a href="img/darin/dd1.jpg" data-lightbox="dd1">
-			<img src="img/darin/dd1.jpg">
-		</a>
+		<div class="item-image">
+			<a href="img/darin/dd1.jpg" data-lightbox="dd1">
+				<img src="img/darin/dd1.jpg">
+			</a>
+		</div>
+		
 		<div class="item-info">
 			<!-- info om produkten -->
 			<h2>DD1</h2>
