@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/fancybox.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
 					<li><a href="http://www.darinofficial.com/#spotify">Spotify</a></li>
 					<li><a href="">Store</a></li>
 					<li><a href="http://www.darinofficial.com/#contact">Contact</a></li>
-					<li><a href="">Varukorg</a></li>
+					<li><a href="#shopping-cart" class="fancybox" rel="group">Varukorg</a></li>
 				</ul>	
 			</nav>
 		</div>

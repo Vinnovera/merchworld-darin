@@ -39,7 +39,7 @@ require 'header.php';
 					<h3>Välj färg</h3>
 					<select name="Antal">
 						<option value="" selected disabled="">Color</option>
-					  	<option value="charcoal">charcoal</option>
+					  	<option value="charcoal">Charcoal</option>
 					</select>
 				</fieldset>
 			</div>

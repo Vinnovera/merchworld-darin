@@ -1,0 +1,283 @@
+/*******************************************************/
+/********************** GENERAL ************************/
+/*******************************************************/
+@font-face {
+  font-family: 'Lagom';
+  src: url("../fonts/darin/LagomGeometrisk-Regular.ttf");
+}
+body {
+  font-family: 'Lagom';
+}
+body a {
+  text-decoration: none;
+  color: #00f;
+}
+/*******************************************************/
+/************************ MENU *************************/
+/*******************************************************/
+header {
+  background-color: #000;
+}
+header img {
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+}
+header .menu {
+  width: 100%;
+  position: absolute;
+  height: 50px;
+  background: #b8afa7;
+}
+header .menu .main-menu ul {
+  list-style-type: none;
+}
+header .menu .main-menu ul li a {
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+/*******************************************************/
+/************************ SHOP *************************/
+/*******************************************************/
+.shop {
+  background-color: #000;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+}
+.shop .items {
+  margin: 0 auto;
+  padding-bottom: 5%;
+  padding-top: 2.5%;
+}
+.shop .items ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.shop .items ul a {
+  color: #000;
+}
+.shop .items ul a:hover {
+  color: #000;
+}
+.shop .items ul .item {
+  float: none;
+}
+.shop .items ul .item img {
+  width: 100%;
+}
+.shop .items ul .item .item-info {
+  background-color: #fff;
+  padding: 0.5em 1em;
+}
+.shop .items ul .item .item-info h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.shop .items ul .item .item-info p {
+  font-size: 0.8em;
+}
+.shop .item-show {
+  background-color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  position: relative;
+}
+.shop .item-show .item-image img {
+  height: auto;
+}
+.shop .item-show .item-info p {
+  font-weight: normal;
+}
+.shop .item-show .item-info .options fieldset {
+  border: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.shop .item-show .item-info .options h3 {
+  font-size: 1.1em;
+}
+.shop .item-show .item-info .options p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.shop .item-show .item-info .options .price {
+  font-size: 2em;
+  font-weight: bold;
+}
+.shop .item-show .item-info .options button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  height: 50px;
+  margin-top: 1em;
+  width: 200px;
+}
+.shop .item-show .item-info .options button p {
+  font-size: 0.7em;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.shop .item-show .item-info .options button:hover {
+  background-color: #01abed;
+  color: #000;
+}
+.shop .item-show .item-info .back {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.shop .item-show .item-info .back a {
+  color: #000;
+}
+.shop .item-show .item-info .back a:visited {
+  color: #000;
+}
+.shop .item-show .item-info .back a:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.shop .item-show .item-info .back a .fa,
+.shop .item-show .item-info .back a p {
+  float: right;
+  line-height: 1em;
+  vertical-align: middle;
+}
+.shop .item-show .item-info .back a .fa {
+  margin-right: 0.4em;
+}
+.shop .item-show .item-info .back a p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*******************************************************/
+/************************ SHOP *************************/
+/*******************************************************/
+/*******************************************************/
+/*********************** FOOTER ************************/
+/*******************************************************/
+footer {
+  background-color: #363636;
+  color: #fff;
+  outline: solid #000 1px;
+  width: 100%;
+}
+footer h5 {
+  text-transform: uppercase;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+footer ul li {
+  font-size: 0.7em;
+  padding-bottom: 1em;
+}
+footer ul li a {
+  color: #fff;
+}
+footer ul li a:visited {
+  color: #fff;
+}
+footer ul li a:hover {
+  color: #808080;
+}
+footer .contact,
+footer .about {
+  float: none;
+  margin-left: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+footer img {
+  display: none;
+}
+/*******************************************************/
+/******************* LINKS IN FOOTER *******************/
+/*******************************************************/
+.wrapper {
+  background-color: #000;
+  padding-bottom: 5%;
+  width: 100%;
+}
+.wrapper .content {
+  background-color: #fff;
+  margin: 0 auto;
+}
+.wrapper .content h1,
+.wrapper .content h2,
+.wrapper .content h3 {
+  text-transform: uppercase;
+}
+.wrapper .content h1 {
+  font-size: 1.8em;
+  margin-bottom: 0;
+}
+.wrapper .content h2 {
+  font-size: 1.3em;
+  margin-bottom: 0;
+  padding-top: 1.3em;
+}
+.wrapper .content h3 {
+  font-size: 0.9em;
+  margin-bottom: 0;
+  padding-top: 0.5em;
+}
+.wrapper .content h4 {
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+.wrapper .content p {
+  font-size: 0.9em;
+  line-height: 18px;
+  margin-top: 0.4em;
+}
+.wrapper .content fieldset {
+  border: none;
+  padding-left: 0;
+}
+.wrapper .content fieldset input[type=text],
+.wrapper .content fieldset textarea {
+  display: block;
+}
+.wrapper .content fieldset input,
+.wrapper .content fieldset textarea,
+.wrapper .content fieldset select {
+  color: #000;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  padding: 1%;
+}
+.wrapper .content fieldset textarea {
+  height: 100px;
+}
+.wrapper .content fieldset button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  height: 50px;
+  width: 200px;
+}
+.wrapper .content fieldset button p {
+  font-size: 1em;
+  line-height: 50px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.wrapper .content fieldset button:hover {
+  background-color: #01abed;
+  color: #000;
+}

@@ -22,6 +22,7 @@
 
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
 	<script src="js/main.js"></script>	
 </body>
 </html>

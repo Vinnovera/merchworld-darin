@@ -331,6 +331,62 @@ header .menu .main-menu ul li a {
   margin-top: 0;
   margin-bottom: 0;
 }
+#shopping-cart {
+  background-color: #fff;
+  display: none;
+  padding: 1em 2em;
+}
+#shopping-cart h1 {
+  margin: 0;
+  text-transform: uppercase;
+}
+#shopping-cart table {
+  width: 90%;
+}
+#shopping-cart table thead,
+#shopping-cart table tbody {
+  border-bottom: solid #d3d3d3 1px;
+}
+#shopping-cart table th,
+#shopping-cart table td {
+  padding: 0.6em;
+  white-space: nowrap;
+}
+#shopping-cart table th {
+  text-align: left;
+}
+#shopping-cart table img {
+  height: 100px;
+  width: 100px;
+}
+#shopping-cart button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  float: right;
+  height: 50px;
+  margin-top: 1em;
+  margin-left: 1em;
+  width: 200px;
+}
+#shopping-cart button p {
+  font-size: 0.7em;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+#shopping-cart button:hover {
+  background-color: #01abed;
+  color: #000;
+}
+#shopping-cart:after {
+  clear: both;
+  content: "";
+  display: block;
+}
 footer {
   background-color: #363636;
   color: #fff;
@@ -528,6 +584,57 @@ footer img {
   }
   .shop .item-show .item-info button {
     margin-top: 1em;
+  }
+  #shopping-cart {
+    background-color: #fff;
+    display: none;
+    padding: 1em 1em;
+  }
+  #shopping-cart h1 {
+    margin: 0;
+  }
+  #shopping-cart table,
+  #shopping-cart thead,
+  #shopping-cart tbody,
+  #shopping-cart th,
+  #shopping-cart td,
+  #shopping-cart tr {
+    display: block;
+  }
+  #shopping-cart thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  #shopping-cart td:before {
+/* Now like a table header */
+    position: absolute;
+/* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+  }
+  #shopping-cart tbody td {
+/* Behave  like a "row" */
+    border: none;
+    position: relative;
+    padding-left: 50%;
+  }
+  #shopping-cart tbody td:nth-of-type(2):before {
+    content: "Titel";
+  }
+  #shopping-cart tbody td:nth-of-type(3):before {
+    content: "Färg/Storlek";
+  }
+  #shopping-cart tbody td:nth-of-type(4):before {
+    content: "Antal";
+  }
+  #shopping-cart tbody td:nth-of-type(5):before {
+    content: "Pris";
+  }
+  #shopping-cart tbody td:nth-of-type(6):before {
+    content: "Ta bort";
   }
   #footer {
     height: 20em;
@@ -754,6 +861,33 @@ footer img {
   .shop .item-show .item-info .options:nth-of-type(2) p {
     line-height: 50px;
     vertical-align: middle;
+  }
+  #shopping-cart {
+    background-color: #fff;
+    display: none;
+    padding: 1em 2em;
+  }
+  #shopping-cart h1 {
+    margin: 0;
+  }
+  #shopping-cart table {
+    width: 90%;
+  }
+  #shopping-cart table thead,
+  #shopping-cart table tbody {
+    border-bottom: solid #d3d3d3 1px;
+  }
+  #shopping-cart table th,
+  #shopping-cart table td {
+    padding: 0.6em;
+    white-space: nowrap;
+  }
+  #shopping-cart table th {
+    text-align: left;
+  }
+  #shopping-cart table img {
+    height: 100px;
+    width: 100px;
   }
   footer {
     height: 18em;

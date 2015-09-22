@@ -10,22 +10,6 @@ $(document).ready(function() {
 		fixedMenu();
 	});
 
-	//När man klickar på en vara ('li') gömmer man shoppen och visar en div med information om varan som man har klickat på
-	$('.items-list li').on('click',function() {
-		$('.items-list').hide();
-		$('.item-show').show();
-		loadContent();
-	});
-
-	//När man klickar på x töms 'item-show' och shoppen visas igen
-	$('item-show').on('click',function() {
-		$('.item-show').empty();
-		$('.items-list').show();
-		
-	});	
- 
-
-
 	//Slide toggle mobile menu
 	$('button').click(function() {
 		$('.main-menu').slideToggle("fast");
@@ -43,6 +27,8 @@ $(document).ready(function() {
 		    $navBar.removeClass('fixed');
 		}
 	}
+
+	$(".fancybox").fancybox();
 });
 
 
