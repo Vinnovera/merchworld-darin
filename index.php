@@ -71,38 +71,36 @@ require 'header.php';
 	</div>
 
 	<div id="shopping-cart">
-		<h1>Varor</h1>
-		<table>
-			<thead>
-				<tr>
-					<th></th>
-					<th>Titel</th>
-					<th>Färg/Storlek</th>
-					<th>Antal</th>
-					<th>Pris</th>
-					<th>Ta Bort</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><img src="img/darin/dd1.jpg"></td>
-					<td>DD1</td>
-					<td>Charcoal/M</td>
-					<td>1</td>
-					<td>249,00:-</td>
-					<td>Ta bort</td>
-				</tr>
-			</tbody>
-			<tfoot>
-				<tr>
-					<td colspan="3"></td>
-					<td>Delsumma</td>
-					<td>249,00:-</td>
-				</tr>
+		<h2>Varor</h2>
 
-			</tfoot>
-		</table>
+		<ul>
+			<li class="shopping-cart-item">
+				<h3>DD1 T-shirt</h3>
+				<img src="img/darin/dd1.jpg">
+				<ul>
+					<li>
+						<span>Antal:</span>
+						<span>1</span>
+					</li>
 
+					<li>
+						<span>Färg:</span>
+						<span>Charcol</span>
+					</li>
+
+					<li>
+						<span>Storlek:</span>
+						<span>L</span>
+					</li>
+
+					<li>
+						<span>Pris:</span>
+						<span>249:-</span>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	
 		<button type="button">
 			<p>Fortsätt Handla</p>
 		</button>
