@@ -818,64 +818,8 @@ footer img {
     line-height: 50px;
     vertical-align: middle;
   }
-  #shopping-cart {
-    background-color: #fff;
-    display: none;
-    padding: 1em 2em;
-  }
-  #shopping-cart h2 {
-    margin-top: 0;
-    text-transform: uppercase;
-  }
-  #shopping-cart ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  #shopping-cart .shopping-cart-item {
-    border-top: solid #d3d3d3 2px;
-    padding: 0.5em 0;
-  }
-  #shopping-cart .shopping-cart-item h3 {
-    margin-top: 0;
-  }
-  #shopping-cart .shopping-cart-item img {
-    height: 100px;
-    width: 100px;
-  }
-  #shopping-cart .shopping-cart-item img,
-  #shopping-cart .shopping-cart-item ul {
-    float: left;
-  }
-  #shopping-cart .shopping-cart-item ul {
-    padding-left: 0.5em;
-  }
-  #shopping-cart .shopping-cart-item:after {
-    clear: both;
-    content: "";
-    display: block;
-  }
   #shopping-cart button {
-    background-color: #000;
-    border: none;
-    color: #fff;
     float: right;
-    height: 50px;
-    margin-top: 1em;
-    margin-left: 1em;
-    width: 200px;
-  }
-  #shopping-cart button p {
-    font-size: 0.7em;
-    line-height: 50px;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-    text-transform: uppercase;
-    vertical-align: middle;
-  }
-  #shopping-cart button:hover {
-    background-color: #01abed;
-    color: #000;
   }
   #shopping-cart:after {
     clear: both;

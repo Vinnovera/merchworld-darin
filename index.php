@@ -97,6 +97,10 @@ require 'header.php';
 						<span>Pris:</span>
 						<span>249:-</span>
 					</li>
+
+					<li>
+						<span>Ta Bort</span>
+					</li>
 				</ul>
 			</li>
 		</ul>

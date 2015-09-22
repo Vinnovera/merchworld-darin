@@ -1,9 +1,9 @@
 $(document).ready(function() {
 	// cache the element
-	var $navBar = $('.menu');
+	var navBar = $('.menu');
 
 	// find original navigation bar position
-	var navPos = $navBar.offset().top;
+	var navPos = navBar.offset().top;
 	
 	// on scroll
 	$(window).scroll(function() {
@@ -11,7 +11,7 @@ $(document).ready(function() {
 	});
 
 	//Slide toggle mobile menu
-	$('button').click(function() {
+	$('.menu button').click(function() {
 		$('.main-menu').slideToggle("fast");
 	});
 
@@ -22,9 +22,9 @@ $(document).ready(function() {
 
 		// check if scroll position is >= the nav position
 		if (scrollPos >= navPos) {
-		    $navBar.addClass('fixed');
+		    navBar.addClass('fixed');
 		} else {
-		    $navBar.removeClass('fixed');
+		    navBar.removeClass('fixed');
 		}
 	}
 
