@@ -208,6 +208,7 @@ header .menu {
 }
 header .menu .main-menu ul {
   list-style-type: none;
+  padding-left: 0;
 }
 header .menu .main-menu ul li a {
   color: #fff;
