@@ -102,7 +102,7 @@ require 'header.php';
 			</button>
 		</a>
 
-		<a href="kassa.php">
+		<a href="checkout.php">
 			<button type="button">
 				<p>Gå till Kassan</p>
 			</button>
