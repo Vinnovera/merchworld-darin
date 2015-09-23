@@ -263,9 +263,6 @@ header .menu .main-menu ul li a {
   margin: 0 auto;
   position: relative;
 }
-.shop .item-show .item-image img {
-  height: auto;
-}
 .shop .item-show .item-info {
   height: 100%;
 }
