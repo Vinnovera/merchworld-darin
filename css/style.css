@@ -602,7 +602,7 @@ footer img {
     height: 20em;
   }
   .wrapper {
-    padding-top: 300px;
+    padding-top: 4em;
   }
   .wrapper .content {
     padding: 2% 5%;
@@ -715,7 +715,7 @@ footer img {
     margin-top: 2em;
   }
   .wrapper {
-    padding-top: 300px;
+    padding-top: 6em;
   }
   .wrapper .content {
     padding: 2% 10%;
@@ -847,6 +847,7 @@ footer img {
     padding-top: 1em;
   }
   .wrapper {
+    padding-top: 6em;
     width: 100%;
   }
   .wrapper .content {
