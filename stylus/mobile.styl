@@ -177,29 +177,51 @@ header {
    	overflow: auto;
     padding-bottom: 5px;
     
-    	.pnr-container {
-    		margin: 0;
-    		margin-top: 10px;
-    		overflow: auto;
-    		list-style-type: none;
-    		padding-left: 0px;
+    ul {
+    	margin: 0;
+		margin-top: 10px;
+		overflow: auto;
+		list-style-type: none;
+		padding-left: 0px;
+		
+		li {
+			width: 100%;
+    		max-width: none;
     		
-    		li {
-    			width: 100%;
-    			max-width: none;
-    			
-    			label {
+    		label {
     			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    			font-size: 13px;
+	    		font-size: 13px;
     			font-weight: normal;
     			line-height: 18px;
     			cursor: default;
     		}
-    	}		
-   	}
+    		
+    		input {
+    			display: inline-block;
+			    width: 90%;
+			    height: 18px;
+			    padding: 4px;
+			    font-size: 13px;
+			    line-height: 18px;
+			    color: #555;
+			    border: 1px solid #ccc;
+			    -webkit-border-radius: 3px;
+			    -moz-border-radius: 3px;
+			    border-radius: 3px;
+    		}
+		}
+		
+		.getKlarna-btn {
+			border-radius: 3px;
+			margin-left: 0px;
+			margin-top: 9px;
+		    padding-left: 0px;
+		    font-size: 14px;
+		    height: 2em;
+		    width: 110px;
+    	}
+    }	
 }
-
-
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/

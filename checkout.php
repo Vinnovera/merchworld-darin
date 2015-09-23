@@ -50,15 +50,33 @@ require 'header.php';
 			<h3>Leveransadress</h3>
 		</div>
 		<div class="shipping-container">
-			<ul class="pnr-container">
+			<ul>
 				<li>
 					<label>Personnummer (xxxxxx-xxxx)</label>
 				</li>
 				<li>
-					<input id="pnr" name="pnr" type="text">
+					<input type="text">
 				</li>
-				<li id="getKlarna-container">
-					<button id="getKlarna-btn" type="button" class="btn-small">Hämta adress</button>
+				<li class="getKlarna-container">
+					<button class="getKlarna-btn" type="button" class="btn-small">Hämta adress</button>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<label>Förnamn</label>
+				</li>
+				<li>
+					<input name="" type="text" value="">
+					<span>*</span>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<label>Efternamn</label>
+				</li>
+				<li>
+					<input type="text" value="">
+					<span>*</span>
 				</li>
 			</ul>
 		</div>
