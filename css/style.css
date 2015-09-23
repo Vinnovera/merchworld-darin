@@ -369,6 +369,12 @@ header .menu .main-menu ul li a {
   content: "";
   display: block;
 }
+#shopping-cart .shopping-cart-item li:last-of-type {
+  float: right;
+}
+#shopping-cart .shopping-cart-item .fa {
+  padding-left: 0.5em;
+}
 #shopping-cart button {
   background-color: #000;
   border: none;
@@ -591,6 +597,9 @@ footer img {
   }
   #shopping-cart {
     padding: 1em 1em;
+  }
+  #shopping-cart .shopping-cart-item ul {
+    width: 95%;
   }
   #footer {
     height: 20em;
@@ -817,6 +826,9 @@ footer img {
   .shop .item-show .item-info .options:nth-of-type(2) p {
     line-height: 50px;
     vertical-align: middle;
+  }
+  #shopping-cart .shopping-cart-item ul {
+    width: 75%;
   }
   #shopping-cart button {
     float: right;

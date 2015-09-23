@@ -99,7 +99,7 @@ require 'header.php';
 					</li>
 
 					<li>
-						<span>Ta Bort</span>
+						<span>Ta Bort<i class="fa fa-trash-o"></i></span>
 					</li>
 				</ul>
 			</li>
