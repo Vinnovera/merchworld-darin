@@ -189,16 +189,39 @@ body a {
   text-decoration: none;
   color: #00f;
 }
-header {
+button {
   background-color: #000;
+  border: none;
+  color: #fff;
+  height: 50px;
+  margin-top: 1em;
+  margin-left: 1em;
+  width: 200px;
+}
+button p {
+  font-size: 0.7em;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+button:hover {
+  background-color: #fff;
+  outline: solid #b8afa7 1px;
+  color: #000;
+}
+header {
+  background-color: #f9f9f9;
 }
 header img {
-  width: 200px;
-  height: 200px;
-  background-size: 200px;
+  width: 30px;
+  height: 30px;
+  background-size: 20px;
   position: absolute;
-  left: 50%;
-  margin-left: -100px;
+  left: 10px;
+  top: 10px;
 }
 header .menu {
   width: 100%;
@@ -208,6 +231,7 @@ header .menu {
 }
 header .menu .main-menu ul {
   list-style-type: none;
+  padding-left: 0;
 }
 header .menu .main-menu ul li a {
   color: #fff;
@@ -217,9 +241,9 @@ header .menu .main-menu ul li a {
   text-transform: uppercase;
 }
 .shop {
-  background-color: #000;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  background-color: #f9f9f9;
+  padding-top: 5em;
+  padding-bottom: 2em;
   width: 100%;
 }
 .shop .items {
@@ -247,7 +271,8 @@ header .menu .main-menu ul li a {
 }
 .shop .items ul .item .item-info {
   background-color: #fff;
-  padding: 0.5em 1em;
+  margin-top: -10px;
+  padding: 1em 1em;
 }
 .shop .items ul .item .item-info h2 {
   font-size: 1em;
@@ -262,16 +287,29 @@ header .menu .main-menu ul li a {
   margin: 0 auto;
   position: relative;
 }
-.shop .item-show .item-image img {
-  height: auto;
+.shop .item-show .item-info {
+  height: 100%;
 }
 .shop .item-show .item-info p {
   font-weight: normal;
+  font-size: 0.8em;
+}
+.shop .item-show .item-info .options h3 {
+  text-transform: uppercase;
 }
 .shop .item-show .item-info .options fieldset {
   border: none;
   margin-left: 0;
   padding-left: 0;
+}
+.shop .item-show .item-info .options fieldset input[type="radio"] {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.shop .item-show .item-info .options fieldset select {
+  height: 28px;
+  line-height: 28px;
+  width: 200px;
 }
 .shop .item-show .item-info .options h3 {
   font-size: 1.1em;
@@ -283,25 +321,6 @@ header .menu .main-menu ul li a {
 .shop .item-show .item-info .options .price {
   font-size: 2em;
   font-weight: bold;
-}
-.shop .item-show .item-info .options button {
-  background-color: #000;
-  border: none;
-  color: #fff;
-  height: 50px;
-  margin-top: 1em;
-  width: 200px;
-}
-.shop .item-show .item-info .options button p {
-  font-size: 0.7em;
-  line-height: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-.shop .item-show .item-info .options button:hover {
-  background-color: #01abed;
-  color: #000;
 }
 .shop .item-show .item-info .back {
   margin-top: 1.5em;
@@ -364,38 +383,20 @@ header .menu .main-menu ul li a {
   border-bottom: none;
   padding-left: 0.5em;
 }
+#shopping-cart .shopping-cart-item ul span {
+  font-weight: normal;
+  font-size: 0.8em;
+}
 #shopping-cart .shopping-cart-item:after {
   clear: both;
   content: "";
   display: block;
 }
 #shopping-cart .shopping-cart-item li:last-of-type {
-  float: right;
+  color: #f00;
 }
 #shopping-cart .shopping-cart-item .fa {
   padding-left: 0.5em;
-}
-#shopping-cart button {
-  background-color: #000;
-  border: none;
-  color: #fff;
-  height: 50px;
-  margin-top: 1em;
-  margin-left: 1em;
-  width: 200px;
-}
-#shopping-cart button p {
-  font-size: 0.7em;
-  line-height: 50px;
-  margin-top: 0;
-  margin-bottom: 0;
-  text-align: center;
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-#shopping-cart button:hover {
-  background-color: #01abed;
-  color: #000;
 }
 footer {
   background-color: #363636;
@@ -435,7 +436,7 @@ footer img {
   display: none;
 }
 .wrapper {
-  background-color: #000;
+  background-color: #f9f9f9;
   padding-bottom: 5%;
   width: 100%;
 }
@@ -510,9 +511,6 @@ footer img {
   color: #000;
 }
 @media screen and (max-width: 640px) {
-  header img {
-    top: 70px;
-  }
   header .menu button {
     width: 44px;
     height: 34px;
@@ -570,9 +568,6 @@ footer img {
     text-align: center;
     display: block;
   }
-  .shop {
-    padding-top: 300px;
-  }
   .shop .items {
     width: 90%;
   }
@@ -582,8 +577,12 @@ footer img {
   .shop .item-show {
     width: 90%;
   }
-  .shop .item-show img {
-    width: 100%;
+  .shop .item-show .item-image {
+    padding-top: 1em;
+    text-align: center;
+  }
+  .shop .item-show .item-image img {
+    width: 90%;
   }
   .shop .item-show .item-info {
     padding: 1% 5%;
@@ -593,19 +592,75 @@ footer img {
     margin-top: 0.8em;
   }
   .shop .item-show .item-info button {
+    margin-left: 0;
     margin-top: 1em;
   }
   #shopping-cart {
     padding: 1em 1em;
   }
-  #shopping-cart .shopping-cart-item ul {
-    width: 95%;
+  .checkout-head {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background: #333;
+  }
+  .checkout-head h1 {
+    font-size: 2.1rem;
+    margin-bottom: 3px;
+  }
+  .checkout-head h3 {
+    color: #fff;
+    margin: 4px 0 4px 0;
+    padding: 5px 10px;
+  }
+  .payment-box-creditcard,
+  .payment-box-invoice,
+  .payment-box-paypal {
+    margin: 10px 0 10px 0;
+  }
+  .payment-box-creditcard ul,
+  .payment-box-invoice ul,
+  .payment-box-paypal ul {
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin: 0;
+    padding: 5px;
+    padding-top: 12px;
+  }
+  .payment-box-creditcard ul li,
+  .payment-box-invoice ul li,
+  .payment-box-paypal ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  .payment-box-creditcard ul li input,
+  .payment-box-invoice ul li input,
+  .payment-box-paypal ul li input {
+    width: 1.25em;
+    height: 1.25em;
+  }
+  .payment-box-creditcard .payment-title,
+  .payment-box-invoice .payment-title,
+  .payment-box-paypal .payment-title {
+    padding-left: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  .payment-box-creditcard .payment-desc,
+  .payment-box-invoice .payment-desc,
+  .payment-box-paypal .payment-desc {
+    margin-left: 108px;
+    font-size: 0.9em;
+  }
+  .shipping-container {
+    max-width: 515px;
+    overflow: auto;
+    padding-bottom: 5px;
   }
   #footer {
     height: 20em;
   }
   .wrapper {
-    padding-top: 300px;
+    padding-top: 4em;
   }
   .wrapper .content {
     padding: 2% 5%;
@@ -618,9 +673,6 @@ footer img {
   }
 }
 @media screen and (min-width: 640px) and (max-width: 768px) {
-  header img {
-    top: 70px;
-  }
   header .menu button {
     width: 44px;
     height: 34px;
@@ -678,9 +730,6 @@ footer img {
     text-align: center;
     display: block;
   }
-  .shop {
-    padding-top: 300px;
-  }
   .shop .items {
     width: 80%;
   }
@@ -692,18 +741,24 @@ footer img {
   .shop .item-show {
     width: 80%;
   }
-  .shop .item-show img {
-    width: 100%;
+  .shop .item-show .item-image {
+    padding-top: 2em;
+    text-align: center;
+  }
+  .shop .item-show .item-image img {
+    width: 80%;
   }
   .shop .item-show .item-info {
+    margin: 0 auto;
     padding: 1% 5%;
-    width: 90%;
+    width: 80%;
   }
   .shop .item-show .item-info .price {
     margin-top: 0.8em;
   }
   .shop .item-show .item-info button {
     margin-top: 1em;
+    margin-left: 0;
   }
   footer {
     height: 18em;
@@ -718,7 +773,7 @@ footer img {
     margin-top: 2em;
   }
   .wrapper {
-    padding-top: 300px;
+    padding-top: 6em;
   }
   .wrapper .content {
     padding: 2% 10%;
@@ -731,15 +786,6 @@ footer img {
   }
 }
 @media screen and (min-width: 768px) {
-  header {
-    height: 350px;
-  }
-  header img {
-    top: 20px;
-  }
-  header .menu {
-    top: 240px;
-  }
   header .menu button {
     display: none;
   }
@@ -767,7 +813,7 @@ footer img {
     right: 0;
   }
   .shop {
-    padding-top: 3.5%;
+    padding-top: 5em;
   }
   .shop .items {
     padding-top: 0%;
@@ -784,10 +830,13 @@ footer img {
     width: 80%;
   }
   .shop .item-show .item-image {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
     width: 44%;
   }
   .shop .item-show .item-image img {
-    max-width: 100%;
+    max-width: 95%;
   }
   .shop .item-show .item-image,
   .shop .item-show .item-info {
@@ -856,6 +905,7 @@ footer img {
     padding-top: 1em;
   }
   .wrapper {
+    padding-top: 6em;
     width: 100%;
   }
   .wrapper .content {
