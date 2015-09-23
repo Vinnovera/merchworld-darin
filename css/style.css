@@ -598,6 +598,7 @@ footer img {
   #shopping-cart {
     padding: 1em 1em;
   }
+<<<<<<< HEAD
   .checkout-head {
     margin-top: 4px;
     margin-bottom: 4px;
@@ -674,6 +675,8 @@ footer img {
     line-height: 18px;
     cursor: default;
   }
+=======
+>>>>>>> origin/master
   #footer {
     height: 20em;
   }
