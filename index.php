@@ -69,10 +69,10 @@ require 'header.php';
 			</li>			
 		</ul> 
 	</div>
+</div>
 
-	<div id="shopping-cart">
+<div id="shopping-cart">
 		<h2>Varor</h2>
-
 		<ul>
 			<li class="shopping-cart-item">
 				<h3>DD1 T-shirt</h3>
@@ -105,17 +105,18 @@ require 'header.php';
 			</li>
 		</ul>
 	
-		<button type="button">
-			<p>Fortsätt Handla</p>
-		</button>
+		<a href="index.php">
+			<button type="button">
+				<p>Fortsätt Handla</p>
+			</button>
+		</a>
 
-		<button type="button">
-			<p>Gå till Kassan</p>
-		</button>	
-
+		<a href="kassa.php">
+			<button type="button">
+				<p>Gå till Kassan</p>
+			</button>
+		</a>	
 	</div>
-
-</div>
 
 <?php
 require 'footer.php';

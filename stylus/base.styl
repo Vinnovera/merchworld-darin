@@ -91,6 +91,7 @@ header {
 
 				.item-info {
 					background-color: white;
+					margin-top: -10px;
 					padding: 0.5em 1em;
 
 					h2 {
@@ -120,16 +121,33 @@ header {
 		} 
 
 		.item-info {
-			
+			height: 100%;
+
 			p {
 				font-weight: normal;
+				font-size: 0.8em;
 			}
 
 			.options{
+				h3 {
+					text-transform: uppercase;
+				}
+
 				fieldset {
 					border: none;
 					margin-left: 0;
 					padding-left: 0;
+					
+					input[type="radio"] {
+						background-color: white;
+						border: 1px solid #000;
+					}
+					
+					select {
+						height: 28px;
+    					line-height: 28px;
+						width: 200px;
+					}
 				}
 
 				h3 {
@@ -244,7 +262,12 @@ header {
 		
 		ul{
 			border-bottom: none;
-			padding-left: .5em;	
+			padding-left: .5em;
+			
+			span {
+				font-weight: normal;
+				font-size: 0.8em;			
+			}	
 		}
 		
 		&:after {
@@ -254,7 +277,8 @@ header {
 		}
 		
 		li:last-of-type {
-			float: right;
+			color: red;
+			//float: right;
 		}
 		.fa {
 			padding-left: .5em;

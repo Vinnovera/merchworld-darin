@@ -247,6 +247,7 @@ header .menu .main-menu ul li a {
 }
 .shop .items ul .item .item-info {
   background-color: #fff;
+  margin-top: -10px;
   padding: 0.5em 1em;
 }
 .shop .items ul .item .item-info h2 {
@@ -265,13 +266,29 @@ header .menu .main-menu ul li a {
 .shop .item-show .item-image img {
   height: auto;
 }
+.shop .item-show .item-info {
+  height: 100%;
+}
 .shop .item-show .item-info p {
   font-weight: normal;
+  font-size: 0.8em;
+}
+.shop .item-show .item-info .options h3 {
+  text-transform: uppercase;
 }
 .shop .item-show .item-info .options fieldset {
   border: none;
   margin-left: 0;
   padding-left: 0;
+}
+.shop .item-show .item-info .options fieldset input[type="radio"] {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.shop .item-show .item-info .options fieldset select {
+  height: 28px;
+  line-height: 28px;
+  width: 200px;
 }
 .shop .item-show .item-info .options h3 {
   font-size: 1.1em;
@@ -364,13 +381,17 @@ header .menu .main-menu ul li a {
   border-bottom: none;
   padding-left: 0.5em;
 }
+#shopping-cart .shopping-cart-item ul span {
+  font-weight: normal;
+  font-size: 0.8em;
+}
 #shopping-cart .shopping-cart-item:after {
   clear: both;
   content: "";
   display: block;
 }
 #shopping-cart .shopping-cart-item li:last-of-type {
-  float: right;
+  color: #f00;
 }
 #shopping-cart .shopping-cart-item .fa {
   padding-left: 0.5em;
@@ -597,9 +618,6 @@ footer img {
   }
   #shopping-cart {
     padding: 1em 1em;
-  }
-  #shopping-cart .shopping-cart-item ul {
-    width: 95%;
   }
   #footer {
     height: 20em;

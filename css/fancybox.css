@@ -25,6 +25,7 @@
 }
 
 .fancybox-skin {
+	left: -10px;
 	position: relative;
 	background: #f9f9f9;
 	color: #444;
@@ -54,6 +55,7 @@
 
 .fancybox-type-iframe .fancybox-inner {
 	-webkit-overflow-scrolling: touch;
+	overflow: hidden !important ;
 }
 
 .fancybox-error {
@@ -107,14 +109,14 @@
 	z-index: 8040;
 }
 
-.fancybox-nav {
+/*.fancybox-nav {
 	position: absolute;
 	top: 0;
 	width: 40%;
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url('../img/blank.gif'); /* helps IE */
+	background: transparent url('../img/blank.gif'); 
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
@@ -160,7 +162,7 @@
 	max-width: 99999px;
 	max-height: 99999px;
 	overflow: visible !important;
-}
+}*/
 
 /* Overlay helper */
 
