@@ -104,7 +104,11 @@ require 'header.php';
 				</ul>
 			</li>
 		</ul>
-	
+		<div class="total">
+			<span>Totalt:</span>
+			<span>249:-</span>
+		</div>
+
 		<a href="index.php">
 			<button type="button">
 				<p>Fortsätt Handla</p>
