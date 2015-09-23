@@ -50,7 +50,7 @@ require 'header.php';
 			<h3>Leveransadress</h3>
 		</div>
 		<div class="shipping-container">
-			<ul>
+			<ul class="pnr-container">
 				<li>
 					<label>Personnummer (xxxxxx-xxxx)</label>
 				</li>
