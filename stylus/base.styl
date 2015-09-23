@@ -14,19 +14,45 @@ body {
 		color: blue;
 	}
 }
+
+button {
+	background-color: black;
+	border: none;
+	color: white;
+	height: 50px;
+	margin-top: 1em;
+	margin-left: 1em;
+	width: 200px;
+
+	p {
+		font-size: 0.7em;
+		line-height: 50px;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+	
+	&:hover {
+		background-color: white;
+		outline: solid #b8afa7 1px;
+		color: black;
+	}	
+}
 /*******************************************************/
 /************************ MENU *************************/
 /*******************************************************/
 header {
-	background-color: black;
+	background-color: #F9F9F9;
 	
 	img {
-		width: 200px;
-		height: 200px;
-		background-size: 200px;
+		width: 30px;
+		height: 30px;
+		background-size: 20px;
 		position: absolute;
-		left: 50%;
-		margin-left: -100px;
+		left: 10px;
+		top: 10px;
 	}
 	
 	.menu {
@@ -58,9 +84,9 @@ header {
 /************************ SHOP *************************/
 /*******************************************************/
 .shop {
-	background-color: black;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	background-color: #F9F9F9;
+	padding-top: 5em;
+	padding-bottom: 2em;
 	width: 100%;
 
 	//style, index.php (shopen)
@@ -93,7 +119,7 @@ header {
 				.item-info {
 					background-color: white;
 					margin-top: -10px;
-					padding: 0.5em 1em;
+					padding: 1em 1em;
 
 					h2 {
 						font-size: 1em;
@@ -163,28 +189,6 @@ header {
 				.price {
 					font-size: 2em;
 					font-weight: bold;
-				}
-
-				button {
-					background-color: black;
-					border: none;
-					color: white;
-					height: 50px;
-					margin-top: 1em;
-					width: 200px;
-
-					p {
-						font-size: 0.7em;
-						line-height: 50px;
-						text-align: center;
-						text-transform: uppercase;
-						vertical-align: middle;
-					}
-					
-					&:hover {
-						background-color: #01ABED;
-						color: black;
-					}	
 				}
 			}
 			
@@ -285,31 +289,6 @@ header {
 			padding-left: .5em;
 		}
 	}
-	
-	button {
-		background-color: black;
-		border: none;
-		color: white;
-		height: 50px;
-		margin-top: 1em;
-		margin-left: 1em;
-		width: 200px;
-
-		p {
-			font-size: 0.7em;
-			line-height: 50px;
-			margin-top: 0;
-			margin-bottom: 0;
-			text-align: center;
-			text-transform: uppercase;
-			vertical-align: middle;
-		}
-		
-		&:hover {
-			background-color: #01ABED;
-			color: black;
-		}	
-	}
 }
 		
 /*******************************************************/
@@ -363,7 +342,7 @@ footer{
 /******************* LINKS IN FOOTER *******************/
 /*******************************************************/
 .wrapper{
-	background-color: black;
+	background-color: #F9F9F9;
 	padding-bottom: 5%;
 	width: 100%;
 	

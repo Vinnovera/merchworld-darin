@@ -2,10 +2,6 @@
 /************************ MENU *************************/
 /*******************************************************/
 header {
-	img {
-    	top: 70px;
-	}
-
 	.menu {
 		button {
 			width: 44px;
@@ -76,7 +72,6 @@ header {
 /************************ SHOP *************************/
 /*******************************************************/
 .shop {
-	padding-top: 300px;
 	//style, index.php (shopen)
 	.items {
 		width: 80%;
@@ -93,14 +88,20 @@ header {
 	//style, single-item.php (sida där en produkt visas)
 	.item-show {
 		width: 80%;
-
-		img {
-			width: 100%;
-		}
 		
+		.item-image {
+			padding-top: 2em;
+			text-align: center;
+			
+			img {
+				width: 80%;
+			}
+		}
+
 		.item-info {
+			margin: 0 auto;
 			padding: 1% 5%; 
-			width: 90%;
+			width: 80%;
 
 			.price {
 				margin-top: 0.8em;
@@ -108,6 +109,7 @@ header {
 
 			button {
 				margin-top: 1em;
+				margin-left: 0;
 			}
 		}
 	}

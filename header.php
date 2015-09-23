@@ -25,5 +25,5 @@
 				</ul>	
 			</nav>
 		</div>
-		<img src="img/darin/logo.png">
+		<img src="img/darin/logo.png" alt="Darins logga">
 	</header>

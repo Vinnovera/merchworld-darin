@@ -4,7 +4,7 @@ require 'header.php';
 <div class="shop">
 	<div class="item-show">
 		<div class="item-image">
-			<a href="img/darin/dd1.jpg" class="fancybox" rel="group">
+			<a href="img/darin/dd1.jpg" class="fancybox" rel="group" alt="T-shirt med tryck">
 				<img src="img/darin/dd1.jpg">
 			</a>
 		</div>
@@ -67,7 +67,7 @@ require 'header.php';
 		<ul>
 			<li class="shopping-cart-item">
 				<h3>DD1 T-shirt</h3>
-				<img src="img/darin/dd1.jpg">
+				<img src="img/darin/dd1.jpg" alt="T-shirt med tryck">
 				<ul>
 					<li>
 						<span>Antal:</span>
