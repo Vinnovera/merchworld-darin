@@ -2,12 +2,7 @@
 /************************ MENU *************************/
 /*******************************************************/
 header {
-	img {
-    	top: 70px;
-	}
-
 	.menu {
-		
 		button {
 			width: 44px;
 			height: 34px;
@@ -77,9 +72,7 @@ header {
 /*******************************************************/
 /************************ SHOP *************************/
 /*******************************************************/
-.shop {
-	padding-top: 300px;
-	
+.shop {	
 	//style, index.php (shopen)
 	.items {
 		width: 90%;
@@ -95,8 +88,13 @@ header {
 	.item-show {
 		width: 90%;
 
-		img {
-			width: 100%;
+		.item-image {
+			padding-top: 1em;
+			text-align: center;
+			
+			img {
+				width: 90%;
+			}
 		}
 
 		.item-info {
@@ -108,6 +106,7 @@ header {
 			}
 
 			button {
+				margin-left: 0;
 				margin-top: 1em;
 			}
 		}
@@ -119,12 +118,64 @@ header {
 /*******************************************************/
 #shopping-cart {
 	padding: 1em 1em;
+}
+/*******************************************************/
+/********************** CHECKOUT ***********************/
+/*******************************************************/
+.checkout-head {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	background: #333;
 	
-	.shopping-cart-item {
-		ul{
-			width: 95%;			
-		}		
+	h1 {
+		font-size: 2.1rem;
+    	margin-bottom: 3px;
 	}
+	
+	h3 {
+		color: white;
+		margin: 4px 0 4px 0;
+    	padding: 5px 10px;
+    }
+}
+
+.payment-box-creditcard, .payment-box-invoice, .payment-box-paypal {
+	margin: 10px 0 10px 0;
+
+	ul {
+		border: 1px solid #aeaeae;
+		border-radius: 3px;
+		margin: 0;
+		padding: 5px;
+		padding-top: 12px;
+
+		li {
+			list-style-type: none;
+			display: inline;
+
+			input {
+				width: 1.25em;
+				height: 1.25em;
+			}
+		}
+	}
+	
+ 	.payment-title {
+		padding-left: 5px;
+    	font-size: 0.9em;
+    	font-weight: bold;		
+	}
+	
+	.payment-desc {
+		margin-left: 108px;
+    	font-size: 0.9em;
+	}
+}
+
+.shipping-container {
+	max-width: 515px;
+   	overflow: auto;
+    padding-bottom: 5px;
 }
 
 
@@ -139,7 +190,7 @@ header {
 /******************* LINKS IN FOOTER *******************/
 /*******************************************************/
 .wrapper {
-	padding-top: 300px;
+	padding-top: 4em;
 	
 	.content {
 		padding: 2% 5%;

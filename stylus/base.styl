@@ -14,19 +14,45 @@ body {
 		color: blue;
 	}
 }
+
+button {
+	background-color: black;
+	border: none;
+	color: white;
+	height: 50px;
+	margin-top: 1em;
+	margin-left: 1em;
+	width: 200px;
+
+	p {
+		font-size: 0.7em;
+		line-height: 50px;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+	
+	&:hover {
+		background-color: white;
+		outline: solid #b8afa7 1px;
+		color: black;
+	}	
+}
 /*******************************************************/
 /************************ MENU *************************/
 /*******************************************************/
 header {
-	background-color: black;
+	background-color: #F9F9F9;
 	
 	img {
-		width: 200px;
-		height: 200px;
-		background-size: 200px;
+		width: 30px;
+		height: 30px;
+		background-size: 20px;
 		position: absolute;
-		left: 50%;
-		margin-left: -100px;
+		left: 10px;
+		top: 10px;
 	}
 	
 	.menu {
@@ -38,6 +64,7 @@ header {
 		.main-menu{
 			ul{
 				list-style-type: none;
+				padding-left: 0;
 				
 				li{
 					a{
@@ -57,9 +84,9 @@ header {
 /************************ SHOP *************************/
 /*******************************************************/
 .shop {
-	background-color: black;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	background-color: #F9F9F9;
+	padding-top: 5em;
+	padding-bottom: 2em;
 	width: 100%;
 
 	//style, index.php (shopen)
@@ -91,7 +118,8 @@ header {
 
 				.item-info {
 					background-color: white;
-					padding: 0.5em 1em;
+					margin-top: -10px;
+					padding: 1em 1em;
 
 					h2 {
 						font-size: 1em;
@@ -115,21 +143,38 @@ header {
 
 		.item-image {
 			img {
-				height: auto;
+				//height: auto;
 			}
 		} 
 
 		.item-info {
-			
+			height: 100%;
+
 			p {
 				font-weight: normal;
+				font-size: 0.8em;
 			}
 
 			.options{
+				h3 {
+					text-transform: uppercase;
+				}
+
 				fieldset {
 					border: none;
 					margin-left: 0;
 					padding-left: 0;
+					
+					input[type="radio"] {
+						background-color: white;
+						border: 1px solid #000;
+					}
+					
+					select {
+						height: 28px;
+    					line-height: 28px;
+						width: 200px;
+					}
 				}
 
 				h3 {
@@ -144,28 +189,6 @@ header {
 				.price {
 					font-size: 2em;
 					font-weight: bold;
-				}
-
-				button {
-					background-color: black;
-					border: none;
-					color: white;
-					height: 50px;
-					margin-top: 1em;
-					width: 200px;
-
-					p {
-						font-size: 0.7em;
-						line-height: 50px;
-						text-align: center;
-						text-transform: uppercase;
-						vertical-align: middle;
-					}
-					
-					&:hover {
-						background-color: #01ABED;
-						color: black;
-					}	
 				}
 			}
 			
@@ -244,7 +267,12 @@ header {
 		
 		ul{
 			border-bottom: none;
-			padding-left: .5em;	
+			padding-left: .5em;
+			
+			span {
+				font-weight: normal;
+				font-size: 0.8em;			
+			}	
 		}
 		
 		&:after {
@@ -254,36 +282,12 @@ header {
 		}
 		
 		li:last-of-type {
-			float: right;
+			color: red;
+			//float: right;
 		}
 		.fa {
 			padding-left: .5em;
 		}
-	}
-	
-	button {
-		background-color: black;
-		border: none;
-		color: white;
-		height: 50px;
-		margin-top: 1em;
-		margin-left: 1em;
-		width: 200px;
-
-		p {
-			font-size: 0.7em;
-			line-height: 50px;
-			margin-top: 0;
-			margin-bottom: 0;
-			text-align: center;
-			text-transform: uppercase;
-			vertical-align: middle;
-		}
-		
-		&:hover {
-			background-color: #01ABED;
-			color: black;
-		}	
 	}
 }
 		
@@ -338,7 +342,7 @@ footer{
 /******************* LINKS IN FOOTER *******************/
 /*******************************************************/
 .wrapper{
-	background-color: black;
+	background-color: #F9F9F9;
 	padding-bottom: 5%;
 	width: 100%;
 	
