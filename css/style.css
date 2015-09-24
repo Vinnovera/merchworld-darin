@@ -654,6 +654,7 @@ footer img {
     font-size: 0.9em;
   }
   .shipping-container {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     max-width: 515px;
     overflow: auto;
     padding-bottom: 5px;
@@ -671,7 +672,6 @@ footer img {
   }
   .shipping-container ul li label,
   .shipping-container ul li span {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: normal;
     line-height: 18px;
@@ -710,7 +710,6 @@ footer img {
     vertical-align: text-top;
   }
   .shipping-container ul li select {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: inline-block;
     width: 90%;
     height: 28px;
@@ -725,7 +724,7 @@ footer img {
   }
   .shipping-container ul .getKlarna-btn {
     border-radius: 3px;
-    margin-left: 0px;
+    margin-left: 1px;
     margin-top: 9px;
     padding-left: 0px;
     font-size: 14px;
