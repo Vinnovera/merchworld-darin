@@ -615,6 +615,8 @@ footer img {
   .payment-box-creditcard,
   .payment-box-invoice,
   .payment-box-paypal {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
     margin: 10px 0 10px 0;
   }
   .payment-box-creditcard ul,
@@ -667,17 +669,51 @@ footer img {
     width: 100%;
     max-width: none;
   }
-  .shipping-container ul li label {
+  .shipping-container ul li label,
+  .shipping-container ul li span {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: normal;
     line-height: 18px;
     cursor: default;
   }
+  .shipping-container ul li label a,
+  .shipping-container ul li span a {
+    color: #000;
+    float: left;
+    margin-top: 36px;
+  }
   .shipping-container ul li input {
     display: inline-block;
     width: 90%;
     height: 18px;
+    padding: 4px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 9px;
+  }
+  .shipping-container ul li input[type=checkbox] {
+    float: left;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1em;
+    margin: 36px 0.25em 0 0;
+    padding: 0;
+    width: 1.25em;
+    height: 1.25em;
+    -webkit-border-radius: 0.25em;
+    vertical-align: text-top;
+  }
+  .shipping-container ul li select {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    width: 90%;
+    height: 28px;
     padding: 4px;
     font-size: 13px;
     line-height: 18px;
@@ -695,6 +731,47 @@ footer img {
     font-size: 14px;
     height: 2em;
     width: 110px;
+  }
+  .confirmation-container {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .confirmation-container .summary-table {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .confirmation-container .summary-table td {
+    line-height: 18px;
+    text-align: left;
+    border-top: 1px solid #ddd;
+  }
+  .confirmation-container .summary-table th {
+    font-weight: bold;
+    border: 0;
+    text-align: left;
+    padding: 4px 15px 5px 0;
+  }
+  .message-from-user-container {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .message-from-user-container button {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 110px;
+    text-transform: uppercase;
+    font-family: 'BebasNeueRegular', Helvetica, Arial, sans-serif;
+    padding: 0.1em 0.5em;
+    font-size: 1.5em;
+    border-radius: 3px;
+  }
+  .message-from-user-container .editor-label {
+    margin-bottom: 8px;
+  }
+  .message-from-user-container .editor-field textarea {
+    border-radius: 4px;
   }
   #footer {
     height: 20em;
