@@ -187,7 +187,6 @@ body {
 }
 body a {
   text-decoration: none;
-  color: #00f;
 }
 button {
   background-color: #000;
@@ -301,10 +300,6 @@ header .menu .main-menu ul li a {
   border: none;
   margin-left: 0;
   padding-left: 0;
-}
-.shop .item-show .item-info .options fieldset input[type="radio"] {
-  background-color: #fff;
-  border: 1px solid #000;
 }
 .shop .item-show .item-info .options fieldset select {
   height: 28px;
@@ -482,6 +477,12 @@ footer img {
   line-height: 18px;
   margin-top: 0.4em;
 }
+.wrapper .content a {
+  color: #000;
+}
+.wrapper .content a:hover {
+  text-decoration: underline;
+}
 .wrapper .content fieldset {
   border: none;
   padding-left: 0;
@@ -500,25 +501,6 @@ footer img {
 }
 .wrapper .content fieldset textarea {
   height: 100px;
-}
-.wrapper .content fieldset button {
-  background-color: #000;
-  border: none;
-  color: #fff;
-  height: 50px;
-  width: 200px;
-}
-.wrapper .content fieldset button p {
-  font-size: 1em;
-  line-height: 50px;
-  margin: 0;
-  text-align: center;
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-.wrapper .content fieldset button:hover {
-  background-color: #01abed;
-  color: #000;
 }
 @media screen and (max-width: 640px) {
   header .menu button {
