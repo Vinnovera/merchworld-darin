@@ -11,7 +11,6 @@ body {
 
     a {
 		text-decoration: none;
-		color: blue;
 	}
 }
 
@@ -149,7 +148,7 @@ header {
 
 		.item-info {
 			height: 100%;
-
+			
 			p {
 				font-weight: normal;
 				font-size: 0.8em;
@@ -164,12 +163,7 @@ header {
 					border: none;
 					margin-left: 0;
 					padding-left: 0;
-					
-					input[type="radio"] {
-						background-color: white;
-						border: 1px solid #000;
-					}
-					
+									
 					select {
 						height: 28px;
     					line-height: 28px;
@@ -192,8 +186,18 @@ header {
 				}
 			}
 			
+			.social-share {
+				margin-top: 1em;
+
+				.social-icon {
+					height: 30px;
+					outline: solid black 1px;
+				}
+			}
+
 			//bakåtlänk till shoppen
 			.back {
+				height: 0.8em;
 				margin-top: 1.5em;
 				margin-bottom: 1em;
 				
@@ -212,7 +216,8 @@ header {
 					
 					.fa, p {
 						float: right;
-						line-height: 1em;
+						font-size: 0.8em;
+						line-height: 0.8em;
 						vertical-align: middle;
 					}
 					
@@ -252,8 +257,10 @@ header {
 		border-top: solid #d3d3d3 2px;
 		padding: 0.5em 0;
 		
-		h3{
+		h3 {
 			margin-top: 0;
+			margin-bottom: 0.4em;
+
 		}
 
 		img {
@@ -265,7 +272,7 @@ header {
 			float: left;
 		}
 		
-		ul{
+		ul {
 			border-bottom: none;
 			padding-left: .5em;
 			
@@ -285,143 +292,134 @@ header {
 			color: red;
 			//float: right;
 		}
+	
 		.fa {
 			padding-left: .5em;
 		}
 	}
+	
+
 }
 		
 /*******************************************************/
 /*********************** FOOTER ************************/
 /*******************************************************/
-footer{
+footer {
 	background-color: #363636;
 	color: white;
 	outline: solid black 1px;
 	width: 100%;
 
-	h5{
+	h5 {
 		text-transform: uppercase;
 	}
 
-	ul{
+	ul {
 		list-style-type: none;
 		padding: 0px;
     	margin: 0px;
     	
-		li{
+		li {
 			font-size: 0.7em;
 			padding-bottom: 1em;
 		
-			a{
+			a {
 				color: white;
 				
-				&:visited{
+				&:visited {
 					color: white;	
 				}
 				
-				&:hover{
-				color: grey;
+				&:hover {
+					color: grey;
 				}
 			}
 		}	
 	}
 
-	.contact, .about{
+	.contact, .about {
 		float: none;
 		margin-left: 1.5em;
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
 	
-	img{
+	img {
 		display: none;
 	}
 }
 /*******************************************************/
 /******************* LINKS IN FOOTER *******************/
 /*******************************************************/
-.wrapper{
+.wrapper {
 	background-color: #F9F9F9;
 	padding-bottom: 5%;
 	width: 100%;
 	
-	.content{
+	.content {
 		background-color: white;
 		margin: 0 auto; 
 
-		h1, h2, h3{
+		h1, h2, h3 {
 			text-transform: uppercase;
 		}
 
-		h1{
+		h1 {
 			font-size: 1.8em;
 			margin-bottom: 0;
 		}
 
-		h2{
+		h2 {
 			font-size: 1.3em;
 			margin-bottom: 0;
 			padding-top: 1.3em;
 		}
 
-		h3{
+		h3 {
 			font-size: 0.9em;
 			margin-bottom: 0;
 			padding-top: 0.5em;
 		}
 		
-		h4{
+		h4 {
 			font-size: 0.9em;
 			margin-bottom: 0;
 		}
 
-		p{
+		p {
 			font-size: 0.9em;
 			line-height: 18px;
 			margin-top: 0.4em;
 		}
+		
+		a {
+			color: black;
+			
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 
-		fieldset{
+		fieldset {
 			border: none;
 			padding-left: 0;
 
 			input[type=text], textarea {
 			    display: block;
 			}
+			
 
-			input, textarea, select{
+
+			input, textarea, select {
 				color: black;
 				margin-bottom: 5%;
 				margin-top: 1%;
 				padding: 1%;
 			}
 
-			textarea{
+			textarea {
     			height: 100px;
     		}
-    		
-    		button {
-				background-color: black;
-				border: none;
-				color: white;
-				height: 50px;
-				width: 200px;
-
-				p {
-					font-size: 1em;
-					line-height: 50px;
-					margin: 0;
-					text-align: center;
-					text-transform: uppercase;
-					vertical-align: middle;
-				}
-				
-				&:hover {
-					background-color: #01ABED;
-					color: black;
-				}	
-			}
 		}
 	}
 }
