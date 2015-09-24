@@ -4,7 +4,7 @@ require 'header.php';
 <div class="shop">
 	<div class="item-show">
 		<div class="item-image">
-			<a href="img/darin/dd1.jpg" class="fancybox" rel="group" alt="T-shirt med tryck">
+			<a href="img/darin/dd1.jpg" class="fancybox" rel="group" alt="T-shirt med tryck" tabindex="9">
 				<img src="img/darin/dd1.jpg">
 			</a>
 		</div>
@@ -19,25 +19,25 @@ require 'header.php';
 			<div class="options">
 				<fieldset>
 					<h3>Välj storlek</h3>
-					<input type="radio" name="size" id="xs" value="xs" >
+					<input type="radio" name="size" id="xs" value="xs" tabindex="10">
 					<label for="xs">XS</label>
 
-					<input type="radio" name="size" id="s" value="s" >
+					<input type="radio" name="size" id="s" value="s" tabindex="11">
 					<label for="s">S</label>
 
-					<input type="radio" name="size" id="m" value="m" >
+					<input type="radio" name="size" id="m" value="m" tabindex="12">
 					<label for="m">M</label>
 
-					<input type="radio" name="size" id="l" value="l" >
+					<input type="radio" name="size" id="l" value="l" tabindex="13">
 					<label for="l">L</label>
 
-					<input type="radio" name="size" id="xl" value="xl" >
+					<input type="radio" name="size" id="xl" value="xl" tabindex="14">
 					<label for="xl">XL</label>
 				</fieldset>
 
 				<fieldset>
 					<h3>Välj färg</h3>
-					<select name="Antal">
+					<select name="Antal" tabindex="15">
 						<option value="" selected disabled="">Color</option>
 					  	<option value="charcoal">Charcoal</option>
 					</select>
@@ -45,8 +45,8 @@ require 'header.php';
 			</div>
 
 			<div class="options">
-				<p class="price">249:-</p>
-				<button type="button">
+				<p class="price">249kr</p>
+				<button type="button" tabindex="16">
 					<p>Lägg i varukorgen</p>
 				</button>
 			</div>
@@ -61,10 +61,9 @@ require 'header.php';
 			</div>
 			
 			<div class="back">
-				<a href="index.php">
+				<a href="index.php" tabindex="17">
 					<p>Tillbaka till shoppen</p>
 					<i class="fa fa-long-arrow-left"></i>
-					
 				</a>
 			</div>
 		

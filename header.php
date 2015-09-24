@@ -14,14 +14,14 @@
 			<button>Menu</button>
 			<nav class="main-menu">
 				<ul>
-					<li><a href="http://www.darinofficial.com/#home">Home</a></li>
-					<li><a href="http://www.darinofficial.com/#latest">News</a></li>
-					<li><a href="http://www.darinofficial.com/#shows">Shows</a></li>
-					<li><a href="http://www.darinofficial.com/#videos">Videos</a></li>
-					<li><a href="http://www.darinofficial.com/#spotify">Spotify</a></li>
-					<li><a href="">Store</a></li>
-					<li><a href="http://www.darinofficial.com/#contact">Contact</a></li>
-					<li><a href="#shopping-cart" class="fancybox" rel="group">Varukorg</a></li>
+					<li><a href="http://www.darinofficial.com/#home" tabindex="1">Home</a></li>
+					<li><a href="http://www.darinofficial.com/#latest" tabindex="5">News</a></li>
+					<li><a href="http://www.darinofficial.com/#shows" tabindex="10">Shows</a></li>
+					<li><a href="http://www.darinofficial.com/#videos" tabindex="15">Videos</a></li>
+					<li><a href="http://www.darinofficial.com/#spotify" tabindex="20">Spotify</a></li>
+					<li><a href="index.php" tabindex="25">Store</a></li>
+					<li><a href="http://www.darinofficial.com/#contact" tabindex="30">Contact</a></li>
+					<li><a href="#shopping-cart" class="fancybox" rel="group" tabindex="35">Varukorg</a></li>
 				</ul>	
 			</nav>
 		</div>

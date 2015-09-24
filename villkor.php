@@ -3,7 +3,7 @@ require 'header.php';
 ?>
 
 <div class="wrapper">
-	<div class="content">
+	<div class="content" tabindex="40">
 		<h1>Köpvillkor</h1>
 
 		<h3>Introduktion</h3>

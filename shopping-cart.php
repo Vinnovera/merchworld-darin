@@ -23,7 +23,7 @@
 
 					<li>
 						<span>Pris:</span>
-						<span>249:-</span>
+						<span>249kr</span>
 					</li>
 
 					<li>
@@ -34,7 +34,7 @@
 		</ul>
 		<div class="total">
 			<span>Totalt:</span>
-			<span>249:-</span>
+			<span>249kr</span>
 		</div>
 
 		<a href="index.php">

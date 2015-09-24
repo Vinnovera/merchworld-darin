@@ -262,9 +262,6 @@ header .menu .main-menu ul li a {
 .shop .items ul a:hover {
   color: #000;
 }
-.shop .items ul .item {
-  float: none;
-}
 .shop .items ul .item img {
   width: 100%;
 }
@@ -479,9 +476,10 @@ footer img {
 }
 .wrapper .content a {
   color: #000;
+  text-decoration: underline;
 }
 .wrapper .content a:hover {
-  text-decoration: underline;
+  font-weight: bold;
 }
 .wrapper .content fieldset {
   border: none;
@@ -495,6 +493,7 @@ footer img {
 .wrapper .content fieldset textarea,
 .wrapper .content fieldset select {
   color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 5%;
   margin-top: 1%;
   padding: 1%;
