@@ -322,7 +322,15 @@ header .menu .main-menu ul li a {
   font-size: 2em;
   font-weight: bold;
 }
+.shop .item-show .item-info .social-share {
+  margin-top: 1em;
+}
+.shop .item-show .item-info .social-share .social-icon {
+  height: 30px;
+  outline: solid #000 1px;
+}
 .shop .item-show .item-info .back {
+  height: 0.8em;
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
@@ -340,7 +348,8 @@ header .menu .main-menu ul li a {
 .shop .item-show .item-info .back a .fa,
 .shop .item-show .item-info .back a p {
   float: right;
-  line-height: 1em;
+  font-size: 0.8em;
+  line-height: 0.8em;
   vertical-align: middle;
 }
 .shop .item-show .item-info .back a .fa {
@@ -370,6 +379,7 @@ header .menu .main-menu ul li a {
 }
 #shopping-cart .shopping-cart-item h3 {
   margin-top: 0;
+  margin-bottom: 0.4em;
 }
 #shopping-cart .shopping-cart-item img {
   height: 100px;
@@ -594,6 +604,11 @@ footer img {
   .shop .item-show .item-info button {
     margin-left: 0;
     margin-top: 1em;
+  }
+  .shop .item-show .item-info .social-share .social-icon {
+    display: inline-block;
+    margin: 10px 0;
+    width: 49%;
   }
   #shopping-cart {
     padding: 1em 1em;
@@ -877,6 +892,11 @@ footer img {
     margin-top: 1em;
     margin-left: 0;
   }
+  .shop .item-show .item-info .social-share .social-icon {
+    display: inline-block;
+    margin: 10px 0;
+    width: 24%;
+  }
   footer {
     height: 18em;
   }
@@ -988,11 +1008,16 @@ footer img {
   }
   .shop .item-show .item-info .options:nth-of-type(2) {
     height: 50px;
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
   .shop .item-show .item-info .options:nth-of-type(2) p {
     line-height: 50px;
     vertical-align: middle;
+  }
+  .shop .item-show .item-info .social-share .social-icon {
+    display: inline-block;
+    margin: 10px 0;
+    width: 23.5%;
   }
   #shopping-cart .shopping-cart-item ul {
     width: 75%;
@@ -1007,8 +1032,6 @@ footer img {
   }
   footer {
     height: 18em;
-    outline: solid #000 1px;
-    width: 100%;
   }
   footer .contact,
   footer .about {
@@ -1023,7 +1046,6 @@ footer img {
   }
   .wrapper {
     padding-top: 6em;
-    width: 100%;
   }
   .wrapper .content {
     padding: 2em 15%;
