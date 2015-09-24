@@ -79,7 +79,7 @@ require 'header.php';
 					<span>*</span>
 				</li>
 				<li>
-					<label>c/o</label>
+					<label>c/o</label><br/>
 					<input type="text" value="">
 				</li>
 				<li>
@@ -93,12 +93,12 @@ require 'header.php';
 					<span>*</span>
 				</li>
 				<li>
-					<label>Stad</label>
+					<label>Stad</label><br/>
 					<input data-val="true" data-val-required="Stad måste anges"type="text" value="">
 					<span>*</span>
 				</li>
 				<li>
-					<label>Land</label>
+					<label>Land</label><br/>
 					<select>
 						<option value="AF">Afghanistan</option>
 						<option value="AL">Albania</option>
@@ -304,7 +304,7 @@ require 'header.php';
                 <label>Meddelande</label>
             </div>
             <div class="editor-field">
-                <textarea cols="41" rows="5"></textarea>
+                <textarea></textarea>
             </div>
             <button class="btn-submit-order" type="submit">
             	<span>Beställ</span>
