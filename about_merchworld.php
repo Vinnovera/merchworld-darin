@@ -3,11 +3,11 @@ require 'header.php';
 ?>
 
 <div class="wrapper">
-	<div class="content">
+	<div class="content" tabindex="40">
 		<h1>Om Merchworld</h1>
 
 		<h2>Need Merchandise for your band or companyP</h2>
-		<p>Hook us up with an email to info@merchworld.se with subject 'Services for clients / artists' and one of our agents will get back to you. Read more about our services for Artists & Businesses here.</p>
+		<p>Hook us up with an email to <a href="mailto:info@merchworld.se" tabindex="45">info@merchworld.se</a> with subject 'Services for clients / artists' and one of our agents will get back to you. Read more about our services for Artists & Businesses here.</p>
 
 		<h2>Introduction</h2>
 		<p>Merchworld specializes in merchandising and branding for the music and entertainment industry.</p>

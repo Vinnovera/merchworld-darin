@@ -11,7 +11,7 @@ require 'header.php';
 		<p>Merchworld inriktar sig på merchandise för musik- och underhållningsindustrin. Nätbutiken Merchworld.se är en av våra tjänster utöver design, produktion och distribution.</p>
 
 		<h3>§1 Allmänt</h3>
-		<p>Våra produkter kan Du handla via vår hemsida. Vill Du veta hur Du går tillväga för att genomföra ett köp, klicka här för hjälp. Har Du andra frågor, klicka här för kundtjänst.</p>
+		<p>Våra produkter kan Du handla via vår hemsida. Vill Du veta hur Du går tillväga för att genomföra ett köp, <a href="villkor.php" tabindex="45">klicka här</a> för hjälp.
 		<p>Alla varor förblir vår egendom till dess att full betalning erlagts.</p>
 		<p>Alla försök till och/eller bedrägerier polisanmäls. Merchworld förbehåller oss rätten att vid misstanke om bedrägeri häva ett köp och/eller ytterligare kontrollera köpet, även om detta innebär att leveranstiden förlängs.</p>
 		<p>Inga andra betalsätt godkänns utöver de vilka visas i kassan på hemsidan.</p>
@@ -27,7 +27,7 @@ require 'header.php';
 		<p>Ej uthämtad vara debiteras med 150 SEK. Skulle Du ångra dig efter att vi skickat paketet till Dig måste Du ändå hämta ut ditt paket och därefter returnera det till oss för att inte bli debiterad. Outlösta paket omfattas normalt inte av ångerrätt enligt Distansavtalslagen.</p>
 		<p>Vid transportskador skall Du anmäla detta direkt vid utlämningsstället. Upptäcker Du först skadan när Du öppnat paketet kontakta Kundtjänst. När Du återsänder varor till oss står Du själv för transportrisken.</p>
 		<p>Våra fraktkostander är följande:</p>
-		<ul>
+		<ul tabindex="50">
 			<li>Sverige (0-1 kg) 39 SEK (Postförskott + 60 SEK)</li>
 			<li>Europa (0-1 kg) 69 SEK</li>
 			<li>Övriga världen (0-1 kg) 99 SEK</li>
@@ -35,7 +35,7 @@ require 'header.php';
 
 		<h3>§3 betalning</h3>		
 		<p>Du har möjlighet att välja följande betalningssätt när Du lägger din order:</p>
-		<ul>
+		<ul tabindex="50">
 			<li>Betalkort (Mastercard/Visa)</li>
 			<li>Klarna Faktura</li>
 			<li>Paypal</li>
@@ -45,18 +45,18 @@ require 'header.php';
 		<p>Alla uppgifter Du uppger om ditt kort krypteras och är säkrade med en specifik metod genom Auriga AB. Merchworld förbehåller sig rätten att vid misstanke om obehörigt köp kontrollera lämnade uppgifter, be om ytterliggare information om kortet eller att bekräfta ordern separat genom att skicka en anvisning till faktureringsadressen innan varan levereras.</p>
 
 		<h3>§4 reklamation och returer</h3>
-		<p>I enlighet med svensk lagstiftning har Du reklamationsrätt och ångerrätt av varan om denna inte är enligt beskrivning eller har annat fel. Mer information om gällande Konsumentköplagen hittar Du här på Konsumentverkets hemsida.</p>
+		<p>I enlighet med svensk lagstiftning har Du reklamationsrätt och ångerrätt av varan om denna inte är enligt beskrivning eller har annat fel. Mer information om gällande Konsumentköplagen hittar Du <a href="http://www.konsumentverket.se/" tabindex="55">här</a> på Konsumentverkets hemsida.</p>
 		<p>Du har full ångerrätt 14 dagar från det att Du har mottagit varan. Om Du ångrar dig skall Du meddela Merchworld detta inom den angivna tiden vilken omfattas av ångerfristen. Varan får inte vara använd och skall returneras i oskadat skick. Ångerrätten gäller inte ljud- eller bildupptagningar om förseglingen brutits, eller underkläder. Öppet köp gäller inte REA-varor utan endast bytesrätt. Återbetalning kan ta upp till 30 dagar.</p>
 		<p>Vid retur eller byte står kunden för fraktkostnaderna. Vid reklamation av defekt eller felaktig vara skall detta meddelas oss snarast efter Du erhållit varan. I detta fall står Merchworld för samtliga fraktkostnader. Vänligen kontakta vår Kundtjänst, klicka här, innan Du skickar tillbaka en vara. Tänk på att Du ansvarar för varan till den når oss, det vill säga även under transporten.</p>
 
 		<h3>Såhär gör du för att returnera en vara:</h3>
-		<p>Ladda ned retursedel här. Fyll i och skriv ut.</p>
-		<p>Maila sedan returns@merchworld.se och meddela vad felet är eller varför du vill returnera varan och bifoga kvittot.</p>
+		<p>Ladda ned retursedel <a href="http://merchworld.se/media/docs/bytemerch.pdf" tabindex="60">här.</a> Fyll i och skriv ut.</p>
+		<p>Maila sedan <a href="mailto:returns@merchworld.se" tabindex="65">returns@merchworld.se</a> och meddela vad felet är eller varför du vill returnera varan och bifoga kvittot.</p>
 		<p>Skicka tillbaka varan, kvittot samt retursedeln till följande adress:</p>
-		<p>Merchworld AB</p>
-		<p>Tenggrenstorpsvägen 15A</p>
-		<p>462 56 VÄNERSBORG</p>
-		<p>Sweden</p> 
+		<p tabindex="70">Merchworld AB<br/>
+		Tenggrenstorpsvägen 15A<br/>
+		462 56 VÄNERSBORG<br/>
+		Sweden</p> 
 
 		<h3>§5 säkerhet</h3>
 		<p>All information vid kortköp överförs krypterad via SSL-teknik, vilket gör informationen insynsskyddad och oåtkomlig för utomstående. Merchworld samarbetar med Auriga AB:s betalväxel (PSP) samt Swedbanks Babs AB för inlösen av kortbetalningar.</p>

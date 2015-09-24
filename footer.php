@@ -2,9 +2,9 @@
 		<div class="contact">
 			<h5>Frågor och kontakt</h5>
 			<ul>
-				<li><a href="villkor.php" tabindex="1000">Köpvillkor</a></li>
-				<li><a href="fragor.php" tabindex="1005">Vanliga frågor</a></li>
-				<li><a href="contact.php" tabindex="1010">Kontakt</a></li>
+				<li><a href="terms.php" tabindex="1000">Köpvillkor</a></li>
+				<li><a href="questions.php" tabindex="1005">Vanliga frågor</a></li>
+				<li><a href="contact.php" tabindex="1010">Kontakta Oss</a></li>
 			</ul>
 		</div>
 

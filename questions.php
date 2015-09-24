@@ -3,21 +3,21 @@ require 'header.php';
 ?>
 
 <div class="wrapper">
-	<div class="content">
+	<div class="content" tabindex="40">
 		<h1>Vanliga frågor</h1>
 
 		<h3>Vad är merchworld</h3>
 		<p>Merchworld är ett företag vilka specialiserar sig på merchandise och produktutveckling för musik- och underhållningsindustrin. Vi erbjuder artister helhetslösningar gällande merchandise. Våra tjänster så som design, produktion samt distribution förmedlas via vår hemsida under fliken 'Om oss'.</p>
 
 		<h3>Var hittar man bilder, nyheter och andra roliga saker om Merchworld?</h3>
-		<p>Kolla in oss på följande sociala nätverk: facebook.com/merchworld eller på instagram.com/merchworld.</p>
+		<p>Kolla in oss på följande sociala nätverk: <a href="https://www.facebook.com/merchworld" tabindex="45">facebook.com/merchworld</a> eller på <a href="https://instagram.com/merchworld/" tabindex="50">instagram.com/merchworld</a>.</p>
 
 		<h2>Allmänt</h2>
 		<h3>Vad gör jag om jag inte hittar svar på min fråga i 'vanliga frågor'?</h3>
-		<p>Under fliken 'Kontakta oss' hittar ett formulär där du kan ställa din fråga. Gå till Kontakta oss.</p>
+		<p>Under fliken <a href="contact.php" tabindex="55">'Kontakta oss'</a> hittar ett formulär där du kan ställa din fråga. Gå till Kontakta oss.</p>
 
 		<h3>Hur skapar jag ett eget konto på merchworld?</h3>
-		<p>Gå till 'Registrera dig' och fyll i formuläret. Registrera dig här!</p>
+		<p>Gå till 'Registrera dig' och fyll i formuläret. Registrera dig <a href="http://merchworld.se/account/create" tabindex="60">här!</p></a>
 
 		<h3>Mitt konto</h3>
 		<p>För att ändra inställningarna i ditt konto loggar du in med ditt användarnamn samt ditt lösenord och klickar på 'Mitt konto'.</p>
@@ -31,7 +31,7 @@ require 'header.php';
 
 		<h2>Shopping</h2>
 		<h3>Jag har glömt mitt lösenord. Vad gör jag?</h3>
-		<p>Gå till merchworld.se/account/reset och skriv in din e-post. Du får då ett e-mail med instruktioner.</p>
+		<p>Gå till <a href="http://shop.rebeccafiona.com/account/reset" tabindex="65">merchworld.se/account/reset</a> och skriv in din e-post. Du får då ett e-mail med instruktioner.</p>
 
 		<h3>Hur gör jag om jag vill se priserna i en annan valuta?</h3>
 		<p>Kolla först att du loggat in på ditt konto. Klicka på din profil i menyn. Välj rätt land / valuta i listan.</p>
@@ -63,7 +63,7 @@ require 'header.php';
 
 		<h2>Returer och bytesrätt</h2>
 		<h3>Jag har skickat in en beställning, men jag har ändrat mig. Hur gör jag?</h3>
-		<p>Gå till fliken 'Kontakta oss' och välj kundtjänst och skicka ett meddelande till oss vad saken gäller. Observera att Ej uthämtad vara debiteras med 150 SEK. Skulle Du ångra dig efter att vi skickat paketet till Dig måste Du ändå hämta ut ditt paket och därefter returnera det till oss för att inte bli debiterad. Outlösta paket omfattas normalt inte av ångerrätt enligt Distansavtalslagen. När vi fått tillbaka din order tillsammans med ditt kvitto får du tillbaka dina pengar inom 30 dagar.</p>
+		<p>Gå till fliken '<a href="contect.php" tabindex="70">Kontakta oss</a>' och välj kundtjänst och skicka ett meddelande till oss vad saken gäller. Observera att Ej uthämtad vara debiteras med 150 SEK. Skulle Du ångra dig efter att vi skickat paketet till Dig måste Du ändå hämta ut ditt paket och därefter returnera det till oss för att inte bli debiterad. Outlösta paket omfattas normalt inte av ångerrätt enligt Distansavtalslagen. När vi fått tillbaka din order tillsammans med ditt kvitto får du tillbaka dina pengar inom 30 dagar.</p>
 		
 	</div>
 </div>
