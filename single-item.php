@@ -4,7 +4,7 @@ require 'header.php';
 <div class="shop">
 	<div class="item-show">
 		<div class="item-image">
-			<a href="img/darin/dd1.jpg" class="fancybox" rel="group" alt="T-shirt med tryck" tabindex="40">
+			<a href="img/darin/dd1.jpg" class="fancybox-1" rel="group" alt="T-shirt med tryck" tabindex="40">
 				<img src="img/darin/dd1.jpg">
 			</a>
 		</div>

@@ -6,6 +6,7 @@ $(document).ready(function() {
 	});
 
 	$(".fancybox").fancybox();
+	$(".fancybox-1").fancybox();
 });
 
 
