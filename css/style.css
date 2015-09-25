@@ -181,6 +181,7 @@ th {
 @font-face {
   font-family: 'Lagom';
   src: url("../fonts/darin/LagomGeometrisk-Regular.ttf");
+  src: url("../fonts/darin/LagomGeometrisk-Regular.eot") /* EOT file for IE */;
 }
 body {
   font-family: 'Lagom';
