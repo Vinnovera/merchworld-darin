@@ -3,8 +3,9 @@
 /*******************************************************/
 @font-face {
     font-family: 'Lagom';
-    src: url(../fonts/darin/LagomGeometrisk-Regular.ttf);
-    src: url(../fonts/darin/LagomGeometrisk-Regular.eot) /* EOT file for IE */
+    src: url('../fonts/darin/LagomGeometrisk-Regular.ttf'),
+        url('../fonts/darin/LagomGeometrisk-Regular.eot?'); /* EOT file for IE */
+    
 }
 
 body {
@@ -21,6 +22,7 @@ button {
 	color: white;
 	height: 50px;
 	margin-top: 1em;
+	text-transform: uppercase;
 	width: 200px;
 
 	p {
@@ -307,6 +309,183 @@ header {
 /*******************************************************/
 /********************** CHECKOUT ***********************/
 /*******************************************************/
+.checkout-head {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	background: #333;
+	
+	h1 {
+		font-size: 2.1em;
+    	margin-bottom: 3px;
+	}
+	
+	h3 {
+		color: white;
+		margin: 4px 0 4px 0;
+    	padding: 5px 10px;
+    }
+}
+
+.payment-box-creditcard, .payment-box-invoice, .payment-box-paypal {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: .9em;
+	margin: 10px 0 10px 0;
+
+	ul {
+		border: 1px solid #aeaeae;
+		border-radius: 3px;
+		margin: 0;
+		padding: 5px;
+		padding-top: 12px;
+
+		li {
+			list-style-type: none;
+			display: inline;
+
+			input {
+				width: 1.25em;
+				height: 1.25em;
+			}
+		}
+	}
+	
+ 	.payment-title {
+		padding-left: 5px;
+    	font-size: 0.9em;
+    	font-weight: bold;		
+	}
+	
+	.payment-desc {
+		margin-left: 15px;
+    	font-size: 0.9em;
+	}
+}
+
+.shipping-container {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	max-width: 515px;
+   	overflow: auto;
+    padding-bottom: 5px;
+    
+    ul {
+    	margin: 0;
+		margin-top: 10px;
+		overflow: auto;
+		list-style-type: none;
+		padding-left: 0px;
+		
+		li {
+			width: 100%;
+    		max-width: none;
+    		
+    		label, span {
+	    		font-size: 13px;
+    			font-weight: normal;
+    			line-height: 18px;
+    			cursor: default;
+    			
+    			a {
+    				color: #000;
+    				float: left;
+    				margin-top: 36px;
+    			}
+    		}
+    		
+    		input {
+    			display: inline-block;
+			    width: 90%;
+			    height: 18px;
+			    padding: 4px;
+			    font-size: 13px;
+			    line-height: 18px;
+			    color: #555;
+			    border: 1px solid #ccc;
+			    -webkit-border-radius: 3px;
+			    -moz-border-radius: 3px;
+			    border-radius: 3px;
+			    margin-bottom: 9px;
+			    
+			    &[type=checkbox] {
+			    	float: left;
+				    display: inline-block;
+				    font-size: 15px;
+				    line-height: 1em;
+				    margin: 36px .25em 0 0;
+				    padding: 0;
+				    width: 1.25em;
+				    height: 1.25em;
+				    -webkit-border-radius: .25em;
+				    vertical-align: text-top;
+    			}
+    		}
+    		
+    		select {
+    			display: inline-block;
+			    width: 90%;
+			    height: 28px;
+			    padding: 4px;
+			    font-size: 13px;
+			    line-height: 18px;
+			    color: #555;
+			    border: 1px solid #ccc;
+			    -webkit-border-radius: 3px;
+			    -moz-border-radius: 3px;
+			    border-radius: 3px;
+    		}
+		}
+		
+		.getKlarna-btn {
+			margin-left: 1px;
+			margin-bottom: 5px;
+			margin-top: 5px;
+		    padding: 5px;
+		    font-size: 13px;
+		    height: 2em;
+		    width: 150px;
+    	}
+    }	
+}
+
+.confirmation-container {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	
+	.summary-table {
+		width: 100%;
+	    margin-bottom: 15px;
+    	
+    	td {
+    		line-height: 18px;
+		    text-align: left;
+		    border-top: 1px solid #ddd;
+    	}
+    	
+    	th {
+    		font-weight: bold;
+		    border: 0;
+		    text-align: left;
+		    padding: 4px 15px 5px 0;
+    	}
+	}	
+}
+
+.message-from-user-container {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	
+	.editor-label {
+		margin-bottom: 8px;
+	}
+	
+	.editor-field {
+		textarea{
+			width: 90%;
+			height: 10em;
+		}	
+	}
+}
 
 
 
