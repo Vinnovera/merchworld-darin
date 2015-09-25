@@ -195,7 +195,6 @@ button {
   color: #fff;
   height: 50px;
   margin-top: 1em;
-  margin-left: 1em;
   width: 200px;
 }
 button p {
@@ -211,6 +210,9 @@ button:hover {
   background-color: #fff;
   outline: solid #b8afa7 1px;
   color: #000;
+}
+button:nth-of-type(2) {
+  margin-left: 1em;
 }
 header {
   background-color: #f9f9f9;
@@ -397,6 +399,9 @@ header .menu .main-menu ul li a {
 }
 #shopping-cart .shopping-cart-item li:last-of-type {
   color: #f00;
+}
+#shopping-cart .shopping-cart-item button {
+  margin: 0 auto;
 }
 #shopping-cart .shopping-cart-item .fa {
   padding-left: 0.5em;
@@ -601,7 +606,7 @@ footer img {
     background: #333;
   }
   .checkout-head h1 {
-    font-size: 2.1rem;
+    font-size: 2.1em;
     margin-bottom: 3px;
   }
   .checkout-head h3 {
@@ -1171,12 +1176,6 @@ footer img {
     margin: 10px 0;
     width: 23.5%;
   }
-  #shopping-cart .shopping-cart-item ul {
-    width: 75%;
-  }
-  #shopping-cart button {
-    float: right;
-  }
   #shopping-cart:after {
     clear: both;
     content: "";
@@ -1307,11 +1306,11 @@ footer img {
     border-radius: 3px;
   }
   .shipping-container ul .getKlarna-btn {
-    border-radius: 3px;
     margin-left: 1px;
-    margin-top: 9px;
-    padding-left: 0px;
-    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 13px;
     height: 2em;
     width: 110px;
   }

@@ -312,6 +312,10 @@ require 'header.php';
         </div>
 	</div>
 </div>
+
+<?php
+require 'shopping-cart.php';
+?>
 <?php
 require 'footer.php';
 ?>
