@@ -1,0 +1,88 @@
+{
+    "css": {
+        "watch":        true,
+        "build":        true,
+        "preprocessor": "stylus",
+        "settings": {
+            "define": {},
+            "url": "url",
+            "compress": true
+        },
+        "paths": {
+            "listen": [
+                "src/stylus/*.styl"
+            ],
+            "src": [
+                "src/stylus/*.styl"
+            ],
+            "dest": {
+                "file": "style.css",
+                "dir": "build/css"
+            }
+        }
+    },
+
+    "html": {
+        "build": true,
+        "prettify": {
+            "indent_size": 1,
+            "indent_char": "\t",
+            "preserve_newlines": false
+        },
+        "paths": {
+            "src": [
+                "./**/*.html",
+                "!./src/modules/**/*.html",
+                "!./node_modules/**/*.html"
+            ],
+            "dest": "./build"
+        }
+    },
+
+    "images": {
+        "watch": false,
+        "build": false,
+        "paths": {
+            "listen": [
+                "src/images/**/*.svg"
+            ],
+            "dest": "./src/images"
+        }
+    },
+
+    "js": {
+        "watch": false,
+        "build": false,
+        "paths": {
+            "listen": [
+                "js/**/*.js",
+                "modules/**/*.js",
+                "!/node_modules/**/*.js"
+            ]
+        }
+    },
+
+    "server": {
+        "start": true,
+        "proxy": false,
+        "port":  8000,
+        "template": {
+            "folder": "src/modules",
+            "templateSettings": {}
+        }
+    },
+
+    "static": {
+        "build": false,
+        "paths": {
+            "from": [],
+            "to": "./build"
+        }
+    },
+
+    "dir": {
+          "src": "src/",
+          "partials": "src/modules",
+          "build": "build/"
+      }
+}
