@@ -80,6 +80,6 @@
     "dir": {
           "src": "src/",
           "partials": "src/modules",
-          "build": "build/"
+          "dest": "build/"
       }
 }
