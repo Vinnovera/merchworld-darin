@@ -6,19 +6,16 @@
         "settings": {
             "define": {},
             "url": "url",
-            "compress": true
+            "compress": false
         },
         "paths": {
             "listen": [
-                "src/stylus/*.styl"
+                "stylus/*.styl"
             ],
             "src": [
-                "src/stylus/*.styl"
+                "stylus/style.styl"
             ],
-            "dest": {
-                "file": "style.css",
-                "dir": "build/css"
-            }
+            "dest": "./css"
         }
     },
 
@@ -32,10 +29,10 @@
         "paths": {
             "src": [
                 "./**/*.html",
-                "!./src/modules/**/*.html",
+                "!./modules/**/*.html",
                 "!./node_modules/**/*.html"
             ],
-            "dest": "./build"
+            "dest": "./"
         }
     },
 
@@ -44,9 +41,9 @@
         "build": false,
         "paths": {
             "listen": [
-                "src/images/**/*.svg"
+                "images/**/*.svg"
             ],
-            "dest": "./src/images"
+            "dest": "./images"
         }
     },
 
