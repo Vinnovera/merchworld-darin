@@ -37,13 +37,13 @@
     },
 
     "images": {
-        "watch": false,
-        "build": false,
+        "watch": true,
+        "build": true,
         "paths": {
             "listen": [
-                "images/**/*.svg"
+                "images/**/*.*"
             ],
-            "dest": "./images"
+            "dest": "../build/images"
         }
     },
 
@@ -70,10 +70,10 @@
     },
 
     "static": {
-        "build": false,
+        "build": true,
         "paths": {
-            "from": [],
-            "to": "./build"
+            "src": ["**/*.jpg", "**/*.gif", "**/*.png", "**/*.js", "**/*.ttf", "**/*.eot", "**/*.woff", "**/*.svg" ],
+            "dest": ""
         }
     },
 
