@@ -1,0 +1,24 @@
+{
+  "name": "merchworld-darin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "estrad": "git+https://github.com/Vinnovera/estrad.git#d861279fb277c364655cb29346d460483e0855c6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinnovera/merchworld-darin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinnovera/merchworld-darin/issues"
+  },
+  "homepage": "https://github.com/Vinnovera/merchworld-darin#readme"
+}
